@@ -3,9 +3,8 @@ import igraph as ig
 import json
 import os
 
-# Update the file path to point to the reply network edgelist
-# Make sure the path matches where you extracted the file
-reply_file_path = "higgs-reply_network.edgelist" 
+DATA_DIR = os.path.join(os.path.dirname(__file__), "..", "data")
+reply_file_path = os.path.join(DATA_DIR, "higgs-reply_network.edgelist")
 
 with open(reply_file_path, "r") as reply_file:
     replies = nx.read_edgelist(reply_file, create_using=nx.DiGraph(), data=(('weight', int),))
@@ -44,7 +43,7 @@ replies_ig = ig.Graph.from_networkx(replies)
 print("\n")
 # Betweenness Centrality
 
-betweenness_json_file = "reply_betweenness_centrality.json"
+betweenness_json_file = os.path.join(os.path.dirname(__file__), "reply_betweenness_centrality.json")
 if os.path.exists(betweenness_json_file):
     print("Loading Betweenness Centrality from JSON...")
     betweenness_list = json.load(open(betweenness_json_file, "r"))
@@ -62,7 +61,7 @@ print(betweenness_list[0:10])
 
 print("\n")
 # Eigenvector Centrality
-eigenvector_json_file = "reply_eigenvector_centrality.json"
+eigenvector_json_file = os.path.join(os.path.dirname(__file__), "reply_eigenvector_centrality.json")
 if os.path.exists(eigenvector_json_file):
     print("Loading Eigenvector Centrality from JSON...")
     eigenvector_centrality_list = json.load(open(eigenvector_json_file, "r"))
