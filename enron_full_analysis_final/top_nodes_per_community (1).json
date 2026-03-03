@@ -1,0 +1,4154 @@
+[
+    {
+        "community_id": 2,
+        "size": 1801,
+        "top_5_nodes": [
+            {
+                "node": "sally.beck@enron.com",
+                "in_degree": 539
+            },
+            {
+                "node": "wes.colwell@enron.com",
+                "in_degree": 87
+            },
+            {
+                "node": "shona.wilson@enron.com",
+                "in_degree": 74
+            },
+            {
+                "node": "greg.piper@enron.com",
+                "in_degree": 73
+            },
+            {
+                "node": "ted.murphy@enron.com",
+                "in_degree": 73
+            }
+        ]
+    },
+    {
+        "community_id": 0,
+        "size": 1425,
+        "top_5_nodes": [
+            {
+                "node": "eric.bass@enron.com",
+                "in_degree": 139
+            },
+            {
+                "node": "scott.neal@enron.com",
+                "in_degree": 98
+            },
+            {
+                "node": "k..allen@enron.com",
+                "in_degree": 87
+            },
+            {
+                "node": "david.oxley@enron.com",
+                "in_degree": 74
+            },
+            {
+                "node": "f..brawner@enron.com",
+                "in_degree": 70
+            }
+        ]
+    },
+    {
+        "community_id": 10,
+        "size": 1370,
+        "top_5_nodes": [
+            {
+                "node": "don.baughman@enron.com",
+                "in_degree": 356
+            },
+            {
+                "node": "mike.carson@enron.com",
+                "in_degree": 131
+            },
+            {
+                "node": "robert.benson@enron.com",
+                "in_degree": 104
+            },
+            {
+                "node": "lloyd.will@enron.com",
+                "in_degree": 67
+            },
+            {
+                "node": "dana.davis@enron.com",
+                "in_degree": 65
+            }
+        ]
+    },
+    {
+        "community_id": 11,
+        "size": 1103,
+        "top_5_nodes": [
+            {
+                "node": "rick.buy@enron.com",
+                "in_degree": 297
+            },
+            {
+                "node": "john.lavorato@enron.com",
+                "in_degree": 91
+            },
+            {
+                "node": "richard.causey@enron.com",
+                "in_degree": 85
+            },
+            {
+                "node": "louise.kitchen@enron.com",
+                "in_degree": 84
+            },
+            {
+                "node": "greg.whalley@enron.com",
+                "in_degree": 79
+            }
+        ]
+    },
+    {
+        "community_id": 37,
+        "size": 1049,
+        "top_5_nodes": [
+            {
+                "node": "kenneth.lay@enron.com",
+                "in_degree": 35
+            },
+            {
+                "node": "bryan.hull@enron.com",
+                "in_degree": 31
+            },
+            {
+                "node": "jennifer.medcalf@enron.com",
+                "in_degree": 25
+            },
+            {
+                "node": "sheetal.patel@enron.com",
+                "in_degree": 22
+            },
+            {
+                "node": "chad.landry@enron.com",
+                "in_degree": 18
+            }
+        ]
+    },
+    {
+        "community_id": 3,
+        "size": 942,
+        "top_5_nodes": [
+            {
+                "node": "lynn.blair@enron.com",
+                "in_degree": 151
+            },
+            {
+                "node": "shelley.corman@enron.com",
+                "in_degree": 67
+            },
+            {
+                "node": "john.buchanan@enron.com",
+                "in_degree": 62
+            },
+            {
+                "node": "steve.january@enron.com",
+                "in_degree": 61
+            },
+            {
+                "node": "terry.kowalke@enron.com",
+                "in_degree": 54
+            }
+        ]
+    },
+    {
+        "community_id": 14,
+        "size": 723,
+        "top_5_nodes": [
+            {
+                "node": "larry.campbell@enron.com",
+                "in_degree": 141
+            },
+            {
+                "node": "lcampbe@enron.com",
+                "in_degree": 31
+            },
+            {
+                "node": "william.kendrick@enron.com",
+                "in_degree": 21
+            },
+            {
+                "node": "rick.loveless@enron.com",
+                "in_degree": 19
+            },
+            {
+                "node": "mike.riedel@enron.com",
+                "in_degree": 16
+            }
+        ]
+    },
+    {
+        "community_id": 29,
+        "size": 617,
+        "top_5_nodes": [
+            {
+                "node": "houston <.ward@enron.com>",
+                "in_degree": 16
+            },
+            {
+                "node": "e-mail <.john@enron.com>",
+                "in_degree": 12
+            },
+            {
+                "node": "e-mail <.chris@enron.com>",
+                "in_degree": 9
+            },
+            {
+                "node": "e-mail <.david@enron.com>",
+                "in_degree": 9
+            },
+            {
+                "node": "tim.carter@enron.com",
+                "in_degree": 9
+            }
+        ]
+    },
+    {
+        "community_id": 7,
+        "size": 583,
+        "top_5_nodes": [
+            {
+                "node": "john.arnold@enron.com",
+                "in_degree": 163
+            },
+            {
+                "node": "ebass@enron.com",
+                "in_degree": 95
+            },
+            {
+                "node": "pallen@enron.com",
+                "in_degree": 67
+            },
+            {
+                "node": "jarnold@enron.com",
+                "in_degree": 42
+            },
+            {
+                "node": "dbaughm@ect.enron.com",
+                "in_degree": 24
+            }
+        ]
+    },
+    {
+        "community_id": 5,
+        "size": 548,
+        "top_5_nodes": [
+            {
+                "node": "susan.bailey@enron.com",
+                "in_degree": 72
+            },
+            {
+                "node": "alan.aronowitz@enron.com",
+                "in_degree": 34
+            },
+            {
+                "node": "elizabeth.sager@enron.com",
+                "in_degree": 30
+            },
+            {
+                "node": "sara.shackleton@enron.com",
+                "in_degree": 26
+            },
+            {
+                "node": "legal <.taylor@enron.com>",
+                "in_degree": 26
+            }
+        ]
+    },
+    {
+        "community_id": 21,
+        "size": 537,
+        "top_5_nodes": [
+            {
+                "node": "avril.forster@enron.com",
+                "in_degree": 6
+            },
+            {
+                "node": "john.henderson@enron.com",
+                "in_degree": 6
+            },
+            {
+                "node": "jarrod.cyprow@enron.com",
+                "in_degree": 5
+            },
+            {
+                "node": "ramona.perkins@enron.com",
+                "in_degree": 5
+            },
+            {
+                "node": "greg.brazaitis@enron.com",
+                "in_degree": 4
+            }
+        ]
+    },
+    {
+        "community_id": 168,
+        "size": 500,
+        "top_5_nodes": [
+            {
+                "node": "michelle.cash@enron.com",
+                "in_degree": 259
+            },
+            {
+                "node": "exec.jones@enron.com",
+                "in_degree": 36
+            },
+            {
+                "node": "mary.joyce@enron.com",
+                "in_degree": 31
+            },
+            {
+                "node": "fran.mayes@enron.com",
+                "in_degree": 30
+            },
+            {
+                "node": "lizzette.palmer@enron.com",
+                "in_degree": 29
+            }
+        ]
+    },
+    {
+        "community_id": 26,
+        "size": 349,
+        "top_5_nodes": [
+            {
+                "node": "harry.arora@enron.com",
+                "in_degree": 142
+            },
+            {
+                "node": "jeff.bartlett@enron.com",
+                "in_degree": 19
+            },
+            {
+                "node": "suresh.raghavan@enron.com",
+                "in_degree": 18
+            },
+            {
+                "node": "eric.boyt@enron.com",
+                "in_degree": 11
+            },
+            {
+                "node": "harora@ect.enron.com",
+                "in_degree": 11
+            }
+        ]
+    },
+    {
+        "community_id": 63,
+        "size": 328,
+        "top_5_nodes": [
+            {
+                "node": "lcampbel@enron.com",
+                "in_degree": 187
+            },
+            {
+                "node": "chi325@hotmail.com",
+                "in_degree": 9
+            },
+            {
+                "node": "ansalon@houston.rr.com",
+                "in_degree": 8
+            },
+            {
+                "node": "mqdo@yahoo.com",
+                "in_degree": 8
+            },
+            {
+                "node": "sarahmyu@hotmail.com",
+                "in_degree": 8
+            }
+        ]
+    },
+    {
+        "community_id": 79,
+        "size": 264,
+        "top_5_nodes": [
+            {
+                "node": "phillip.love@enron.com",
+                "in_degree": 11
+            },
+            {
+                "node": "patrick.ryder@enron.com",
+                "in_degree": 8
+            },
+            {
+                "node": "ebass@ect.enron.com",
+                "in_degree": 8
+            },
+            {
+                "node": "jason.bass2@compaq.com",
+                "in_degree": 7
+            },
+            {
+                "node": "lwbthemarine@bigplanet.com",
+                "in_degree": 5
+            }
+        ]
+    },
+    {
+        "community_id": 6,
+        "size": 259,
+        "top_5_nodes": [
+            {
+                "node": "james.steffes@enron.com",
+                "in_degree": 20
+            },
+            {
+                "node": "sarah.novosel@enron.com",
+                "in_degree": 20
+            },
+            {
+                "node": "jeff.dasovich@enron.com",
+                "in_degree": 18
+            },
+            {
+                "node": "dennis.benevides@enron.com",
+                "in_degree": 15
+            },
+            {
+                "node": "alan.comnes@enron.com",
+                "in_degree": 14
+            }
+        ]
+    },
+    {
+        "community_id": 103,
+        "size": 250,
+        "top_5_nodes": [
+            {
+                "node": "stewart@mallia.com",
+                "in_degree": 6
+            },
+            {
+                "node": "reidstav@houston.rr.com",
+                "in_degree": 6
+            },
+            {
+                "node": "shannontyer@email.msn.com",
+                "in_degree": 5
+            },
+            {
+                "node": "stewart.marc@enron.com",
+                "in_degree": 5
+            },
+            {
+                "node": "lstavinoha@themedlehgroup.com",
+                "in_degree": 4
+            }
+        ]
+    },
+    {
+        "community_id": 122,
+        "size": 221,
+        "top_5_nodes": [
+            {
+                "node": "james.mairet@kwikset.com",
+                "in_degree": 4
+            },
+            {
+                "node": "m_besch@yahoo.com",
+                "in_degree": 4
+            },
+            {
+                "node": "mbower@bellatlantic.net",
+                "in_degree": 4
+            },
+            {
+                "node": "cdownard@vailresorts.com",
+                "in_degree": 3
+            },
+            {
+                "node": "chjohnson98@hotmail.com",
+                "in_degree": 3
+            }
+        ]
+    },
+    {
+        "community_id": 127,
+        "size": 212,
+        "top_5_nodes": [
+            {
+                "node": "nramsey@houston.rr.com",
+                "in_degree": 3
+            },
+            {
+                "node": "ges@houston.rr.com",
+                "in_degree": 2
+            },
+            {
+                "node": "sarahm@flex.net",
+                "in_degree": 2
+            },
+            {
+                "node": "tgallagherbell@aol.com",
+                "in_degree": 2
+            },
+            {
+                "node": "momcat5cwl@aol.com",
+                "in_degree": 2
+            }
+        ]
+    },
+    {
+        "community_id": 158,
+        "size": 202,
+        "top_5_nodes": [
+            {
+                "node": "rking@hess.com",
+                "in_degree": 2
+            },
+            {
+                "node": "jbarfield@hess.com",
+                "in_degree": 1
+            },
+            {
+                "node": "mdelossantos@hess.com",
+                "in_degree": 1
+            },
+            {
+                "node": "acope@hess.com",
+                "in_degree": 1
+            },
+            {
+                "node": "kboggan@hess.com",
+                "in_degree": 1
+            }
+        ]
+    },
+    {
+        "community_id": 163,
+        "size": 181,
+        "top_5_nodes": [
+            {
+                "node": "market_relations@nyiso.com",
+                "in_degree": 28
+            },
+            {
+                "node": "nyiso_tech_exchange@global2000.net",
+                "in_degree": 22
+            },
+            {
+                "node": "tie_list_server@nyiso.com",
+                "in_degree": 16
+            },
+            {
+                "node": "marketrelations@nyiso.com",
+                "in_degree": 3
+            },
+            {
+                "node": "nyiso@nyiso.com",
+                "in_degree": 3
+            }
+        ]
+    },
+    {
+        "community_id": 13,
+        "size": 165,
+        "top_5_nodes": [
+            {
+                "node": "spendegr@enron.com",
+                "in_degree": 6
+            },
+            {
+                "node": "cruikshankk@conedsolutions.com",
+                "in_degree": 6
+            },
+            {
+                "node": "lsmorris@metromediaenergy.com",
+                "in_degree": 6
+            },
+            {
+                "node": "pbaratz@totalnrg.com",
+                "in_degree": 6
+            },
+            {
+                "node": "george.rahal@acnpower.com",
+                "in_degree": 5
+            }
+        ]
+    },
+    {
+        "community_id": 74,
+        "size": 153,
+        "top_5_nodes": [
+            {
+                "node": "20participants@caiso.com",
+                "in_degree": 9
+            },
+            {
+                "node": "marketparticipants@caiso.com",
+                "in_degree": 6
+            },
+            {
+                "node": "marketstatus@caiso.com",
+                "in_degree": 4
+            },
+            {
+                "node": "scsettlecontacts@caiso.com",
+                "in_degree": 2
+            },
+            {
+                "node": "tswg@caiso.com",
+                "in_degree": 2
+            }
+        ]
+    },
+    {
+        "community_id": 104,
+        "size": 120,
+        "top_5_nodes": [
+            {
+                "node": "physics123@yahoo.com",
+                "in_degree": 4
+            },
+            {
+                "node": "kvanpelt@flash.net",
+                "in_degree": 3
+            },
+            {
+                "node": "bvanpelt@flash.net",
+                "in_degree": 3
+            },
+            {
+                "node": "welch_dave@provalue.net",
+                "in_degree": 3
+            },
+            {
+                "node": "tulsama@worldnet.att.net",
+                "in_degree": 3
+            }
+        ]
+    },
+    {
+        "community_id": 159,
+        "size": 117,
+        "top_5_nodes": [
+            {
+                "node": "trish_garant@perrygas.com",
+                "in_degree": 2
+            },
+            {
+                "node": "jessicasullens@utilityservicegroup.com",
+                "in_degree": 2
+            },
+            {
+                "node": "mjones@infiniteenergy.com",
+                "in_degree": 2
+            },
+            {
+                "node": "mveal@texicangas.com",
+                "in_degree": 2
+            },
+            {
+                "node": "scrane@shellus.com",
+                "in_degree": 2
+            }
+        ]
+    },
+    {
+        "community_id": 8,
+        "size": 108,
+        "top_5_nodes": [
+            {
+                "node": "thielhorn'.'aaron@enron.com",
+                "in_degree": 1
+            },
+            {
+                "node": "guidry'.'aimee@enron.com",
+                "in_degree": 1
+            },
+            {
+                "node": "gulfsouth <.winkle@enron.com>",
+                "in_degree": 1
+            },
+            {
+                "node": "burlington <'.'anne@enron.com>",
+                "in_degree": 1
+            },
+            {
+                "node": "freeman'.'anne@enron.com",
+                "in_degree": 1
+            }
+        ]
+    },
+    {
+        "community_id": 124,
+        "size": 95,
+        "top_5_nodes": [
+            {
+                "node": "brock.uncle@enron.com",
+                "in_degree": 1
+            },
+            {
+                "node": "schoellkopf.trey@enron.com",
+                "in_degree": 1
+            },
+            {
+                "node": "brooker.tom@enron.com",
+                "in_degree": 1
+            },
+            {
+                "node": "blasky.tom@enron.com",
+                "in_degree": 1
+            },
+            {
+                "node": "olkowski.tedd@enron.com",
+                "in_degree": 1
+            }
+        ]
+    },
+    {
+        "community_id": 18,
+        "size": 85,
+        "top_5_nodes": [
+            {
+                "node": "all.worldwide@enron.com",
+                "in_degree": 8
+            },
+            {
+                "node": "all.houston@enron.com",
+                "in_degree": 3
+            },
+            {
+                "node": "all.downtown@enron.com",
+                "in_degree": 3
+            },
+            {
+                "node": "enw-employees@enron.com",
+                "in_degree": 2
+            },
+            {
+                "node": "ena.employees@enron.com",
+                "in_degree": 2
+            }
+        ]
+    },
+    {
+        "community_id": 116,
+        "size": 84,
+        "top_5_nodes": [
+            {
+                "node": "anthony.duenner@enron.com",
+                "in_degree": 4
+            },
+            {
+                "node": "dan.boyle@enron.com",
+                "in_degree": 3
+            },
+            {
+                "node": "james_r_easter@reliantenergy.com",
+                "in_degree": 1
+            },
+            {
+                "node": "mhowe@enron.com",
+                "in_degree": 1
+            },
+            {
+                "node": "rrice@enron.com",
+                "in_degree": 1
+            }
+        ]
+    },
+    {
+        "community_id": 208,
+        "size": 84,
+        "top_5_nodes": [
+            {
+                "node": "thomson.vanessa@enron.com",
+                "in_degree": 3
+            },
+            {
+                "node": "bellew.brandon@enron.com",
+                "in_degree": 3
+            },
+            {
+                "node": "trinh.thanh@enron.com",
+                "in_degree": 3
+            },
+            {
+                "node": "beasley.tassy@enron.com",
+                "in_degree": 3
+            },
+            {
+                "node": "rall.ryan@enron.com",
+                "in_degree": 3
+            }
+        ]
+    },
+    {
+        "community_id": 150,
+        "size": 83,
+        "top_5_nodes": [
+            {
+                "node": "rbuy@ect.enron.com",
+                "in_degree": 4
+            },
+            {
+                "node": "cmadding@spe.org",
+                "in_degree": 1
+            },
+            {
+                "node": "bkspee@aol.com",
+                "in_degree": 1
+            },
+            {
+                "node": "glillie@concentric.net",
+                "in_degree": 1
+            },
+            {
+                "node": "anderson@wynncrosby.com",
+                "in_degree": 1
+            }
+        ]
+    },
+    {
+        "community_id": 4,
+        "size": 76,
+        "top_5_nodes": [
+            {
+                "node": "sandra.f.brawner@enron.com",
+                "in_degree": 5
+            },
+            {
+                "node": "stouchstone@natsource.com",
+                "in_degree": 3
+            },
+            {
+                "node": "jons@amerexenergy.com",
+                "in_degree": 3
+            },
+            {
+                "node": "s.schnitzer@worldnet.att.net",
+                "in_degree": 2
+            },
+            {
+                "node": "pama9@flash.net",
+                "in_degree": 2
+            }
+        ]
+    },
+    {
+        "community_id": 77,
+        "size": 71,
+        "top_5_nodes": [
+            {
+                "node": "pool.jessica@enron.com",
+                "in_degree": 2
+            },
+            {
+                "node": "wheless.laura@enron.com",
+                "in_degree": 2
+            },
+            {
+                "node": "tharp.larry@enron.com",
+                "in_degree": 2
+            },
+            {
+                "node": "scott.naomi@enron.com",
+                "in_degree": 2
+            },
+            {
+                "node": "pratt.scott@enron.com",
+                "in_degree": 2
+            }
+        ]
+    },
+    {
+        "community_id": 76,
+        "size": 67,
+        "top_5_nodes": [
+            {
+                "node": "bill_williams@pgn.com",
+                "in_degree": 1
+            },
+            {
+                "node": "bill_williams_iii@pgn.com",
+                "in_degree": 1
+            },
+            {
+                "node": "cooper_richey@pgn.com",
+                "in_degree": 1
+            },
+            {
+                "node": "frank_w_vickers@pgn.com",
+                "in_degree": 1
+            },
+            {
+                "node": "gray_calvert@pgn.com",
+                "in_degree": 1
+            }
+        ]
+    },
+    {
+        "community_id": 250,
+        "size": 58,
+        "top_5_nodes": [
+            {
+                "node": "heinecke.justin@enron.com",
+                "in_degree": 1
+            },
+            {
+                "node": "mmoore@enron.com",
+                "in_degree": 1
+            },
+            {
+                "node": "stanton.scott@enron.com",
+                "in_degree": 1
+            },
+            {
+                "node": "vaccaro.john@enron.com",
+                "in_degree": 1
+            },
+            {
+                "node": "yamamura.alan@enron.com",
+                "in_degree": 1
+            }
+        ]
+    },
+    {
+        "community_id": 118,
+        "size": 50,
+        "top_5_nodes": [
+            {
+                "node": "dept..braintree@enron.com",
+                "in_degree": 2
+            },
+            {
+                "node": "mongeon.brian@enron.com",
+                "in_degree": 2
+            },
+            {
+                "node": "department.burlington@enron.com",
+                "in_degree": 2
+            },
+            {
+                "node": "martin.cambridge@enron.com",
+                "in_degree": 2
+            },
+            {
+                "node": "azulay.cambridge@enron.com",
+                "in_degree": 2
+            }
+        ]
+    },
+    {
+        "community_id": 126,
+        "size": 50,
+        "top_5_nodes": [
+            {
+                "node": "tjacobs@ou.edu",
+                "in_degree": 2
+            },
+            {
+                "node": "lysanys@yahoo.com",
+                "in_degree": 1
+            },
+            {
+                "node": "bachtiarf@cs.com",
+                "in_degree": 1
+            },
+            {
+                "node": "andrew.b.bishop-1@ou.edu",
+                "in_degree": 1
+            },
+            {
+                "node": "jblose79@hotmail.com",
+                "in_degree": 1
+            }
+        ]
+    },
+    {
+        "community_id": 244,
+        "size": 36,
+        "top_5_nodes": [
+            {
+                "node": "homerh@flash.net",
+                "in_degree": 1
+            },
+            {
+                "node": "liu.charles@enron.com",
+                "in_degree": 1
+            },
+            {
+                "node": "yee.dan@enron.com",
+                "in_degree": 1
+            },
+            {
+                "node": "ng.jeannie@enron.com",
+                "in_degree": 1
+            },
+            {
+                "node": "kwok.robert@enron.com",
+                "in_degree": 1
+            }
+        ]
+    },
+    {
+        "community_id": 36,
+        "size": 34,
+        "top_5_nodes": [
+            {
+                "node": "dl-ga-all_enron_worldwide2@enron.com",
+                "in_degree": 8
+            },
+            {
+                "node": "dl-ga-all_enron_worldwide1@enron.com",
+                "in_degree": 7
+            },
+            {
+                "node": "dl-ga-all_enron_houston@enron.com",
+                "in_degree": 5
+            },
+            {
+                "node": "dl-ga-all_enron_worldwide4@enron.com",
+                "in_degree": 4
+            },
+            {
+                "node": "dl-ga-all_enron_worldwide5@enron.com",
+                "in_degree": 3
+            }
+        ]
+    },
+    {
+        "community_id": 108,
+        "size": 33,
+        "top_5_nodes": [
+            {
+                "node": "batoggero@yahoo.com",
+                "in_degree": 4
+            },
+            {
+                "node": "newman.mike@enron.com",
+                "in_degree": 2
+            },
+            {
+                "node": "hunter.gready@enron.com",
+                "in_degree": 2
+            },
+            {
+                "node": "williams.troy@enron.com",
+                "in_degree": 2
+            },
+            {
+                "node": "henderson.mark@enron.com",
+                "in_degree": 2
+            }
+        ]
+    },
+    {
+        "community_id": 140,
+        "size": 32,
+        "top_5_nodes": [
+            {
+                "node": "lblair@enron.com",
+                "in_degree": 9
+            },
+            {
+                "node": "ward@enron.com",
+                "in_degree": 2
+            },
+            {
+                "node": "pdavidson@socalgas.com",
+                "in_degree": 1
+            },
+            {
+                "node": "'blair@enron.com",
+                "in_degree": 1
+            },
+            {
+                "node": "caulson@enron.com",
+                "in_degree": 1
+            }
+        ]
+    },
+    {
+        "community_id": 33,
+        "size": 25,
+        "top_5_nodes": [
+            {
+                "node": "undisclosed.recipients@mailman.enron.com",
+                "in_degree": 24
+            },
+            {
+                "node": "gousa6179@hotmail.kg",
+                "in_degree": 0
+            },
+            {
+                "node": "infousa4492@telkom.net",
+                "in_degree": 0
+            },
+            {
+                "node": "usatoday1430@hotmail.kg",
+                "in_degree": 0
+            },
+            {
+                "node": "infousa9596@eudoramail.com",
+                "in_degree": 0
+            }
+        ]
+    },
+    {
+        "community_id": 247,
+        "size": 20,
+        "top_5_nodes": [
+            {
+                "node": "kenrcars@aol.com",
+                "in_degree": 3
+            },
+            {
+                "node": "mcarson@gtemail.net",
+                "in_degree": 2
+            },
+            {
+                "node": "susan@metronet.com",
+                "in_degree": 2
+            },
+            {
+                "node": "carson@us.ibm.com",
+                "in_degree": 2
+            },
+            {
+                "node": "traviswc@aol.com",
+                "in_degree": 2
+            }
+        ]
+    },
+    {
+        "community_id": 135,
+        "size": 15,
+        "top_5_nodes": [
+            {
+                "node": "betsy.poland@enron.com",
+                "in_degree": 1
+            },
+            {
+                "node": "patricia.cornelius@enron.com",
+                "in_degree": 1
+            },
+            {
+                "node": "karin.werlang@enron.com",
+                "in_degree": 1
+            },
+            {
+                "node": "donna.daman@enron.com",
+                "in_degree": 1
+            },
+            {
+                "node": "leslie.mcmanus@enron.com",
+                "in_degree": 1
+            }
+        ]
+    },
+    {
+        "community_id": 19,
+        "size": 11,
+        "top_5_nodes": [
+            {
+                "node": "strawbale@crest.org",
+                "in_degree": 6
+            },
+            {
+                "node": "calxa@aol.com",
+                "in_degree": 1
+            },
+            {
+                "node": "absteen@dakotacom.net",
+                "in_degree": 1
+            },
+            {
+                "node": "mccormick@elkus-manfredi.com",
+                "in_degree": 1
+            },
+            {
+                "node": "kopp@kinneret.kinneret.co.il",
+                "in_degree": 1
+            }
+        ]
+    },
+    {
+        "community_id": 27,
+        "size": 11,
+        "top_5_nodes": [
+            {
+                "node": "forbes.andrea@enron.com",
+                "in_degree": 1
+            },
+            {
+                "node": "gregg.brian@enron.com",
+                "in_degree": 1
+            },
+            {
+                "node": "burns.chad@enron.com",
+                "in_degree": 1
+            },
+            {
+                "node": "downard.cody@enron.com",
+                "in_degree": 1
+            },
+            {
+                "node": "gregg.gary@enron.com",
+                "in_degree": 1
+            }
+        ]
+    },
+    {
+        "community_id": 149,
+        "size": 10,
+        "top_5_nodes": [
+            {
+                "node": "vweir@firstunion1.com",
+                "in_degree": 1
+            },
+            {
+                "node": "hemery@firstunion1.com",
+                "in_degree": 1
+            },
+            {
+                "node": "dblake3@firstunion1.com",
+                "in_degree": 1
+            },
+            {
+                "node": "gjones@firstunion1.com",
+                "in_degree": 1
+            },
+            {
+                "node": "mdowd@firstunion1.com",
+                "in_degree": 1
+            }
+        ]
+    },
+    {
+        "community_id": 249,
+        "size": 10,
+        "top_5_nodes": [
+            {
+                "node": "wentapb@sprintmail.com",
+                "in_degree": 1
+            },
+            {
+                "node": "quigleyb@sensormatic.com",
+                "in_degree": 1
+            },
+            {
+                "node": "wowbenz@hotmail.com",
+                "in_degree": 1
+            },
+            {
+                "node": "dvglobal@earthlink.net",
+                "in_degree": 1
+            },
+            {
+                "node": "derek_sandstrom@crestone.com",
+                "in_degree": 1
+            }
+        ]
+    },
+    {
+        "community_id": 78,
+        "size": 9,
+        "top_5_nodes": [
+            {
+                "node": "users.dl-enron@enron.com",
+                "in_degree": 2
+            },
+            {
+                "node": "users1.dl-enron@enron.com",
+                "in_degree": 1
+            },
+            {
+                "node": "users2.dl-enron@enron.com",
+                "in_degree": 1
+            },
+            {
+                "node": "users3.dl-enron@enron.com",
+                "in_degree": 1
+            },
+            {
+                "node": "users4.dl-enron@enron.com",
+                "in_degree": 1
+            }
+        ]
+    },
+    {
+        "community_id": 248,
+        "size": 9,
+        "top_5_nodes": [
+            {
+                "node": "btusux@football.fantasy.sportsline.com",
+                "in_degree": 8
+            },
+            {
+                "node": "ken.merideth@entergykoch.com",
+                "in_degree": 1
+            },
+            {
+                "node": "dgrimes@ibshouston.com",
+                "in_degree": 1
+            },
+            {
+                "node": "ddavenport@multifuels.com",
+                "in_degree": 1
+            },
+            {
+                "node": "craige@fbg.net",
+                "in_degree": 1
+            }
+        ]
+    },
+    {
+        "community_id": 83,
+        "size": 8,
+        "top_5_nodes": [
+            {
+                "node": "undisclosed-recipients@enron.com",
+                "in_degree": 7
+            },
+            {
+                "node": "clickathome@enron.com",
+                "in_degree": 4
+            },
+            {
+                "node": "ibuyit@enron.com",
+                "in_degree": 0
+            },
+            {
+                "node": "5rzbqjiyp@homebiz.com",
+                "in_degree": 0
+            },
+            {
+                "node": "zvo2z17d0@untappedmarkets.com",
+                "in_degree": 0
+            }
+        ]
+    },
+    {
+        "community_id": 12,
+        "size": 7,
+        "top_5_nodes": [
+            {
+                "node": "energyinsight@spector.ftenergy.com",
+                "in_degree": 3
+            },
+            {
+                "node": "dwagman@ftenergy.com",
+                "in_degree": 1
+            },
+            {
+                "node": "einsighthtml@spector.ftenergy.com",
+                "in_degree": 1
+            },
+            {
+                "node": "einsighthtml@listserv.ftenergy.com",
+                "in_degree": 1
+            },
+            {
+                "node": "einsighthtml@list1.resdata.com",
+                "in_degree": 1
+            }
+        ]
+    },
+    {
+        "community_id": 15,
+        "size": 7,
+        "top_5_nodes": [
+            {
+                "node": "western.price.survey.contacts@ren-6.cais.net",
+                "in_degree": 1
+            },
+            {
+                "node": "western.price.survey.contacts@proxy4.ba.best.com",
+                "in_degree": 1
+            },
+            {
+                "node": "western.price.survey.contacts@ren-3.cais.net",
+                "in_degree": 1
+            },
+            {
+                "node": "western.price.survey.contacts@ren-2.cais.net",
+                "in_degree": 1
+            },
+            {
+                "node": "western.price.survey.contacts@ren-8.cais.net",
+                "in_degree": 1
+            }
+        ]
+    },
+    {
+        "community_id": 43,
+        "size": 6,
+        "top_5_nodes": [
+            {
+                "node": "reiscast__wave_two@reis-reports.unitymail.net",
+                "in_degree": 5
+            },
+            {
+                "node": "reiscast__wave_two.um.a.1013.218@reis-reports.unitymail.net",
+                "in_degree": 0
+            },
+            {
+                "node": "reiscast__wave_two.um.a.1013.228@reis-reports.unitymail.net",
+                "in_degree": 0
+            },
+            {
+                "node": "reiscast__wave_two.um.a.1013.241@reis-reports.unitymail.net",
+                "in_degree": 0
+            },
+            {
+                "node": "reiscast__wave_two.um.a.1013.332@reis-reports.unitymail.net",
+                "in_degree": 0
+            }
+        ]
+    },
+    {
+        "community_id": 132,
+        "size": 6,
+        "top_5_nodes": [
+            {
+                "node": "darcilla@viviance.com",
+                "in_degree": 1
+            },
+            {
+                "node": "sjaiswal@viviance.com",
+                "in_degree": 1
+            },
+            {
+                "node": "ealto@viviance.com",
+                "in_degree": 1
+            },
+            {
+                "node": "mhoy@viviance.com",
+                "in_degree": 1
+            },
+            {
+                "node": "mmcphee@viviance.com",
+                "in_degree": 1
+            }
+        ]
+    },
+    {
+        "community_id": 45,
+        "size": 5,
+        "top_5_nodes": [
+            {
+                "node": "september2001@lists.winebid.com",
+                "in_degree": 1
+            },
+            {
+                "node": "october2001@lists.winebid.com",
+                "in_degree": 1
+            },
+            {
+                "node": "december2001@lists.winebid.com",
+                "in_degree": 1
+            },
+            {
+                "node": "november2001@lists.winebid.com",
+                "in_degree": 1
+            },
+            {
+                "node": "info@winebid.com",
+                "in_degree": 0
+            }
+        ]
+    },
+    {
+        "community_id": 67,
+        "size": 5,
+        "top_5_nodes": [
+            {
+                "node": "sande@pira.com",
+                "in_degree": 1
+            },
+            {
+                "node": "eileen@pira.com",
+                "in_degree": 1
+            },
+            {
+                "node": "greg@pira.com",
+                "in_degree": 1
+            },
+            {
+                "node": "vwatkins@pira.com",
+                "in_degree": 1
+            },
+            {
+                "node": "distribution@pira.com",
+                "in_degree": 0
+            }
+        ]
+    },
+    {
+        "community_id": 55,
+        "size": 5,
+        "top_5_nodes": [
+            {
+                "node": "mcash@enron.com",
+                "in_degree": 4
+            },
+            {
+                "node": "twayne@waynedirect.com",
+                "in_degree": 0
+            },
+            {
+                "node": "myupdates@jacksonlewis.com",
+                "in_degree": 0
+            },
+            {
+                "node": "sgreenberg@glocap.com",
+                "in_degree": 0
+            },
+            {
+                "node": "dmoll@central.uh.edu",
+                "in_degree": 0
+            }
+        ]
+    },
+    {
+        "community_id": 94,
+        "size": 4,
+        "top_5_nodes": [
+            {
+                "node": "textbreakingnews@cnnimail12.cnn.com",
+                "in_degree": 2
+            },
+            {
+                "node": "textbreakingnews@cnnimail4.cnn.com",
+                "in_degree": 1
+            },
+            {
+                "node": "breakingnews@mail.cnn.com",
+                "in_degree": 0
+            },
+            {
+                "node": "breakingnews@cnn.com",
+                "in_degree": 0
+            }
+        ]
+    },
+    {
+        "community_id": 111,
+        "size": 4,
+        "top_5_nodes": [
+            {
+                "node": "dbaughm@notes.enron.com",
+                "in_degree": 1
+            },
+            {
+                "node": "mbryant@notes.enron.com",
+                "in_degree": 1
+            },
+            {
+                "node": "lblair@notes.enron.com",
+                "in_degree": 1
+            },
+            {
+                "node": "enron.mailsweeper.admin@enron.com",
+                "in_degree": 0
+            }
+        ]
+    },
+    {
+        "community_id": 141,
+        "size": 4,
+        "top_5_nodes": [
+            {
+                "node": "enerfax@yahoogroups.com",
+                "in_degree": 2
+            },
+            {
+                "node": "enerfaxgold@yahoogroups.com",
+                "in_degree": 1
+            },
+            {
+                "node": "enerfax@msn.com",
+                "in_degree": 0
+            },
+            {
+                "node": "enerfax1@aol.com",
+                "in_degree": 0
+            }
+        ]
+    },
+    {
+        "community_id": 146,
+        "size": 4,
+        "top_5_nodes": [
+            {
+                "node": "asme-omae-houston@yahoogroups.com",
+                "in_degree": 3
+            },
+            {
+                "node": "philgrossweiler@alum.mit.edu",
+                "in_degree": 0
+            },
+            {
+                "node": "enron.com@returns.groups.yahoo.com",
+                "in_degree": 0
+            },
+            {
+                "node": "p.grossweiler@att.net",
+                "in_degree": 0
+            }
+        ]
+    },
+    {
+        "community_id": 80,
+        "size": 4,
+        "top_5_nodes": [
+            {
+                "node": "jordan.w.cowman@bakernet.com",
+                "in_degree": 1
+            },
+            {
+                "node": "barganier@enron.com",
+                "in_degree": 1
+            },
+            {
+                "node": "sam.barganier@bakernet.com",
+                "in_degree": 1
+            },
+            {
+                "node": "cowman@enron.com",
+                "in_degree": 1
+            }
+        ]
+    },
+    {
+        "community_id": 24,
+        "size": 3,
+        "top_5_nodes": [
+            {
+                "node": "sumey@enron.com",
+                "in_degree": 2
+            },
+            {
+                "node": "ksumey@ftenergy.com",
+                "in_degree": 1
+            },
+            {
+                "node": "katrina_sumey@platts.com",
+                "in_degree": 1
+            }
+        ]
+    },
+    {
+        "community_id": 30,
+        "size": 3,
+        "top_5_nodes": [
+            {
+                "node": "tech_alert@listserv.dowjones.com",
+                "in_degree": 1
+            },
+            {
+                "node": "business_alert@listserv.dowjones.com",
+                "in_degree": 1
+            },
+            {
+                "node": "e-mail.center@wsj.com",
+                "in_degree": 0
+            }
+        ]
+    },
+    {
+        "community_id": 44,
+        "size": 3,
+        "top_5_nodes": [
+            {
+                "node": "alluserstext@newsletter.ussoccer.com",
+                "in_degree": 1
+            },
+            {
+                "node": "allolduserstext@newsletter.ussoccer.com",
+                "in_degree": 1
+            },
+            {
+                "node": "webmaster@newsletter.ussoccer.com",
+                "in_degree": 0
+            }
+        ]
+    },
+    {
+        "community_id": 46,
+        "size": 3,
+        "top_5_nodes": [
+            {
+                "node": "ussoccerfan_tx@maillist.ussoccer.org",
+                "in_degree": 1
+            },
+            {
+                "node": "turnuson@maillist.ussoccer.org",
+                "in_degree": 1
+            },
+            {
+                "node": "ussoccerfan@ussoccer.org",
+                "in_degree": 0
+            }
+        ]
+    },
+    {
+        "community_id": 58,
+        "size": 3,
+        "top_5_nodes": [
+            {
+                "node": "smollner@carrfut.com",
+                "in_degree": 1
+            },
+            {
+                "node": "rvujtech@carrfut.com",
+                "in_degree": 1
+            },
+            {
+                "node": "carrfuturesenergy@carrfut.com",
+                "in_degree": 0
+            }
+        ]
+    },
+    {
+        "community_id": 85,
+        "size": 3,
+        "top_5_nodes": [
+            {
+                "node": "cheatsheets@egroups.com",
+                "in_degree": 2
+            },
+            {
+                "node": "cheatsheets@yahoogroups.com",
+                "in_degree": 1
+            },
+            {
+                "node": "bryant@cheatsheets.net",
+                "in_degree": 0
+            }
+        ]
+    },
+    {
+        "community_id": 88,
+        "size": 3,
+        "top_5_nodes": [
+            {
+                "node": "clone@mail.hotelresnetwork.com",
+                "in_degree": 1
+            },
+            {
+                "node": "specials1@mail.hotelresnetwork.com",
+                "in_degree": 1
+            },
+            {
+                "node": "hotdeals@mail.hotelresnetwork.com",
+                "in_degree": 0
+            }
+        ]
+    },
+    {
+        "community_id": 93,
+        "size": 3,
+        "top_5_nodes": [
+            {
+                "node": "energynews@fc.ease.lsoft.com",
+                "in_degree": 2
+            },
+            {
+                "node": "allison@firstconf.com",
+                "in_degree": 0
+            },
+            {
+                "node": "bruno@firstconf.com",
+                "in_degree": 0
+            }
+        ]
+    },
+    {
+        "community_id": 96,
+        "size": 3,
+        "top_5_nodes": [
+            {
+                "node": "postmaster@your.smtp.com",
+                "in_degree": 2
+            },
+            {
+                "node": "specials@icruise.com",
+                "in_degree": 0
+            },
+            {
+                "node": "flash@icruise.com",
+                "in_degree": 0
+            }
+        ]
+    },
+    {
+        "community_id": 114,
+        "size": 3,
+        "top_5_nodes": [
+            {
+                "node": "ona@esp-net.com",
+                "in_degree": 1
+            },
+            {
+                "node": "david@esp-net.com",
+                "in_degree": 1
+            },
+            {
+                "node": "jim@esp-net.com",
+                "in_degree": 1
+            }
+        ]
+    },
+    {
+        "community_id": 117,
+        "size": 3,
+        "top_5_nodes": [
+            {
+                "node": "don_baughman@enron.com",
+                "in_degree": 2
+            },
+            {
+                "node": "david.h.mendez@dynegy.com",
+                "in_degree": 0
+            },
+            {
+                "node": "dmaskell@houston.rr.com",
+                "in_degree": 0
+            }
+        ]
+    },
+    {
+        "community_id": 142,
+        "size": 3,
+        "top_5_nodes": [
+            {
+                "node": "all.xms.users@enron.com",
+                "in_degree": 1
+            },
+            {
+                "node": "dl.-.pay.advise@enron.com",
+                "in_degree": 1
+            },
+            {
+                "node": "integrated.solutions.center@enron.com",
+                "in_degree": 0
+            }
+        ]
+    },
+    {
+        "community_id": 154,
+        "size": 3,
+        "top_5_nodes": [
+            {
+                "node": "drerupd@ds-s.com",
+                "in_degree": 2
+            },
+            {
+                "node": "drerup@enron.com",
+                "in_degree": 2
+            },
+            {
+                "node": "paul.manning@honeywell.com",
+                "in_degree": 0
+            }
+        ]
+    },
+    {
+        "community_id": 160,
+        "size": 3,
+        "top_5_nodes": [
+            {
+                "node": "sportingbetusa@lists.sportingbet.com",
+                "in_degree": 2
+            },
+            {
+                "node": "daniell@sportingbetusa.com",
+                "in_degree": 0
+            },
+            {
+                "node": "newsletter@sportingbetusa.com",
+                "in_degree": 0
+            }
+        ]
+    },
+    {
+        "community_id": 169,
+        "size": 3,
+        "top_5_nodes": [
+            {
+                "node": "undisclosed@mailman.enron.com",
+                "in_degree": 1
+            },
+            {
+                "node": "recipients@lockers-pl.com.au",
+                "in_degree": 1
+            },
+            {
+                "node": "gc1bd81@post.sk",
+                "in_degree": 0
+            }
+        ]
+    },
+    {
+        "community_id": 176,
+        "size": 3,
+        "top_5_nodes": [
+            {
+                "node": "sunnygreece@travelling.gr",
+                "in_degree": 1
+            },
+            {
+                "node": "members@horny18.net",
+                "in_degree": 1
+            },
+            {
+                "node": "janey@horny18.net",
+                "in_degree": 0
+            }
+        ]
+    },
+    {
+        "community_id": 198,
+        "size": 3,
+        "top_5_nodes": [
+            {
+                "node": "ems@enron.com",
+                "in_degree": 2
+            },
+            {
+                "node": "c23266@thai2k.com",
+                "in_degree": 0
+            },
+            {
+                "node": "s22028@fun.21cn.com",
+                "in_degree": 0
+            }
+        ]
+    },
+    {
+        "community_id": 20,
+        "size": 3,
+        "top_5_nodes": [
+            {
+                "node": "money.in.motion@mailman.enron.com",
+                "in_degree": 2
+            },
+            {
+                "node": "bmiimarket@eudoramail.com",
+                "in_degree": 0
+            },
+            {
+                "node": "icmh1737@eudoramail.com",
+                "in_degree": 0
+            }
+        ]
+    },
+    {
+        "community_id": 16,
+        "size": 2,
+        "top_5_nodes": [
+            {
+                "node": "market_alert@listserv.dowjones.com",
+                "in_degree": 1
+            },
+            {
+                "node": "market-reply@listserv.dowjones.com",
+                "in_degree": 0
+            }
+        ]
+    },
+    {
+        "community_id": 23,
+        "size": 2,
+        "top_5_nodes": [
+            {
+                "node": "einsighthtml@listserv.platts.com",
+                "in_degree": 1
+            },
+            {
+                "node": "ei_editor@platts.com",
+                "in_degree": 0
+            }
+        ]
+    },
+    {
+        "community_id": 28,
+        "size": 2,
+        "top_5_nodes": [
+            {
+                "node": "electricatlas01@listserv.ftenergy.com",
+                "in_degree": 1
+            },
+            {
+                "node": "dmallory@ftenergy.com",
+                "in_degree": 0
+            }
+        ]
+    },
+    {
+        "community_id": 39,
+        "size": 2,
+        "top_5_nodes": [
+            {
+                "node": "lisa.herman@citicorp.com",
+                "in_degree": 1
+            },
+            {
+                "node": "michael.kushner@enron.com",
+                "in_degree": 0
+            }
+        ]
+    },
+    {
+        "community_id": 40,
+        "size": 2,
+        "top_5_nodes": [
+            {
+                "node": "ddrxbri@msn.com",
+                "in_degree": 1
+            },
+            {
+                "node": "c10mkf@msn.com",
+                "in_degree": 0
+            }
+        ]
+    },
+    {
+        "community_id": 41,
+        "size": 2,
+        "top_5_nodes": [
+            {
+                "node": "kzgnpar@msn.com",
+                "in_degree": 1
+            },
+            {
+                "node": "5z33t95as@msn.com",
+                "in_degree": 0
+            }
+        ]
+    },
+    {
+        "community_id": 42,
+        "size": 2,
+        "top_5_nodes": [
+            {
+                "node": "idrc.houston.chapter@mailman.enron.com",
+                "in_degree": 1
+            },
+            {
+                "node": "melissa.ginocchio@idrc.org",
+                "in_degree": 0
+            }
+        ]
+    },
+    {
+        "community_id": 47,
+        "size": 2,
+        "top_5_nodes": [
+            {
+                "node": "zeu3rk@msn.com",
+                "in_degree": 1
+            },
+            {
+                "node": "tz3qu@msn.com",
+                "in_degree": 0
+            }
+        ]
+    },
+    {
+        "community_id": 48,
+        "size": 2,
+        "top_5_nodes": [
+            {
+                "node": "dsanchez@tradespark.com",
+                "in_degree": 1
+            },
+            {
+                "node": "sanchez@enron.com",
+                "in_degree": 1
+            }
+        ]
+    },
+    {
+        "community_id": 49,
+        "size": 2,
+        "top_5_nodes": [
+            {
+                "node": "newsletter@libation.com",
+                "in_degree": 1
+            },
+            {
+                "node": "peter@libation.com",
+                "in_degree": 0
+            }
+        ]
+    },
+    {
+        "community_id": 50,
+        "size": 2,
+        "top_5_nodes": [
+            {
+                "node": "djn_futures@lists.dowjonesnewswires.com",
+                "in_degree": 1
+            },
+            {
+                "node": "dow.jones.newswiresnewswires@dowjones.com",
+                "in_degree": 0
+            }
+        ]
+    },
+    {
+        "community_id": 51,
+        "size": 2,
+        "top_5_nodes": [
+            {
+                "node": "5e8nx4it@msn.com",
+                "in_degree": 1
+            },
+            {
+                "node": "ls2fd8x@msn.com",
+                "in_degree": 0
+            }
+        ]
+    },
+    {
+        "community_id": 53,
+        "size": 2,
+        "top_5_nodes": [
+            {
+                "node": "i3ytqktw@msn.com",
+                "in_degree": 1
+            },
+            {
+                "node": "trytb910@msn.com",
+                "in_degree": 0
+            }
+        ]
+    },
+    {
+        "community_id": 54,
+        "size": 2,
+        "top_5_nodes": [
+            {
+                "node": "qq1173@msn.com",
+                "in_degree": 1
+            },
+            {
+                "node": "6gc86@msn.com",
+                "in_degree": 0
+            }
+        ]
+    },
+    {
+        "community_id": 56,
+        "size": 2,
+        "top_5_nodes": [
+            {
+                "node": "4y2wgyg621@msn.com",
+                "in_degree": 1
+            },
+            {
+                "node": "310fkn6iqva@msn.com",
+                "in_degree": 0
+            }
+        ]
+    },
+    {
+        "community_id": 57,
+        "size": 2,
+        "top_5_nodes": [
+            {
+                "node": "8rbg1tdd@msn.com",
+                "in_degree": 1
+            },
+            {
+                "node": "vbz8g5@msn.com",
+                "in_degree": 0
+            }
+        ]
+    },
+    {
+        "community_id": 59,
+        "size": 2,
+        "top_5_nodes": [
+            {
+                "node": "mxyk@msn.com",
+                "in_degree": 1
+            },
+            {
+                "node": "j9aqqi2@msn.com",
+                "in_degree": 0
+            }
+        ]
+    },
+    {
+        "community_id": 61,
+        "size": 2,
+        "top_5_nodes": [
+            {
+                "node": "mcf8qyloqs@msn.com",
+                "in_degree": 1
+            },
+            {
+                "node": "2p5wd2@msn.com",
+                "in_degree": 0
+            }
+        ]
+    },
+    {
+        "community_id": 65,
+        "size": 2,
+        "top_5_nodes": [
+            {
+                "node": "lighthouse@independent.org",
+                "in_degree": 1
+            },
+            {
+                "node": "djtheroux@independent.org",
+                "in_degree": 0
+            }
+        ]
+    },
+    {
+        "community_id": 66,
+        "size": 2,
+        "top_5_nodes": [
+            {
+                "node": "joseph.macaione@gs.com",
+                "in_degree": 1
+            },
+            {
+                "node": "macaione@enron.com",
+                "in_degree": 1
+            }
+        ]
+    },
+    {
+        "community_id": 68,
+        "size": 2,
+        "top_5_nodes": [
+            {
+                "node": "info@lajollaeconomics.com",
+                "in_degree": 1
+            },
+            {
+                "node": "pmork@lajollaeconomics.com",
+                "in_degree": 0
+            }
+        ]
+    },
+    {
+        "community_id": 69,
+        "size": 2,
+        "top_5_nodes": [
+            {
+                "node": "g7dbreaders@g7group-ny.com",
+                "in_degree": 1
+            },
+            {
+                "node": "jhartley@g7group-ny.com",
+                "in_degree": 0
+            }
+        ]
+    },
+    {
+        "community_id": 70,
+        "size": 2,
+        "top_5_nodes": [
+            {
+                "node": "info@musicmasala.com",
+                "in_degree": 1
+            },
+            {
+                "node": "desiparty@mediawest.com",
+                "in_degree": 0
+            }
+        ]
+    },
+    {
+        "community_id": 84,
+        "size": 2,
+        "top_5_nodes": [
+            {
+                "node": "insideutfootball@newsletters.dallasnews.com",
+                "in_degree": 1
+            },
+            {
+                "node": "newsletters@newsletters.dallasnews.com",
+                "in_degree": 0
+            }
+        ]
+    },
+    {
+        "community_id": 87,
+        "size": 2,
+        "top_5_nodes": [
+            {
+                "node": "hotdeals@mail.bestfares.net",
+                "in_degree": 1
+            },
+            {
+                "node": "hotdeals@bestfares.com",
+                "in_degree": 0
+            }
+        ]
+    },
+    {
+        "community_id": 89,
+        "size": 2,
+        "top_5_nodes": [
+            {
+                "node": "special-offers2@mail2.southwest.com",
+                "in_degree": 1
+            },
+            {
+                "node": "special-offers-help@mail2.southwest.com",
+                "in_degree": 0
+            }
+        ]
+    },
+    {
+        "community_id": 91,
+        "size": 2,
+        "top_5_nodes": [
+            {
+                "node": "energy.professional@mailman.enron.com",
+                "in_degree": 1
+            },
+            {
+                "node": "ss4@skpstnhouston.com",
+                "in_degree": 0
+            }
+        ]
+    },
+    {
+        "community_id": 92,
+        "size": 2,
+        "top_5_nodes": [
+            {
+                "node": "brewery@saintarnold.com",
+                "in_degree": 1
+            },
+            {
+                "node": "beerlovers@saintarnold.com",
+                "in_degree": 1
+            }
+        ]
+    },
+    {
+        "community_id": 95,
+        "size": 2,
+        "top_5_nodes": [
+            {
+                "node": "sarah.walker@excelergy.com",
+                "in_degree": 1
+            },
+            {
+                "node": "walker@enron.com",
+                "in_degree": 1
+            }
+        ]
+    },
+    {
+        "community_id": 99,
+        "size": 2,
+        "top_5_nodes": [
+            {
+                "node": "events@eyeforenergy.com",
+                "in_degree": 2
+            },
+            {
+                "node": "events@eyefoenergy.com",
+                "in_degree": 0
+            }
+        ]
+    },
+    {
+        "community_id": 102,
+        "size": 2,
+        "top_5_nodes": [
+            {
+                "node": "powermart1@listserv.platts.com",
+                "in_degree": 1
+            },
+            {
+                "node": "platts1@ftenergy.com",
+                "in_degree": 0
+            }
+        ]
+    },
+    {
+        "community_id": 105,
+        "size": 2,
+        "top_5_nodes": [
+            {
+                "node": "lonestarmusic@newsletter.lonestarmusic.com",
+                "in_degree": 1
+            },
+            {
+                "node": "newsletter@lonestarmusic.com",
+                "in_degree": 0
+            }
+        ]
+    },
+    {
+        "community_id": 106,
+        "size": 2,
+        "top_5_nodes": [
+            {
+                "node": "charles.c.uus@stasco.com",
+                "in_degree": 1
+            },
+            {
+                "node": "cuus@worldnet.att.net",
+                "in_degree": 1
+            }
+        ]
+    },
+    {
+        "community_id": 110,
+        "size": 2,
+        "top_5_nodes": [
+            {
+                "node": "http@aeweb1.dowjones.com",
+                "in_degree": 1
+            },
+            {
+                "node": "avantgo.wsjcom@dowjones.com",
+                "in_degree": 0
+            }
+        ]
+    },
+    {
+        "community_id": 112,
+        "size": 2,
+        "top_5_nodes": [
+            {
+                "node": "enl-members-html@estutenws11.energy.williams.com",
+                "in_degree": 1
+            },
+            {
+                "node": "ecenter@williams.com",
+                "in_degree": 0
+            }
+        ]
+    },
+    {
+        "community_id": 113,
+        "size": 2,
+        "top_5_nodes": [
+            {
+                "node": "new_features@listserv2.dowjones.com",
+                "in_degree": 1
+            },
+            {
+                "node": "update@listserv.dowjones.com",
+                "in_degree": 0
+            }
+        ]
+    },
+    {
+        "community_id": 115,
+        "size": 2,
+        "top_5_nodes": [
+            {
+                "node": "dl-ga-all_ews_employees@enron.com",
+                "in_degree": 1
+            },
+            {
+                "node": "chairman.ews@enron.com",
+                "in_degree": 0
+            }
+        ]
+    },
+    {
+        "community_id": 119,
+        "size": 2,
+        "top_5_nodes": [
+            {
+                "node": "gamblingtimes@casinoincentives.com",
+                "in_degree": 1
+            },
+            {
+                "node": "owner-gamblingtimes@casinoincentives.com",
+                "in_degree": 0
+            }
+        ]
+    },
+    {
+        "community_id": 120,
+        "size": 2,
+        "top_5_nodes": [
+            {
+                "node": "9927@excite.com",
+                "in_degree": 1
+            },
+            {
+                "node": "getmorechannels@hotmail.com",
+                "in_degree": 0
+            }
+        ]
+    },
+    {
+        "community_id": 121,
+        "size": 2,
+        "top_5_nodes": [
+            {
+                "node": "michael'.'newman@enron.com",
+                "in_degree": 1
+            },
+            {
+                "node": "joeysciortino@elliottelectric.com",
+                "in_degree": 0
+            }
+        ]
+    },
+    {
+        "community_id": 123,
+        "size": 2,
+        "top_5_nodes": [
+            {
+                "node": "oasis_information@lists.midwestiso.org",
+                "in_degree": 1
+            },
+            {
+                "node": "aheinle@midwestiso.org",
+                "in_degree": 0
+            }
+        ]
+    },
+    {
+        "community_id": 125,
+        "size": 2,
+        "top_5_nodes": [
+            {
+                "node": "houstonoffice2@columbia.rwd.com",
+                "in_degree": 1
+            },
+            {
+                "node": "ppolensky@rwd.com",
+                "in_degree": 0
+            }
+        ]
+    },
+    {
+        "community_id": 129,
+        "size": 2,
+        "top_5_nodes": [
+            {
+                "node": "sbeck2@enron.com",
+                "in_degree": 1
+            },
+            {
+                "node": "rstalford@hotmail.com",
+                "in_degree": 0
+            }
+        ]
+    },
+    {
+        "community_id": 130,
+        "size": 2,
+        "top_5_nodes": [
+            {
+                "node": "laura.g.ware@us.arthurandersen.com",
+                "in_degree": 1
+            },
+            {
+                "node": "robert.a.seekely@us.arthurandersen.com",
+                "in_degree": 0
+            }
+        ]
+    },
+    {
+        "community_id": 131,
+        "size": 2,
+        "top_5_nodes": [
+            {
+                "node": "houston.downtown@accountemps.com",
+                "in_degree": 1
+            },
+            {
+                "node": "akwete.hines@accountemps.com",
+                "in_degree": 0
+            }
+        ]
+    },
+    {
+        "community_id": 133,
+        "size": 2,
+        "top_5_nodes": [
+            {
+                "node": "litebytz@enron.com",
+                "in_degree": 1
+            },
+            {
+                "node": "angela.morris@enron.com",
+                "in_degree": 0
+            }
+        ]
+    },
+    {
+        "community_id": 134,
+        "size": 2,
+        "top_5_nodes": [
+            {
+                "node": "sally_beck@enron.com",
+                "in_degree": 1
+            },
+            {
+                "node": "kelly_hermann@hotmail.com",
+                "in_degree": 0
+            }
+        ]
+    },
+    {
+        "community_id": 136,
+        "size": 2,
+        "top_5_nodes": [
+            {
+                "node": "texastribute@lists.cc.utexas.edu",
+                "in_degree": 1
+            },
+            {
+                "node": "tribute@www.utexas.edu",
+                "in_degree": 0
+            }
+        ]
+    },
+    {
+        "community_id": 144,
+        "size": 2,
+        "top_5_nodes": [
+            {
+                "node": "pgreen01@coair.com",
+                "in_degree": 1
+            },
+            {
+                "node": "elizabeth.bouldin@travelpark.com",
+                "in_degree": 0
+            }
+        ]
+    },
+    {
+        "community_id": 152,
+        "size": 2,
+        "top_5_nodes": [
+            {
+                "node": "marineroffice@mariner-energy.com",
+                "in_degree": 1
+            },
+            {
+                "node": "kcashiola@mariner-energy.com",
+                "in_degree": 0
+            }
+        ]
+    },
+    {
+        "community_id": 155,
+        "size": 2,
+        "top_5_nodes": [
+            {
+                "node": "tricia.despain@enron.com",
+                "in_degree": 1
+            },
+            {
+                "node": "margaux.harris@enron.com",
+                "in_degree": 0
+            }
+        ]
+    },
+    {
+        "community_id": 156,
+        "size": 2,
+        "top_5_nodes": [
+            {
+                "node": "users.dl-01v@enron.com",
+                "in_degree": 1
+            },
+            {
+                "node": "deborah.heath@enron.com",
+                "in_degree": 0
+            }
+        ]
+    },
+    {
+        "community_id": 157,
+        "size": 2,
+        "top_5_nodes": [
+            {
+                "node": "saharadoc@aol.com",
+                "in_degree": 1
+            },
+            {
+                "node": "dggoddard@aol.com",
+                "in_degree": 0
+            }
+        ]
+    },
+    {
+        "community_id": 165,
+        "size": 2,
+        "top_5_nodes": [
+            {
+                "node": "mail@sportsbook.com",
+                "in_degree": 2
+            },
+            {
+                "node": "support@sportsbook.com",
+                "in_degree": 0
+            }
+        ]
+    },
+    {
+        "community_id": 171,
+        "size": 2,
+        "top_5_nodes": [
+            {
+                "node": "howdes@portugalmail.pt",
+                "in_degree": 1
+            },
+            {
+                "node": "heyhiboy@daikonet.co.jp",
+                "in_degree": 0
+            }
+        ]
+    },
+    {
+        "community_id": 172,
+        "size": 2,
+        "top_5_nodes": [
+            {
+                "node": "bceverhart@gomail.com.ua",
+                "in_degree": 1
+            },
+            {
+                "node": "claravelez@mail.ee",
+                "in_degree": 0
+            }
+        ]
+    },
+    {
+        "community_id": 174,
+        "size": 2,
+        "top_5_nodes": [
+            {
+                "node": "sm2@ev.state.az.us",
+                "in_degree": 1
+            },
+            {
+                "node": "wshutt@argentinc.com",
+                "in_degree": 0
+            }
+        ]
+    },
+    {
+        "community_id": 175,
+        "size": 2,
+        "top_5_nodes": [
+            {
+                "node": "carol.jetton@enron.com",
+                "in_degree": 1
+            },
+            {
+                "node": "rumor@gte.net",
+                "in_degree": 0
+            }
+        ]
+    },
+    {
+        "community_id": 177,
+        "size": 2,
+        "top_5_nodes": [
+            {
+                "node": "lists@playersonly.com",
+                "in_degree": 1
+            },
+            {
+                "node": "majordomo@playersonly.com",
+                "in_degree": 0
+            }
+        ]
+    },
+    {
+        "community_id": 179,
+        "size": 2,
+        "top_5_nodes": [
+            {
+                "node": "lcandee@nemaine.com",
+                "in_degree": 1
+            },
+            {
+                "node": "paige691@keyanoc.ab.ca",
+                "in_degree": 0
+            }
+        ]
+    },
+    {
+        "community_id": 182,
+        "size": 2,
+        "top_5_nodes": [
+            {
+                "node": "2002rsx@listserv.acura.com",
+                "in_degree": 1
+            },
+            {
+                "node": "acuramail@acura.com",
+                "in_degree": 0
+            }
+        ]
+    },
+    {
+        "community_id": 183,
+        "size": 2,
+        "top_5_nodes": [
+            {
+                "node": "lurmas@hotmail.com",
+                "in_degree": 1
+            },
+            {
+                "node": "hso2pa9d2887@flashmail.com",
+                "in_degree": 0
+            }
+        ]
+    },
+    {
+        "community_id": 184,
+        "size": 2,
+        "top_5_nodes": [
+            {
+                "node": "hc8dx8tbl@hotmail.com",
+                "in_degree": 1
+            },
+            {
+                "node": "vjbp23eanze@hotmail.com",
+                "in_degree": 0
+            }
+        ]
+    },
+    {
+        "community_id": 185,
+        "size": 2,
+        "top_5_nodes": [
+            {
+                "node": "xgyomef@france-mail.com",
+                "in_degree": 1
+            },
+            {
+                "node": "bbvydlf@france-mail.com",
+                "in_degree": 0
+            }
+        ]
+    },
+    {
+        "community_id": 186,
+        "size": 2,
+        "top_5_nodes": [
+            {
+                "node": "garnettj@usa.net",
+                "in_degree": 1
+            },
+            {
+                "node": "737890travelincentives2@aol.com",
+                "in_degree": 0
+            }
+        ]
+    },
+    {
+        "community_id": 187,
+        "size": 2,
+        "top_5_nodes": [
+            {
+                "node": "sydaw@k.ro",
+                "in_degree": 1
+            },
+            {
+                "node": "b24089@mail.md",
+                "in_degree": 0
+            }
+        ]
+    },
+    {
+        "community_id": 188,
+        "size": 2,
+        "top_5_nodes": [
+            {
+                "node": "jayivohfft@neo2.neotraffix.com",
+                "in_degree": 1
+            },
+            {
+                "node": "greatopp@neo2.neotraffix.com",
+                "in_degree": 0
+            }
+        ]
+    },
+    {
+        "community_id": 189,
+        "size": 2,
+        "top_5_nodes": [
+            {
+                "node": "uqenowmugh@neo2.neotraffix.com",
+                "in_degree": 1
+            },
+            {
+                "node": "supertime@neo2.neotraffix.com",
+                "in_degree": 0
+            }
+        ]
+    },
+    {
+        "community_id": 190,
+        "size": 2,
+        "top_5_nodes": [
+            {
+                "node": "v4dsw3nd6vb5@msn.com",
+                "in_degree": 1
+            },
+            {
+                "node": "annawilliams@btamail.net.cn",
+                "in_degree": 0
+            }
+        ]
+    },
+    {
+        "community_id": 191,
+        "size": 2,
+        "top_5_nodes": [
+            {
+                "node": "barr@mailman.enron.com",
+                "in_degree": 1
+            },
+            {
+                "node": "mrhappy@telkom.net",
+                "in_degree": 0
+            }
+        ]
+    },
+    {
+        "community_id": 192,
+        "size": 2,
+        "top_5_nodes": [
+            {
+                "node": "ayg2jtsznys1q@hotmail.com",
+                "in_degree": 1
+            },
+            {
+                "node": "br5ply89gkv9@hotmail.com",
+                "in_degree": 0
+            }
+        ]
+    },
+    {
+        "community_id": 193,
+        "size": 2,
+        "top_5_nodes": [
+            {
+                "node": "azghlntxoq@hey.letskeepintouch.com",
+                "in_degree": 1
+            },
+            {
+                "node": "goodtiming@hey.letskeepintouch.com",
+                "in_degree": 0
+            }
+        ]
+    },
+    {
+        "community_id": 194,
+        "size": 2,
+        "top_5_nodes": [
+            {
+                "node": "ets.field.offices@enron.com",
+                "in_degree": 1
+            },
+            {
+                "node": "gary.allen.-.safety.specialist@enron.com",
+                "in_degree": 0
+            }
+        ]
+    },
+    {
+        "community_id": 195,
+        "size": 2,
+        "top_5_nodes": [
+            {
+                "node": "mrcqojw7tyvd@hotmail.com",
+                "in_degree": 1
+            },
+            {
+                "node": "t9kxtqnfe@hotmail.com",
+                "in_degree": 0
+            }
+        ]
+    },
+    {
+        "community_id": 196,
+        "size": 2,
+        "top_5_nodes": [
+            {
+                "node": "bplmn@126.com",
+                "in_degree": 1
+            },
+            {
+                "node": "g27965@ok.ru",
+                "in_degree": 0
+            }
+        ]
+    },
+    {
+        "community_id": 199,
+        "size": 2,
+        "top_5_nodes": [
+            {
+                "node": "etgfcd9qwant@hotmail.com",
+                "in_degree": 1
+            },
+            {
+                "node": "gksmdbz8cvw@hotmail.com",
+                "in_degree": 0
+            }
+        ]
+    },
+    {
+        "community_id": 200,
+        "size": 2,
+        "top_5_nodes": [
+            {
+                "node": "lcarlton52@hotmail.com",
+                "in_degree": 1
+            },
+            {
+                "node": "solutions2@btamail.net.cn",
+                "in_degree": 0
+            }
+        ]
+    },
+    {
+        "community_id": 201,
+        "size": 2,
+        "top_5_nodes": [
+            {
+                "node": "jrule@vbibfpkhvr.enron.com",
+                "in_degree": 1
+            },
+            {
+                "node": "garth2284@umhpvaycnh.yahoo.com",
+                "in_degree": 0
+            }
+        ]
+    },
+    {
+        "community_id": 202,
+        "size": 2,
+        "top_5_nodes": [
+            {
+                "node": "start.the.new.year.with.a.clean.slate@mailman.enron.com",
+                "in_degree": 1
+            },
+            {
+                "node": "kkgaz@daum.net",
+                "in_degree": 0
+            }
+        ]
+    },
+    {
+        "community_id": 203,
+        "size": 2,
+        "top_5_nodes": [
+            {
+                "node": "wi2qqy7wtu@hotmail.com",
+                "in_degree": 1
+            },
+            {
+                "node": "ptw7dtczvsoh@hotmail.com",
+                "in_degree": 0
+            }
+        ]
+    },
+    {
+        "community_id": 204,
+        "size": 2,
+        "top_5_nodes": [
+            {
+                "node": "tqjtc8c3q@hotmail.com",
+                "in_degree": 1
+            },
+            {
+                "node": "acqm8wtkmafd@hotmail.com",
+                "in_degree": 0
+            }
+        ]
+    },
+    {
+        "community_id": 205,
+        "size": 2,
+        "top_5_nodes": [
+            {
+                "node": "ga4qwsc9s3t4@hotmail.com",
+                "in_degree": 1
+            },
+            {
+                "node": "wc6vt7vsiurmn@hotmail.com",
+                "in_degree": 0
+            }
+        ]
+    },
+    {
+        "community_id": 206,
+        "size": 2,
+        "top_5_nodes": [
+            {
+                "node": "schlenker@mailman.enron.com",
+                "in_degree": 1
+            },
+            {
+                "node": "pesavento@camacho.com.br",
+                "in_degree": 0
+            }
+        ]
+    },
+    {
+        "community_id": 207,
+        "size": 2,
+        "top_5_nodes": [
+            {
+                "node": "lcampbel@alau.com",
+                "in_degree": 1
+            },
+            {
+                "node": "adeanvideo@earthlink.net",
+                "in_degree": 0
+            }
+        ]
+    },
+    {
+        "community_id": 210,
+        "size": 2,
+        "top_5_nodes": [
+            {
+                "node": "ljenkin@enron.com",
+                "in_degree": 1
+            },
+            {
+                "node": "p10621@jippii.fi",
+                "in_degree": 0
+            }
+        ]
+    },
+    {
+        "community_id": 211,
+        "size": 2,
+        "top_5_nodes": [
+            {
+                "node": "debord@mailman.enron.com",
+                "in_degree": 1
+            },
+            {
+                "node": "morisek@freemail.hu",
+                "in_degree": 0
+            }
+        ]
+    },
+    {
+        "community_id": 212,
+        "size": 2,
+        "top_5_nodes": [
+            {
+                "node": "esmjcuokcb@mail2.emediatemail.com",
+                "in_degree": 1
+            },
+            {
+                "node": "greatopp@mail2.emediatemail.com",
+                "in_degree": 0
+            }
+        ]
+    },
+    {
+        "community_id": 213,
+        "size": 2,
+        "top_5_nodes": [
+            {
+                "node": "viqgi@mail.iupi.pt",
+                "in_degree": 1
+            },
+            {
+                "node": "b27152@kali.com.cn",
+                "in_degree": 0
+            }
+        ]
+    },
+    {
+        "community_id": 214,
+        "size": 2,
+        "top_5_nodes": [
+            {
+                "node": "list.subscriber@mailman.enron.com",
+                "in_degree": 1
+            },
+            {
+                "node": "xhwadxpwgp@newmail.ru",
+                "in_degree": 0
+            }
+        ]
+    },
+    {
+        "community_id": 215,
+        "size": 2,
+        "top_5_nodes": [
+            {
+                "node": "undisclosed.recipients@mail.tcda.co.kr",
+                "in_degree": 1
+            },
+            {
+                "node": "totodigi2@yahoo.com",
+                "in_degree": 0
+            }
+        ]
+    },
+    {
+        "community_id": 216,
+        "size": 2,
+        "top_5_nodes": [
+            {
+                "node": "undisclosed.recipients@wonju-gs.hs.kr",
+                "in_degree": 1
+            },
+            {
+                "node": "1a7info@email.lviv.ua",
+                "in_degree": 0
+            }
+        ]
+    },
+    {
+        "community_id": 217,
+        "size": 2,
+        "top_5_nodes": [
+            {
+                "node": "subscriber@mailman.enron.com",
+                "in_degree": 1
+            },
+            {
+                "node": "c2a95rl1a95@yahoo.com",
+                "in_degree": 0
+            }
+        ]
+    },
+    {
+        "community_id": 218,
+        "size": 2,
+        "top_5_nodes": [
+            {
+                "node": "uksyz@slo.net",
+                "in_degree": 1
+            },
+            {
+                "node": "g111@mail.yahoo.co.jp",
+                "in_degree": 0
+            }
+        ]
+    },
+    {
+        "community_id": 219,
+        "size": 2,
+        "top_5_nodes": [
+            {
+                "node": "important.list@sofie.ci.kk.dk",
+                "in_degree": 1
+            },
+            {
+                "node": "e._lan@minx.co.uk",
+                "in_degree": 0
+            }
+        ]
+    },
+    {
+        "community_id": 220,
+        "size": 2,
+        "top_5_nodes": [
+            {
+                "node": "174@newmail.net",
+                "in_degree": 1
+            },
+            {
+                "node": "legolas_18@iml.fhg.de",
+                "in_degree": 0
+            }
+        ]
+    },
+    {
+        "community_id": 221,
+        "size": 2,
+        "top_5_nodes": [
+            {
+                "node": "chagrus@techpointer.com",
+                "in_degree": 1
+            },
+            {
+                "node": "hussey101@eudoramail.com",
+                "in_degree": 0
+            }
+        ]
+    },
+    {
+        "community_id": 222,
+        "size": 2,
+        "top_5_nodes": [
+            {
+                "node": "cmiya@163.net",
+                "in_degree": 1
+            },
+            {
+                "node": "d19405@go.ru",
+                "in_degree": 0
+            }
+        ]
+    },
+    {
+        "community_id": 223,
+        "size": 2,
+        "top_5_nodes": [
+            {
+                "node": "kypzrdiavx@mail2.emediatemail.com",
+                "in_degree": 1
+            },
+            {
+                "node": "savemoney@mail2.emediatemail.com",
+                "in_degree": 0
+            }
+        ]
+    },
+    {
+        "community_id": 224,
+        "size": 2,
+        "top_5_nodes": [
+            {
+                "node": "marrow@mailman.enron.com",
+                "in_degree": 1
+            },
+            {
+                "node": "js7004@telkom.net",
+                "in_degree": 0
+            }
+        ]
+    },
+    {
+        "community_id": 225,
+        "size": 2,
+        "top_5_nodes": [
+            {
+                "node": "lees@enron.com",
+                "in_degree": 1
+            },
+            {
+                "node": "s22028@carioca.net",
+                "in_degree": 0
+            }
+        ]
+    },
+    {
+        "community_id": 226,
+        "size": 2,
+        "top_5_nodes": [
+            {
+                "node": "lkacal@enron.com",
+                "in_degree": 1
+            },
+            {
+                "node": "s20761@private.21cn.com",
+                "in_degree": 0
+            }
+        ]
+    },
+    {
+        "community_id": 227,
+        "size": 2,
+        "top_5_nodes": [
+            {
+                "node": "67@newmail.net",
+                "in_degree": 1
+            },
+            {
+                "node": "ab28@mail.md",
+                "in_degree": 0
+            }
+        ]
+    },
+    {
+        "community_id": 228,
+        "size": 2,
+        "top_5_nodes": [
+            {
+                "node": "fbth5yjysa6z@hotmail.com",
+                "in_degree": 1
+            },
+            {
+                "node": "t43e27sc2rhu@hotmail.com",
+                "in_degree": 0
+            }
+        ]
+    },
+    {
+        "community_id": 229,
+        "size": 2,
+        "top_5_nodes": [
+            {
+                "node": "pvw6kt9jw19@hotmail.com",
+                "in_degree": 1
+            },
+            {
+                "node": "atrjknf1cieq@hotmail.com",
+                "in_degree": 0
+            }
+        ]
+    },
+    {
+        "community_id": 232,
+        "size": 2,
+        "top_5_nodes": [
+            {
+                "node": "speonwonzu@ever2.beontarget.com",
+                "in_degree": 1
+            },
+            {
+                "node": "never2late@ever2.beontarget.com",
+                "in_degree": 0
+            }
+        ]
+    },
+    {
+        "community_id": 233,
+        "size": 2,
+        "top_5_nodes": [
+            {
+                "node": "aster@amic.com",
+                "in_degree": 1
+            },
+            {
+                "node": "krzybob@4vendor.net",
+                "in_degree": 0
+            }
+        ]
+    },
+    {
+        "community_id": 234,
+        "size": 2,
+        "top_5_nodes": [
+            {
+                "node": "undisclosed.recipients@mail.kicoxventure.or.kr",
+                "in_degree": 1
+            },
+            {
+                "node": "cldftgmis@hotmail.com",
+                "in_degree": 0
+            }
+        ]
+    },
+    {
+        "community_id": 235,
+        "size": 2,
+        "top_5_nodes": [
+            {
+                "node": "home.refinace@mailman.enron.com",
+                "in_degree": 1
+            },
+            {
+                "node": "leonardo_dicaprio1@123india.com",
+                "in_degree": 0
+            }
+        ]
+    },
+    {
+        "community_id": 237,
+        "size": 2,
+        "top_5_nodes": [
+            {
+                "node": "mwoodson@enron.com",
+                "in_degree": 1
+            },
+            {
+                "node": "ac1111@earthlink.net",
+                "in_degree": 0
+            }
+        ]
+    },
+    {
+        "community_id": 238,
+        "size": 2,
+        "top_5_nodes": [
+            {
+                "node": "valuable.customer@mailman.enron.com",
+                "in_degree": 1
+            },
+            {
+                "node": "ki12t@yahoo.com",
+                "in_degree": 0
+            }
+        ]
+    },
+    {
+        "community_id": 239,
+        "size": 2,
+        "top_5_nodes": [
+            {
+                "node": "undisclosed.recipients@malaga.cofaran",
+                "in_degree": 1
+            },
+            {
+                "node": "v1ckvvjebrz@bigfoot.com",
+                "in_degree": 0
+            }
+        ]
+    },
+    {
+        "community_id": 240,
+        "size": 2,
+        "top_5_nodes": [
+            {
+                "node": "lcampbel@epix.net",
+                "in_degree": 1
+            },
+            {
+                "node": "janet691@swan.ac.uk",
+                "in_degree": 0
+            }
+        ]
+    },
+    {
+        "community_id": 241,
+        "size": 2,
+        "top_5_nodes": [
+            {
+                "node": "alabama@minx.co.uk",
+                "in_degree": 1
+            },
+            {
+                "node": "guss868@mail.ru",
+                "in_degree": 0
+            }
+        ]
+    },
+    {
+        "community_id": 242,
+        "size": 2,
+        "top_5_nodes": [
+            {
+                "node": "diamnsafir@mailman.enron.com",
+                "in_degree": 1
+            },
+            {
+                "node": "slscarlet@tjohoo.se",
+                "in_degree": 0
+            }
+        ]
+    },
+    {
+        "community_id": 243,
+        "size": 2,
+        "top_5_nodes": [
+            {
+                "node": "nyiso_tech_exchange@lists1.thebiz.net",
+                "in_degree": 1
+            },
+            {
+                "node": "tholmes@thebiz.net",
+                "in_degree": 0
+            }
+        ]
+    },
+    {
+        "community_id": 245,
+        "size": 2,
+        "top_5_nodes": [
+            {
+                "node": "slurpit69@mailman.enron.com",
+                "in_degree": 1
+            },
+            {
+                "node": "duchess4@inmail.sk",
+                "in_degree": 0
+            }
+        ]
+    },
+    {
+        "community_id": 251,
+        "size": 2,
+        "top_5_nodes": [
+            {
+                "node": "0889@netscape.com",
+                "in_degree": 1
+            },
+            {
+                "node": "zombiwoman@mail.com",
+                "in_degree": 0
+            }
+        ]
+    },
+    {
+        "community_id": 82,
+        "size": 2,
+        "top_5_nodes": [
+            {
+                "node": "j.nesmith@prodigy.net",
+                "in_degree": 1
+            },
+            {
+                "node": "klnesmith@compuserve.com",
+                "in_degree": 1
+            }
+        ]
+    },
+    {
+        "community_id": 107,
+        "size": 2,
+        "top_5_nodes": [
+            {
+                "node": "2361@csi.com",
+                "in_degree": 1
+            },
+            {
+                "node": "zljp06a@prodigy.com",
+                "in_degree": 0
+            }
+        ]
+    },
+    {
+        "community_id": 1,
+        "size": 2,
+        "top_5_nodes": [
+            {
+                "node": "mike.charchuk@telus.net",
+                "in_degree": 1
+            },
+            {
+                "node": "brittany69@swan.ac.uk",
+                "in_degree": 0
+            }
+        ]
+    },
+    {
+        "community_id": 9,
+        "size": 2,
+        "top_5_nodes": [
+            {
+                "node": "subscriber@mailboy.enron.com",
+                "in_degree": 1
+            },
+            {
+                "node": "tradingnews447577@yahoo.com",
+                "in_degree": 0
+            }
+        ]
+    },
+    {
+        "community_id": 25,
+        "size": 2,
+        "top_5_nodes": [
+            {
+                "node": "trader@mailboy.enron.com",
+                "in_degree": 1
+            },
+            {
+                "node": "urgentalert677638@yahoo.com",
+                "in_degree": 0
+            }
+        ]
+    },
+    {
+        "community_id": 161,
+        "size": 2,
+        "top_5_nodes": [
+            {
+                "node": "rocksearch@aol.com",
+                "in_degree": 1
+            },
+            {
+                "node": "rockwoodenergy@aol.com",
+                "in_degree": 0
+            }
+        ]
+    },
+    {
+        "community_id": 162,
+        "size": 2,
+        "top_5_nodes": [
+            {
+                "node": "newsletterdistributionlist@milchev.com",
+                "in_degree": 1
+            },
+            {
+                "node": "mc@milchev.com",
+                "in_degree": 0
+            }
+        ]
+    },
+    {
+        "community_id": 75,
+        "size": 2,
+        "top_5_nodes": [
+            {
+                "node": "mpascual@mdbe.com",
+                "in_degree": 1
+            },
+            {
+                "node": "pascual@enron.com",
+                "in_degree": 1
+            }
+        ]
+    },
+    {
+        "community_id": 22,
+        "size": 1,
+        "top_5_nodes": [
+            {
+                "node": "bodyshop@enron.com",
+                "in_degree": 1
+            }
+        ]
+    },
+    {
+        "community_id": 31,
+        "size": 1,
+        "top_5_nodes": [
+            {
+                "node": "members@realmoney.com",
+                "in_degree": 1
+            }
+        ]
+    },
+    {
+        "community_id": 32,
+        "size": 1,
+        "top_5_nodes": [
+            {
+                "node": "leanne@integrityrs.com",
+                "in_degree": 1
+            }
+        ]
+    },
+    {
+        "community_id": 34,
+        "size": 1,
+        "top_5_nodes": [
+            {
+                "node": "dleduca714@yahoo.com",
+                "in_degree": 1
+            }
+        ]
+    },
+    {
+        "community_id": 35,
+        "size": 1,
+        "top_5_nodes": [
+            {
+                "node": "capcon@gmu.edu",
+                "in_degree": 1
+            }
+        ]
+    },
+    {
+        "community_id": 38,
+        "size": 1,
+        "top_5_nodes": [
+            {
+                "node": "marketing@sparesfinder.com",
+                "in_degree": 1
+            }
+        ]
+    },
+    {
+        "community_id": 52,
+        "size": 1,
+        "top_5_nodes": [
+            {
+                "node": "cortwine@aol.com",
+                "in_degree": 1
+            }
+        ]
+    },
+    {
+        "community_id": 60,
+        "size": 1,
+        "top_5_nodes": [
+            {
+                "node": "amerosie748@yahoo.com",
+                "in_degree": 1
+            }
+        ]
+    },
+    {
+        "community_id": 62,
+        "size": 1,
+        "top_5_nodes": [
+            {
+                "node": "amore889@yahoo.com",
+                "in_degree": 1
+            }
+        ]
+    },
+    {
+        "community_id": 64,
+        "size": 1,
+        "top_5_nodes": [
+            {
+                "node": "wsandberg3@attbi.com",
+                "in_degree": 1
+            }
+        ]
+    },
+    {
+        "community_id": 71,
+        "size": 1,
+        "top_5_nodes": [
+            {
+                "node": "wsandberg3@home.com",
+                "in_degree": 1
+            }
+        ]
+    },
+    {
+        "community_id": 72,
+        "size": 1,
+        "top_5_nodes": [
+            {
+                "node": "purenrg123@aol.com",
+                "in_degree": 1
+            }
+        ]
+    },
+    {
+        "community_id": 86,
+        "size": 1,
+        "top_5_nodes": [
+            {
+                "node": "customerservice@giftbaskets.com",
+                "in_degree": 1
+            }
+        ]
+    },
+    {
+        "community_id": 90,
+        "size": 1,
+        "top_5_nodes": [
+            {
+                "node": "info@giftbaskets.com",
+                "in_degree": 1
+            }
+        ]
+    },
+    {
+        "community_id": 97,
+        "size": 1,
+        "top_5_nodes": [
+            {
+                "node": "foxsportsflash_h@mailings.foxsports.com",
+                "in_degree": 1
+            }
+        ]
+    },
+    {
+        "community_id": 98,
+        "size": 1,
+        "top_5_nodes": [
+            {
+                "node": "continentalvacations@lists.coolvacations.com",
+                "in_degree": 1
+            }
+        ]
+    },
+    {
+        "community_id": 100,
+        "size": 1,
+        "top_5_nodes": [
+            {
+                "node": "lists.coolvacations.com@lists.coolvacations.com",
+                "in_degree": 1
+            }
+        ]
+    },
+    {
+        "community_id": 101,
+        "size": 1,
+        "top_5_nodes": [
+            {
+                "node": "deltamemberslist@lists.deltavacations.com",
+                "in_degree": 1
+            }
+        ]
+    },
+    {
+        "community_id": 109,
+        "size": 1,
+        "top_5_nodes": [
+            {
+                "node": "ccvevents@aol.com",
+                "in_degree": 1
+            }
+        ]
+    },
+    {
+        "community_id": 137,
+        "size": 1,
+        "top_5_nodes": [
+            {
+                "node": "nmiyagi@reedwasden.com",
+                "in_degree": 1
+            }
+        ]
+    },
+    {
+        "community_id": 138,
+        "size": 1,
+        "top_5_nodes": [
+            {
+                "node": "bigalke237@yahoo.com",
+                "in_degree": 1
+            }
+        ]
+    },
+    {
+        "community_id": 139,
+        "size": 1,
+        "top_5_nodes": [
+            {
+                "node": "busse972@yahoo.com",
+                "in_degree": 1
+            }
+        ]
+    },
+    {
+        "community_id": 143,
+        "size": 1,
+        "top_5_nodes": [
+            {
+                "node": "mbellido@southerngas.org",
+                "in_degree": 1
+            }
+        ]
+    },
+    {
+        "community_id": 145,
+        "size": 1,
+        "top_5_nodes": [
+            {
+                "node": "dlouise@lanefinancialllc.com",
+                "in_degree": 1
+            }
+        ]
+    },
+    {
+        "community_id": 147,
+        "size": 1,
+        "top_5_nodes": [
+            {
+                "node": "aschram@scacompanies.com",
+                "in_degree": 1
+            }
+        ]
+    },
+    {
+        "community_id": 148,
+        "size": 1,
+        "top_5_nodes": [
+            {
+                "node": "thiessen@conferenceboard.ca",
+                "in_degree": 1
+            }
+        ]
+    },
+    {
+        "community_id": 151,
+        "size": 1,
+        "top_5_nodes": [
+            {
+                "node": "hesaul@winstarmail.com",
+                "in_degree": 1
+            }
+        ]
+    },
+    {
+        "community_id": 153,
+        "size": 1,
+        "top_5_nodes": [
+            {
+                "node": "dale@whitelight.com",
+                "in_degree": 1
+            }
+        ]
+    },
+    {
+        "community_id": 164,
+        "size": 1,
+        "top_5_nodes": [
+            {
+                "node": "sports@casinosports.com",
+                "in_degree": 1
+            }
+        ]
+    },
+    {
+        "community_id": 166,
+        "size": 1,
+        "top_5_nodes": [
+            {
+                "node": "mail@wallstreet.com",
+                "in_degree": 1
+            }
+        ]
+    },
+    {
+        "community_id": 167,
+        "size": 1,
+        "top_5_nodes": [
+            {
+                "node": "sports@bigwinsports.com",
+                "in_degree": 1
+            }
+        ]
+    },
+    {
+        "community_id": 170,
+        "size": 1,
+        "top_5_nodes": [
+            {
+                "node": "customerservice@betanything.com",
+                "in_degree": 1
+            }
+        ]
+    },
+    {
+        "community_id": 173,
+        "size": 1,
+        "top_5_nodes": [
+            {
+                "node": "seligman@nmoga.org",
+                "in_degree": 1
+            }
+        ]
+    },
+    {
+        "community_id": 178,
+        "size": 1,
+        "top_5_nodes": [
+            {
+                "node": "wallstreet@chargingrhino.net",
+                "in_degree": 1
+            }
+        ]
+    },
+    {
+        "community_id": 180,
+        "size": 1,
+        "top_5_nodes": [
+            {
+                "node": "wagerlist@onlinebettor.com",
+                "in_degree": 1
+            }
+        ]
+    },
+    {
+        "community_id": 181,
+        "size": 1,
+        "top_5_nodes": [
+            {
+                "node": "cew@sportslynx.com",
+                "in_degree": 1
+            }
+        ]
+    },
+    {
+        "community_id": 197,
+        "size": 1,
+        "top_5_nodes": [
+            {
+                "node": "cell_reception_booster@2die4.com",
+                "in_degree": 1
+            }
+        ]
+    },
+    {
+        "community_id": 209,
+        "size": 1,
+        "top_5_nodes": [
+            {
+                "node": "j25656@spray.no",
+                "in_degree": 1
+            }
+        ]
+    },
+    {
+        "community_id": 230,
+        "size": 1,
+        "top_5_nodes": [
+            {
+                "node": "p1729@topmail.dk",
+                "in_degree": 1
+            }
+        ]
+    },
+    {
+        "community_id": 231,
+        "size": 1,
+        "top_5_nodes": [
+            {
+                "node": "diederich545@yahoo.com",
+                "in_degree": 1
+            }
+        ]
+    },
+    {
+        "community_id": 236,
+        "size": 1,
+        "top_5_nodes": [
+            {
+                "node": "life_quotes@yahoo.com",
+                "in_degree": 1
+            }
+        ]
+    },
+    {
+        "community_id": 246,
+        "size": 1,
+        "top_5_nodes": [
+            {
+                "node": "automation.document@enron.com",
+                "in_degree": 1
+            }
+        ]
+    },
+    {
+        "community_id": 128,
+        "size": 1,
+        "top_5_nodes": [
+            {
+                "node": "optin@sungrp.com",
+                "in_degree": 1
+            }
+        ]
+    },
+    {
+        "community_id": 17,
+        "size": 1,
+        "top_5_nodes": [
+            {
+                "node": "members@premierinvestornetwork.com",
+                "in_degree": 1
+            }
+        ]
+    },
+    {
+        "community_id": 73,
+        "size": 1,
+        "top_5_nodes": [
+            {
+                "node": "ailey179@yahoo.com",
+                "in_degree": 1
+            }
+        ]
+    },
+    {
+        "community_id": 81,
+        "size": 1,
+        "top_5_nodes": [
+            {
+                "node": "alumni@tulane.edu",
+                "in_degree": 1
+            }
+        ]
+    }
+]
