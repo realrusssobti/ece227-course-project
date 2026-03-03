@@ -1,0 +1,1206 @@
+
+1. Reading emails.csv and parsing network...
+Network built! Nodes: 15604, Edges: 53232
+
+2. Calculating Centrality Metrics...
+Top 10 by In-Degree:
+[('sally.beck@enron.com', 539), ('don.baughman@enron.com', 356), ('rick.buy@enron.com', 297), ('michelle.cash@enron.com', 259), ('lcampbel@enron.com', 187), ('john.arnold@enron.com', 163), ('lynn.blair@enron.com', 151), ('harry.arora@enron.com', 142), ('larry.campbell@enron.com', 141), ('eric.bass@enron.com', 139)]
+
+Top 10 by Out-Degree:
+[('sally.beck@enron.com', 1245), ('kenneth.lay@enron.com', 915), ('david.forster@enron.com', 821), ('bob.ambrocik@enron.com', 795), ('daniel.muschar@enron.com', 721), ('julie.clyatt@enron.com', 713), ('technology.enron@enron.com', 708), ('david.oxley@enron.com', 612), ('neil.davies@enron.com', 510), ('tom.wilbeck@enron.com', 504)]
+
+Computing Betweenness Centrality (this takes a moment)...
+Top 10 by Betweenness Centrality:
+[('sally.beck@enron.com', 11012951.981512358), ('don.baughman@enron.com', 4297651.547195136), ('larry.campbell@enron.com', 3335705.7169372113), ('rick.buy@enron.com', 2988768.017713414), ('michelle.cash@enron.com', 2627176.6099250033), ('eric.bass@enron.com', 1861450.1714903603), ('john.arnold@enron.com', 1798753.904861135), ('lynn.blair@enron.com', 1569698.0187880646), ('daniel.muschar@enron.com', 1464950.7487084751), ('kenneth.lay@enron.com', 1452462.9729848404)]
+
+Computing Eigenvector Centrality...
+/tmp/ipykernel_374/1141189728.py:88: RuntimeWarning: Some eigenvector centralities are nearly zero, indicating that the graph may not be (strongly) connected. Eigenvector centrality is not meaningful for disconnected graphs. Location: src/centrality/eigenvector.c:102
+  eigenvector = enron_ig.eigenvector_centrality(directed=True)
+Top 10 by Eigenvector Centrality:
+[('sally.beck@enron.com', 1.0), ('rick.buy@enron.com', 0.42164502373558566), ('don.baughman@enron.com', 0.32474718742524145), ('john.lavorato@enron.com', 0.300019639324894), ('john.arnold@enron.com', 0.27695859587042454), ('louise.kitchen@enron.com', 0.2580311356419792), ('wes.colwell@enron.com', 0.25781034386228985), ('greg.whalley@enron.com', 0.25245541343150335), ('greg.piper@enron.com', 0.2514511591957497), ('robert.benson@enron.com', 0.24094126680712505)]
+
+3. Calculating Top 10% Overlaps...
+Nodes in top 10% of In-Degree AND Betweenness: 811
+Nodes in top 10% of In-Degree AND Eigenvector: 834
+
+
+
+--- Top 5 Central Nodes per Community (by In-Degree) ---
+    (Ordered by Community Size: Largest to Smallest)
+
+Community 2 (Size: 1801 nodes):
+  1. sally.beck@enron.com (In-Degree: 539)
+  2. wes.colwell@enron.com (In-Degree: 87)
+  3. shona.wilson@enron.com (In-Degree: 74)
+  4. greg.piper@enron.com (In-Degree: 73)
+  5. ted.murphy@enron.com (In-Degree: 73)
+
+Community 0 (Size: 1425 nodes):
+  1. eric.bass@enron.com (In-Degree: 139)
+  2. scott.neal@enron.com (In-Degree: 98)
+  3. k..allen@enron.com (In-Degree: 87)
+  4. david.oxley@enron.com (In-Degree: 74)
+  5. f..brawner@enron.com (In-Degree: 70)
+
+Community 10 (Size: 1370 nodes):
+  1. don.baughman@enron.com (In-Degree: 356)
+  2. mike.carson@enron.com (In-Degree: 131)
+  3. robert.benson@enron.com (In-Degree: 104)
+  4. lloyd.will@enron.com (In-Degree: 67)
+  5. dana.davis@enron.com (In-Degree: 65)
+
+Community 11 (Size: 1103 nodes):
+  1. rick.buy@enron.com (In-Degree: 297)
+  2. john.lavorato@enron.com (In-Degree: 91)
+  3. richard.causey@enron.com (In-Degree: 85)
+  4. louise.kitchen@enron.com (In-Degree: 84)
+  5. greg.whalley@enron.com (In-Degree: 79)
+
+Community 37 (Size: 1049 nodes):
+  1. kenneth.lay@enron.com (In-Degree: 35)
+  2. bryan.hull@enron.com (In-Degree: 31)
+  3. jennifer.medcalf@enron.com (In-Degree: 25)
+  4. sheetal.patel@enron.com (In-Degree: 22)
+  5. chad.landry@enron.com (In-Degree: 18)
+
+Community 3 (Size: 942 nodes):
+  1. lynn.blair@enron.com (In-Degree: 151)
+  2. shelley.corman@enron.com (In-Degree: 67)
+  3. john.buchanan@enron.com (In-Degree: 62)
+  4. steve.january@enron.com (In-Degree: 61)
+  5. terry.kowalke@enron.com (In-Degree: 54)
+
+Community 14 (Size: 723 nodes):
+  1. larry.campbell@enron.com (In-Degree: 141)
+  2. lcampbe@enron.com (In-Degree: 31)
+  3. william.kendrick@enron.com (In-Degree: 21)
+  4. rick.loveless@enron.com (In-Degree: 19)
+  5. mike.riedel@enron.com (In-Degree: 16)
+
+Community 29 (Size: 617 nodes):
+  1. houston <.ward@enron.com> (In-Degree: 16)
+  2. e-mail <.john@enron.com> (In-Degree: 12)
+  3. e-mail <.chris@enron.com> (In-Degree: 9)
+  4. e-mail <.david@enron.com> (In-Degree: 9)
+  5. tim.carter@enron.com (In-Degree: 9)
+
+Community 7 (Size: 583 nodes):
+  1. john.arnold@enron.com (In-Degree: 163)
+  2. ebass@enron.com (In-Degree: 95)
+  3. pallen@enron.com (In-Degree: 67)
+  4. jarnold@enron.com (In-Degree: 42)
+  5. dbaughm@ect.enron.com (In-Degree: 24)
+
+Community 5 (Size: 548 nodes):
+  1. susan.bailey@enron.com (In-Degree: 72)
+  2. alan.aronowitz@enron.com (In-Degree: 34)
+  3. elizabeth.sager@enron.com (In-Degree: 30)
+  4. sara.shackleton@enron.com (In-Degree: 26)
+  5. legal <.taylor@enron.com> (In-Degree: 26)
+
+Community 21 (Size: 537 nodes):
+  1. avril.forster@enron.com (In-Degree: 6)
+  2. john.henderson@enron.com (In-Degree: 6)
+  3. jarrod.cyprow@enron.com (In-Degree: 5)
+  4. ramona.perkins@enron.com (In-Degree: 5)
+  5. greg.brazaitis@enron.com (In-Degree: 4)
+
+Community 168 (Size: 500 nodes):
+  1. michelle.cash@enron.com (In-Degree: 259)
+  2. exec.jones@enron.com (In-Degree: 36)
+  3. mary.joyce@enron.com (In-Degree: 31)
+  4. fran.mayes@enron.com (In-Degree: 30)
+  5. lizzette.palmer@enron.com (In-Degree: 29)
+
+Community 26 (Size: 349 nodes):
+  1. harry.arora@enron.com (In-Degree: 142)
+  2. jeff.bartlett@enron.com (In-Degree: 19)
+  3. suresh.raghavan@enron.com (In-Degree: 18)
+  4. eric.boyt@enron.com (In-Degree: 11)
+  5. harora@ect.enron.com (In-Degree: 11)
+
+Community 63 (Size: 328 nodes):
+  1. lcampbel@enron.com (In-Degree: 187)
+  2. chi325@hotmail.com (In-Degree: 9)
+  3. ansalon@houston.rr.com (In-Degree: 8)
+  4. mqdo@yahoo.com (In-Degree: 8)
+  5. sarahmyu@hotmail.com (In-Degree: 8)
+
+Community 79 (Size: 264 nodes):
+  1. phillip.love@enron.com (In-Degree: 11)
+  2. patrick.ryder@enron.com (In-Degree: 8)
+  3. ebass@ect.enron.com (In-Degree: 8)
+  4. jason.bass2@compaq.com (In-Degree: 7)
+  5. lwbthemarine@bigplanet.com (In-Degree: 5)
+
+Community 6 (Size: 259 nodes):
+  1. james.steffes@enron.com (In-Degree: 20)
+  2. sarah.novosel@enron.com (In-Degree: 20)
+  3. jeff.dasovich@enron.com (In-Degree: 18)
+  4. dennis.benevides@enron.com (In-Degree: 15)
+  5. alan.comnes@enron.com (In-Degree: 14)
+
+Community 103 (Size: 250 nodes):
+  1. stewart@mallia.com (In-Degree: 6)
+  2. reidstav@houston.rr.com (In-Degree: 6)
+  3. shannontyer@email.msn.com (In-Degree: 5)
+  4. stewart.marc@enron.com (In-Degree: 5)
+  5. lstavinoha@themedlehgroup.com (In-Degree: 4)
+
+Community 122 (Size: 221 nodes):
+  1. james.mairet@kwikset.com (In-Degree: 4)
+  2. m_besch@yahoo.com (In-Degree: 4)
+  3. mbower@bellatlantic.net (In-Degree: 4)
+  4. cdownard@vailresorts.com (In-Degree: 3)
+  5. chjohnson98@hotmail.com (In-Degree: 3)
+
+Community 127 (Size: 212 nodes):
+  1. nramsey@houston.rr.com (In-Degree: 3)
+  2. ges@houston.rr.com (In-Degree: 2)
+  3. sarahm@flex.net (In-Degree: 2)
+  4. tgallagherbell@aol.com (In-Degree: 2)
+  5. momcat5cwl@aol.com (In-Degree: 2)
+
+Community 158 (Size: 202 nodes):
+  1. rking@hess.com (In-Degree: 2)
+  2. jbarfield@hess.com (In-Degree: 1)
+  3. mdelossantos@hess.com (In-Degree: 1)
+  4. acope@hess.com (In-Degree: 1)
+  5. kboggan@hess.com (In-Degree: 1)
+
+Community 163 (Size: 181 nodes):
+  1. market_relations@nyiso.com (In-Degree: 28)
+  2. nyiso_tech_exchange@global2000.net (In-Degree: 22)
+  3. tie_list_server@nyiso.com (In-Degree: 16)
+  4. marketrelations@nyiso.com (In-Degree: 3)
+  5. nyiso@nyiso.com (In-Degree: 3)
+
+Community 13 (Size: 165 nodes):
+  1. spendegr@enron.com (In-Degree: 6)
+  2. cruikshankk@conedsolutions.com (In-Degree: 6)
+  3. lsmorris@metromediaenergy.com (In-Degree: 6)
+  4. pbaratz@totalnrg.com (In-Degree: 6)
+  5. george.rahal@acnpower.com (In-Degree: 5)
+
+Community 74 (Size: 153 nodes):
+  1. 20participants@caiso.com (In-Degree: 9)
+  2. marketparticipants@caiso.com (In-Degree: 6)
+  3. marketstatus@caiso.com (In-Degree: 4)
+  4. scsettlecontacts@caiso.com (In-Degree: 2)
+  5. tswg@caiso.com (In-Degree: 2)
+
+Community 104 (Size: 120 nodes):
+  1. physics123@yahoo.com (In-Degree: 4)
+  2. kvanpelt@flash.net (In-Degree: 3)
+  3. bvanpelt@flash.net (In-Degree: 3)
+  4. welch_dave@provalue.net (In-Degree: 3)
+  5. tulsama@worldnet.att.net (In-Degree: 3)
+
+Community 159 (Size: 117 nodes):
+  1. trish_garant@perrygas.com (In-Degree: 2)
+  2. jessicasullens@utilityservicegroup.com (In-Degree: 2)
+  3. mjones@infiniteenergy.com (In-Degree: 2)
+  4. mveal@texicangas.com (In-Degree: 2)
+  5. scrane@shellus.com (In-Degree: 2)
+
+Community 8 (Size: 108 nodes):
+  1. thielhorn'.'aaron@enron.com (In-Degree: 1)
+  2. guidry'.'aimee@enron.com (In-Degree: 1)
+  3. gulfsouth <.winkle@enron.com> (In-Degree: 1)
+  4. burlington <'.'anne@enron.com> (In-Degree: 1)
+  5. freeman'.'anne@enron.com (In-Degree: 1)
+
+Community 124 (Size: 95 nodes):
+  1. brock.uncle@enron.com (In-Degree: 1)
+  2. schoellkopf.trey@enron.com (In-Degree: 1)
+  3. brooker.tom@enron.com (In-Degree: 1)
+  4. blasky.tom@enron.com (In-Degree: 1)
+  5. olkowski.tedd@enron.com (In-Degree: 1)
+
+Community 18 (Size: 85 nodes):
+  1. all.worldwide@enron.com (In-Degree: 8)
+  2. all.houston@enron.com (In-Degree: 3)
+  3. all.downtown@enron.com (In-Degree: 3)
+  4. enw-employees@enron.com (In-Degree: 2)
+  5. ena.employees@enron.com (In-Degree: 2)
+
+Community 116 (Size: 84 nodes):
+  1. anthony.duenner@enron.com (In-Degree: 4)
+  2. dan.boyle@enron.com (In-Degree: 3)
+  3. james_r_easter@reliantenergy.com (In-Degree: 1)
+  4. mhowe@enron.com (In-Degree: 1)
+  5. rrice@enron.com (In-Degree: 1)
+
+Community 208 (Size: 84 nodes):
+  1. thomson.vanessa@enron.com (In-Degree: 3)
+  2. bellew.brandon@enron.com (In-Degree: 3)
+  3. trinh.thanh@enron.com (In-Degree: 3)
+  4. beasley.tassy@enron.com (In-Degree: 3)
+  5. rall.ryan@enron.com (In-Degree: 3)
+
+Community 150 (Size: 83 nodes):
+  1. rbuy@ect.enron.com (In-Degree: 4)
+  2. cmadding@spe.org (In-Degree: 1)
+  3. bkspee@aol.com (In-Degree: 1)
+  4. glillie@concentric.net (In-Degree: 1)
+  5. anderson@wynncrosby.com (In-Degree: 1)
+
+Community 4 (Size: 76 nodes):
+  1. sandra.f.brawner@enron.com (In-Degree: 5)
+  2. stouchstone@natsource.com (In-Degree: 3)
+  3. jons@amerexenergy.com (In-Degree: 3)
+  4. s.schnitzer@worldnet.att.net (In-Degree: 2)
+  5. pama9@flash.net (In-Degree: 2)
+
+Community 77 (Size: 71 nodes):
+  1. pool.jessica@enron.com (In-Degree: 2)
+  2. wheless.laura@enron.com (In-Degree: 2)
+  3. tharp.larry@enron.com (In-Degree: 2)
+  4. scott.naomi@enron.com (In-Degree: 2)
+  5. pratt.scott@enron.com (In-Degree: 2)
+
+Community 76 (Size: 67 nodes):
+  1. bill_williams@pgn.com (In-Degree: 1)
+  2. bill_williams_iii@pgn.com (In-Degree: 1)
+  3. cooper_richey@pgn.com (In-Degree: 1)
+  4. frank_w_vickers@pgn.com (In-Degree: 1)
+  5. gray_calvert@pgn.com (In-Degree: 1)
+
+Community 250 (Size: 58 nodes):
+  1. heinecke.justin@enron.com (In-Degree: 1)
+  2. mmoore@enron.com (In-Degree: 1)
+  3. stanton.scott@enron.com (In-Degree: 1)
+  4. vaccaro.john@enron.com (In-Degree: 1)
+  5. yamamura.alan@enron.com (In-Degree: 1)
+
+Community 118 (Size: 50 nodes):
+  1. dept..braintree@enron.com (In-Degree: 2)
+  2. mongeon.brian@enron.com (In-Degree: 2)
+  3. department.burlington@enron.com (In-Degree: 2)
+  4. martin.cambridge@enron.com (In-Degree: 2)
+  5. azulay.cambridge@enron.com (In-Degree: 2)
+
+Community 126 (Size: 50 nodes):
+  1. tjacobs@ou.edu (In-Degree: 2)
+  2. lysanys@yahoo.com (In-Degree: 1)
+  3. bachtiarf@cs.com (In-Degree: 1)
+  4. andrew.b.bishop-1@ou.edu (In-Degree: 1)
+  5. jblose79@hotmail.com (In-Degree: 1)
+
+Community 244 (Size: 36 nodes):
+  1. homerh@flash.net (In-Degree: 1)
+  2. liu.charles@enron.com (In-Degree: 1)
+  3. yee.dan@enron.com (In-Degree: 1)
+  4. ng.jeannie@enron.com (In-Degree: 1)
+  5. kwok.robert@enron.com (In-Degree: 1)
+
+Community 36 (Size: 34 nodes):
+  1. dl-ga-all_enron_worldwide2@enron.com (In-Degree: 8)
+  2. dl-ga-all_enron_worldwide1@enron.com (In-Degree: 7)
+  3. dl-ga-all_enron_houston@enron.com (In-Degree: 5)
+  4. dl-ga-all_enron_worldwide4@enron.com (In-Degree: 4)
+  5. dl-ga-all_enron_worldwide5@enron.com (In-Degree: 3)
+
+Community 108 (Size: 33 nodes):
+  1. batoggero@yahoo.com (In-Degree: 4)
+  2. newman.mike@enron.com (In-Degree: 2)
+  3. hunter.gready@enron.com (In-Degree: 2)
+  4. williams.troy@enron.com (In-Degree: 2)
+  5. henderson.mark@enron.com (In-Degree: 2)
+
+Community 140 (Size: 32 nodes):
+  1. lblair@enron.com (In-Degree: 9)
+  2. ward@enron.com (In-Degree: 2)
+  3. pdavidson@socalgas.com (In-Degree: 1)
+  4. 'blair@enron.com (In-Degree: 1)
+  5. caulson@enron.com (In-Degree: 1)
+
+Community 33 (Size: 25 nodes):
+  1. undisclosed.recipients@mailman.enron.com (In-Degree: 24)
+  2. gousa6179@hotmail.kg (In-Degree: 0)
+  3. infousa4492@telkom.net (In-Degree: 0)
+  4. usatoday1430@hotmail.kg (In-Degree: 0)
+  5. infousa9596@eudoramail.com (In-Degree: 0)
+
+Community 247 (Size: 20 nodes):
+  1. kenrcars@aol.com (In-Degree: 3)
+  2. mcarson@gtemail.net (In-Degree: 2)
+  3. susan@metronet.com (In-Degree: 2)
+  4. carson@us.ibm.com (In-Degree: 2)
+  5. traviswc@aol.com (In-Degree: 2)
+
+Community 135 (Size: 15 nodes):
+  1. betsy.poland@enron.com (In-Degree: 1)
+  2. patricia.cornelius@enron.com (In-Degree: 1)
+  3. karin.werlang@enron.com (In-Degree: 1)
+  4. donna.daman@enron.com (In-Degree: 1)
+  5. leslie.mcmanus@enron.com (In-Degree: 1)
+
+Community 19 (Size: 11 nodes):
+  1. strawbale@crest.org (In-Degree: 6)
+  2. calxa@aol.com (In-Degree: 1)
+  3. absteen@dakotacom.net (In-Degree: 1)
+  4. mccormick@elkus-manfredi.com (In-Degree: 1)
+  5. kopp@kinneret.kinneret.co.il (In-Degree: 1)
+
+Community 27 (Size: 11 nodes):
+  1. forbes.andrea@enron.com (In-Degree: 1)
+  2. gregg.brian@enron.com (In-Degree: 1)
+  3. burns.chad@enron.com (In-Degree: 1)
+  4. downard.cody@enron.com (In-Degree: 1)
+  5. gregg.gary@enron.com (In-Degree: 1)
+
+Community 149 (Size: 10 nodes):
+  1. vweir@firstunion1.com (In-Degree: 1)
+  2. hemery@firstunion1.com (In-Degree: 1)
+  3. dblake3@firstunion1.com (In-Degree: 1)
+  4. gjones@firstunion1.com (In-Degree: 1)
+  5. mdowd@firstunion1.com (In-Degree: 1)
+
+Community 249 (Size: 10 nodes):
+  1. wentapb@sprintmail.com (In-Degree: 1)
+  2. quigleyb@sensormatic.com (In-Degree: 1)
+  3. wowbenz@hotmail.com (In-Degree: 1)
+  4. dvglobal@earthlink.net (In-Degree: 1)
+  5. derek_sandstrom@crestone.com (In-Degree: 1)
+
+Community 78 (Size: 9 nodes):
+  1. users.dl-enron@enron.com (In-Degree: 2)
+  2. users1.dl-enron@enron.com (In-Degree: 1)
+  3. users2.dl-enron@enron.com (In-Degree: 1)
+  4. users3.dl-enron@enron.com (In-Degree: 1)
+  5. users4.dl-enron@enron.com (In-Degree: 1)
+
+Community 248 (Size: 9 nodes):
+  1. btusux@football.fantasy.sportsline.com (In-Degree: 8)
+  2. ken.merideth@entergykoch.com (In-Degree: 1)
+  3. dgrimes@ibshouston.com (In-Degree: 1)
+  4. ddavenport@multifuels.com (In-Degree: 1)
+  5. craige@fbg.net (In-Degree: 1)
+
+Community 83 (Size: 8 nodes):
+  1. undisclosed-recipients@enron.com (In-Degree: 7)
+  2. clickathome@enron.com (In-Degree: 4)
+  3. ibuyit@enron.com (In-Degree: 0)
+  4. 5rzbqjiyp@homebiz.com (In-Degree: 0)
+  5. zvo2z17d0@untappedmarkets.com (In-Degree: 0)
+
+Community 12 (Size: 7 nodes):
+  1. energyinsight@spector.ftenergy.com (In-Degree: 3)
+  2. dwagman@ftenergy.com (In-Degree: 1)
+  3. einsighthtml@spector.ftenergy.com (In-Degree: 1)
+  4. einsighthtml@listserv.ftenergy.com (In-Degree: 1)
+  5. einsighthtml@list1.resdata.com (In-Degree: 1)
+
+Community 15 (Size: 7 nodes):
+  1. western.price.survey.contacts@ren-6.cais.net (In-Degree: 1)
+  2. western.price.survey.contacts@proxy4.ba.best.com (In-Degree: 1)
+  3. western.price.survey.contacts@ren-3.cais.net (In-Degree: 1)
+  4. western.price.survey.contacts@ren-2.cais.net (In-Degree: 1)
+  5. western.price.survey.contacts@ren-8.cais.net (In-Degree: 1)
+
+Community 43 (Size: 6 nodes):
+  1. reiscast__wave_two@reis-reports.unitymail.net (In-Degree: 5)
+  2. reiscast__wave_two.um.a.1013.218@reis-reports.unitymail.net (In-Degree: 0)
+  3. reiscast__wave_two.um.a.1013.228@reis-reports.unitymail.net (In-Degree: 0)
+  4. reiscast__wave_two.um.a.1013.241@reis-reports.unitymail.net (In-Degree: 0)
+  5. reiscast__wave_two.um.a.1013.332@reis-reports.unitymail.net (In-Degree: 0)
+
+Community 132 (Size: 6 nodes):
+  1. darcilla@viviance.com (In-Degree: 1)
+  2. sjaiswal@viviance.com (In-Degree: 1)
+  3. ealto@viviance.com (In-Degree: 1)
+  4. mhoy@viviance.com (In-Degree: 1)
+  5. mmcphee@viviance.com (In-Degree: 1)
+
+Community 45 (Size: 5 nodes):
+  1. september2001@lists.winebid.com (In-Degree: 1)
+  2. october2001@lists.winebid.com (In-Degree: 1)
+  3. december2001@lists.winebid.com (In-Degree: 1)
+  4. november2001@lists.winebid.com (In-Degree: 1)
+  5. info@winebid.com (In-Degree: 0)
+
+Community 67 (Size: 5 nodes):
+  1. sande@pira.com (In-Degree: 1)
+  2. eileen@pira.com (In-Degree: 1)
+  3. greg@pira.com (In-Degree: 1)
+  4. vwatkins@pira.com (In-Degree: 1)
+  5. distribution@pira.com (In-Degree: 0)
+
+Community 55 (Size: 5 nodes):
+  1. mcash@enron.com (In-Degree: 4)
+  2. twayne@waynedirect.com (In-Degree: 0)
+  3. myupdates@jacksonlewis.com (In-Degree: 0)
+  4. sgreenberg@glocap.com (In-Degree: 0)
+  5. dmoll@central.uh.edu (In-Degree: 0)
+
+Community 94 (Size: 4 nodes):
+  1. textbreakingnews@cnnimail12.cnn.com (In-Degree: 2)
+  2. textbreakingnews@cnnimail4.cnn.com (In-Degree: 1)
+  3. breakingnews@mail.cnn.com (In-Degree: 0)
+  4. breakingnews@cnn.com (In-Degree: 0)
+
+Community 111 (Size: 4 nodes):
+  1. dbaughm@notes.enron.com (In-Degree: 1)
+  2. mbryant@notes.enron.com (In-Degree: 1)
+  3. lblair@notes.enron.com (In-Degree: 1)
+  4. enron.mailsweeper.admin@enron.com (In-Degree: 0)
+
+Community 141 (Size: 4 nodes):
+  1. enerfax@yahoogroups.com (In-Degree: 2)
+  2. enerfaxgold@yahoogroups.com (In-Degree: 1)
+  3. enerfax@msn.com (In-Degree: 0)
+  4. enerfax1@aol.com (In-Degree: 0)
+
+Community 146 (Size: 4 nodes):
+  1. asme-omae-houston@yahoogroups.com (In-Degree: 3)
+  2. philgrossweiler@alum.mit.edu (In-Degree: 0)
+  3. enron.com@returns.groups.yahoo.com (In-Degree: 0)
+  4. p.grossweiler@att.net (In-Degree: 0)
+
+Community 80 (Size: 4 nodes):
+  1. jordan.w.cowman@bakernet.com (In-Degree: 1)
+  2. barganier@enron.com (In-Degree: 1)
+  3. sam.barganier@bakernet.com (In-Degree: 1)
+  4. cowman@enron.com (In-Degree: 1)
+
+Community 24 (Size: 3 nodes):
+  1. sumey@enron.com (In-Degree: 2)
+  2. ksumey@ftenergy.com (In-Degree: 1)
+  3. katrina_sumey@platts.com (In-Degree: 1)
+
+Community 30 (Size: 3 nodes):
+  1. tech_alert@listserv.dowjones.com (In-Degree: 1)
+  2. business_alert@listserv.dowjones.com (In-Degree: 1)
+  3. e-mail.center@wsj.com (In-Degree: 0)
+
+Community 44 (Size: 3 nodes):
+  1. alluserstext@newsletter.ussoccer.com (In-Degree: 1)
+  2. allolduserstext@newsletter.ussoccer.com (In-Degree: 1)
+  3. webmaster@newsletter.ussoccer.com (In-Degree: 0)
+
+Community 46 (Size: 3 nodes):
+  1. ussoccerfan_tx@maillist.ussoccer.org (In-Degree: 1)
+  2. turnuson@maillist.ussoccer.org (In-Degree: 1)
+  3. ussoccerfan@ussoccer.org (In-Degree: 0)
+
+Community 58 (Size: 3 nodes):
+  1. smollner@carrfut.com (In-Degree: 1)
+  2. rvujtech@carrfut.com (In-Degree: 1)
+  3. carrfuturesenergy@carrfut.com (In-Degree: 0)
+
+Community 85 (Size: 3 nodes):
+  1. cheatsheets@egroups.com (In-Degree: 2)
+  2. cheatsheets@yahoogroups.com (In-Degree: 1)
+  3. bryant@cheatsheets.net (In-Degree: 0)
+
+Community 88 (Size: 3 nodes):
+  1. clone@mail.hotelresnetwork.com (In-Degree: 1)
+  2. specials1@mail.hotelresnetwork.com (In-Degree: 1)
+  3. hotdeals@mail.hotelresnetwork.com (In-Degree: 0)
+
+Community 93 (Size: 3 nodes):
+  1. energynews@fc.ease.lsoft.com (In-Degree: 2)
+  2. allison@firstconf.com (In-Degree: 0)
+  3. bruno@firstconf.com (In-Degree: 0)
+
+Community 96 (Size: 3 nodes):
+  1. postmaster@your.smtp.com (In-Degree: 2)
+  2. specials@icruise.com (In-Degree: 0)
+  3. flash@icruise.com (In-Degree: 0)
+
+Community 114 (Size: 3 nodes):
+  1. ona@esp-net.com (In-Degree: 1)
+  2. david@esp-net.com (In-Degree: 1)
+  3. jim@esp-net.com (In-Degree: 1)
+
+Community 117 (Size: 3 nodes):
+  1. don_baughman@enron.com (In-Degree: 2)
+  2. david.h.mendez@dynegy.com (In-Degree: 0)
+  3. dmaskell@houston.rr.com (In-Degree: 0)
+
+Community 142 (Size: 3 nodes):
+  1. all.xms.users@enron.com (In-Degree: 1)
+  2. dl.-.pay.advise@enron.com (In-Degree: 1)
+  3. integrated.solutions.center@enron.com (In-Degree: 0)
+
+Community 154 (Size: 3 nodes):
+  1. drerupd@ds-s.com (In-Degree: 2)
+  2. drerup@enron.com (In-Degree: 2)
+  3. paul.manning@honeywell.com (In-Degree: 0)
+
+Community 160 (Size: 3 nodes):
+  1. sportingbetusa@lists.sportingbet.com (In-Degree: 2)
+  2. daniell@sportingbetusa.com (In-Degree: 0)
+  3. newsletter@sportingbetusa.com (In-Degree: 0)
+
+Community 169 (Size: 3 nodes):
+  1. undisclosed@mailman.enron.com (In-Degree: 1)
+  2. recipients@lockers-pl.com.au (In-Degree: 1)
+  3. gc1bd81@post.sk (In-Degree: 0)
+
+Community 176 (Size: 3 nodes):
+  1. sunnygreece@travelling.gr (In-Degree: 1)
+  2. members@horny18.net (In-Degree: 1)
+  3. janey@horny18.net (In-Degree: 0)
+
+Community 198 (Size: 3 nodes):
+  1. ems@enron.com (In-Degree: 2)
+  2. c23266@thai2k.com (In-Degree: 0)
+  3. s22028@fun.21cn.com (In-Degree: 0)
+
+Community 20 (Size: 3 nodes):
+  1. money.in.motion@mailman.enron.com (In-Degree: 2)
+  2. bmiimarket@eudoramail.com (In-Degree: 0)
+  3. icmh1737@eudoramail.com (In-Degree: 0)
+
+Community 16 (Size: 2 nodes):
+  1. market_alert@listserv.dowjones.com (In-Degree: 1)
+  2. market-reply@listserv.dowjones.com (In-Degree: 0)
+
+Community 23 (Size: 2 nodes):
+  1. einsighthtml@listserv.platts.com (In-Degree: 1)
+  2. ei_editor@platts.com (In-Degree: 0)
+
+Community 28 (Size: 2 nodes):
+  1. electricatlas01@listserv.ftenergy.com (In-Degree: 1)
+  2. dmallory@ftenergy.com (In-Degree: 0)
+
+Community 39 (Size: 2 nodes):
+  1. lisa.herman@citicorp.com (In-Degree: 1)
+  2. michael.kushner@enron.com (In-Degree: 0)
+
+Community 40 (Size: 2 nodes):
+  1. ddrxbri@msn.com (In-Degree: 1)
+  2. c10mkf@msn.com (In-Degree: 0)
+
+Community 41 (Size: 2 nodes):
+  1. kzgnpar@msn.com (In-Degree: 1)
+  2. 5z33t95as@msn.com (In-Degree: 0)
+
+Community 42 (Size: 2 nodes):
+  1. idrc.houston.chapter@mailman.enron.com (In-Degree: 1)
+  2. melissa.ginocchio@idrc.org (In-Degree: 0)
+
+Community 47 (Size: 2 nodes):
+  1. zeu3rk@msn.com (In-Degree: 1)
+  2. tz3qu@msn.com (In-Degree: 0)
+
+Community 48 (Size: 2 nodes):
+  1. dsanchez@tradespark.com (In-Degree: 1)
+  2. sanchez@enron.com (In-Degree: 1)
+
+Community 49 (Size: 2 nodes):
+  1. newsletter@libation.com (In-Degree: 1)
+  2. peter@libation.com (In-Degree: 0)
+
+Community 50 (Size: 2 nodes):
+  1. djn_futures@lists.dowjonesnewswires.com (In-Degree: 1)
+  2. dow.jones.newswiresnewswires@dowjones.com (In-Degree: 0)
+
+Community 51 (Size: 2 nodes):
+  1. 5e8nx4it@msn.com (In-Degree: 1)
+  2. ls2fd8x@msn.com (In-Degree: 0)
+
+Community 53 (Size: 2 nodes):
+  1. i3ytqktw@msn.com (In-Degree: 1)
+  2. trytb910@msn.com (In-Degree: 0)
+
+Community 54 (Size: 2 nodes):
+  1. qq1173@msn.com (In-Degree: 1)
+  2. 6gc86@msn.com (In-Degree: 0)
+
+Community 56 (Size: 2 nodes):
+  1. 4y2wgyg621@msn.com (In-Degree: 1)
+  2. 310fkn6iqva@msn.com (In-Degree: 0)
+
+Community 57 (Size: 2 nodes):
+  1. 8rbg1tdd@msn.com (In-Degree: 1)
+  2. vbz8g5@msn.com (In-Degree: 0)
+
+Community 59 (Size: 2 nodes):
+  1. mxyk@msn.com (In-Degree: 1)
+  2. j9aqqi2@msn.com (In-Degree: 0)
+
+Community 61 (Size: 2 nodes):
+  1. mcf8qyloqs@msn.com (In-Degree: 1)
+  2. 2p5wd2@msn.com (In-Degree: 0)
+
+Community 65 (Size: 2 nodes):
+  1. lighthouse@independent.org (In-Degree: 1)
+  2. djtheroux@independent.org (In-Degree: 0)
+
+Community 66 (Size: 2 nodes):
+  1. joseph.macaione@gs.com (In-Degree: 1)
+  2. macaione@enron.com (In-Degree: 1)
+
+Community 68 (Size: 2 nodes):
+  1. info@lajollaeconomics.com (In-Degree: 1)
+  2. pmork@lajollaeconomics.com (In-Degree: 0)
+
+Community 69 (Size: 2 nodes):
+  1. g7dbreaders@g7group-ny.com (In-Degree: 1)
+  2. jhartley@g7group-ny.com (In-Degree: 0)
+
+Community 70 (Size: 2 nodes):
+  1. info@musicmasala.com (In-Degree: 1)
+  2. desiparty@mediawest.com (In-Degree: 0)
+
+Community 84 (Size: 2 nodes):
+  1. insideutfootball@newsletters.dallasnews.com (In-Degree: 1)
+  2. newsletters@newsletters.dallasnews.com (In-Degree: 0)
+
+Community 87 (Size: 2 nodes):
+  1. hotdeals@mail.bestfares.net (In-Degree: 1)
+  2. hotdeals@bestfares.com (In-Degree: 0)
+
+Community 89 (Size: 2 nodes):
+  1. special-offers2@mail2.southwest.com (In-Degree: 1)
+  2. special-offers-help@mail2.southwest.com (In-Degree: 0)
+
+Community 91 (Size: 2 nodes):
+  1. energy.professional@mailman.enron.com (In-Degree: 1)
+  2. ss4@skpstnhouston.com (In-Degree: 0)
+
+Community 92 (Size: 2 nodes):
+  1. brewery@saintarnold.com (In-Degree: 1)
+  2. beerlovers@saintarnold.com (In-Degree: 1)
+
+Community 95 (Size: 2 nodes):
+  1. sarah.walker@excelergy.com (In-Degree: 1)
+  2. walker@enron.com (In-Degree: 1)
+
+Community 99 (Size: 2 nodes):
+  1. events@eyeforenergy.com (In-Degree: 2)
+  2. events@eyefoenergy.com (In-Degree: 0)
+
+Community 102 (Size: 2 nodes):
+  1. powermart1@listserv.platts.com (In-Degree: 1)
+  2. platts1@ftenergy.com (In-Degree: 0)
+
+Community 105 (Size: 2 nodes):
+  1. lonestarmusic@newsletter.lonestarmusic.com (In-Degree: 1)
+  2. newsletter@lonestarmusic.com (In-Degree: 0)
+
+Community 106 (Size: 2 nodes):
+  1. charles.c.uus@stasco.com (In-Degree: 1)
+  2. cuus@worldnet.att.net (In-Degree: 1)
+
+Community 110 (Size: 2 nodes):
+  1. http@aeweb1.dowjones.com (In-Degree: 1)
+  2. avantgo.wsjcom@dowjones.com (In-Degree: 0)
+
+Community 112 (Size: 2 nodes):
+  1. enl-members-html@estutenws11.energy.williams.com (In-Degree: 1)
+  2. ecenter@williams.com (In-Degree: 0)
+
+Community 113 (Size: 2 nodes):
+  1. new_features@listserv2.dowjones.com (In-Degree: 1)
+  2. update@listserv.dowjones.com (In-Degree: 0)
+
+Community 115 (Size: 2 nodes):
+  1. dl-ga-all_ews_employees@enron.com (In-Degree: 1)
+  2. chairman.ews@enron.com (In-Degree: 0)
+
+Community 119 (Size: 2 nodes):
+  1. gamblingtimes@casinoincentives.com (In-Degree: 1)
+  2. owner-gamblingtimes@casinoincentives.com (In-Degree: 0)
+
+Community 120 (Size: 2 nodes):
+  1. 9927@excite.com (In-Degree: 1)
+  2. getmorechannels@hotmail.com (In-Degree: 0)
+
+Community 121 (Size: 2 nodes):
+  1. michael'.'newman@enron.com (In-Degree: 1)
+  2. joeysciortino@elliottelectric.com (In-Degree: 0)
+
+Community 123 (Size: 2 nodes):
+  1. oasis_information@lists.midwestiso.org (In-Degree: 1)
+  2. aheinle@midwestiso.org (In-Degree: 0)
+
+Community 125 (Size: 2 nodes):
+  1. houstonoffice2@columbia.rwd.com (In-Degree: 1)
+  2. ppolensky@rwd.com (In-Degree: 0)
+
+Community 129 (Size: 2 nodes):
+  1. sbeck2@enron.com (In-Degree: 1)
+  2. rstalford@hotmail.com (In-Degree: 0)
+
+Community 130 (Size: 2 nodes):
+  1. laura.g.ware@us.arthurandersen.com (In-Degree: 1)
+  2. robert.a.seekely@us.arthurandersen.com (In-Degree: 0)
+
+Community 131 (Size: 2 nodes):
+  1. houston.downtown@accountemps.com (In-Degree: 1)
+  2. akwete.hines@accountemps.com (In-Degree: 0)
+
+Community 133 (Size: 2 nodes):
+  1. litebytz@enron.com (In-Degree: 1)
+  2. angela.morris@enron.com (In-Degree: 0)
+
+Community 134 (Size: 2 nodes):
+  1. sally_beck@enron.com (In-Degree: 1)
+  2. kelly_hermann@hotmail.com (In-Degree: 0)
+
+Community 136 (Size: 2 nodes):
+  1. texastribute@lists.cc.utexas.edu (In-Degree: 1)
+  2. tribute@www.utexas.edu (In-Degree: 0)
+
+Community 144 (Size: 2 nodes):
+  1. pgreen01@coair.com (In-Degree: 1)
+  2. elizabeth.bouldin@travelpark.com (In-Degree: 0)
+
+Community 152 (Size: 2 nodes):
+  1. marineroffice@mariner-energy.com (In-Degree: 1)
+  2. kcashiola@mariner-energy.com (In-Degree: 0)
+
+Community 155 (Size: 2 nodes):
+  1. tricia.despain@enron.com (In-Degree: 1)
+  2. margaux.harris@enron.com (In-Degree: 0)
+
+Community 156 (Size: 2 nodes):
+  1. users.dl-01v@enron.com (In-Degree: 1)
+  2. deborah.heath@enron.com (In-Degree: 0)
+
+Community 157 (Size: 2 nodes):
+  1. saharadoc@aol.com (In-Degree: 1)
+  2. dggoddard@aol.com (In-Degree: 0)
+
+Community 165 (Size: 2 nodes):
+  1. mail@sportsbook.com (In-Degree: 2)
+  2. support@sportsbook.com (In-Degree: 0)
+
+Community 171 (Size: 2 nodes):
+  1. howdes@portugalmail.pt (In-Degree: 1)
+  2. heyhiboy@daikonet.co.jp (In-Degree: 0)
+
+Community 172 (Size: 2 nodes):
+  1. bceverhart@gomail.com.ua (In-Degree: 1)
+  2. claravelez@mail.ee (In-Degree: 0)
+
+Community 174 (Size: 2 nodes):
+  1. sm2@ev.state.az.us (In-Degree: 1)
+  2. wshutt@argentinc.com (In-Degree: 0)
+
+Community 175 (Size: 2 nodes):
+  1. carol.jetton@enron.com (In-Degree: 1)
+  2. rumor@gte.net (In-Degree: 0)
+
+Community 177 (Size: 2 nodes):
+  1. lists@playersonly.com (In-Degree: 1)
+  2. majordomo@playersonly.com (In-Degree: 0)
+
+Community 179 (Size: 2 nodes):
+  1. lcandee@nemaine.com (In-Degree: 1)
+  2. paige691@keyanoc.ab.ca (In-Degree: 0)
+
+Community 182 (Size: 2 nodes):
+  1. 2002rsx@listserv.acura.com (In-Degree: 1)
+  2. acuramail@acura.com (In-Degree: 0)
+
+Community 183 (Size: 2 nodes):
+  1. lurmas@hotmail.com (In-Degree: 1)
+  2. hso2pa9d2887@flashmail.com (In-Degree: 0)
+
+Community 184 (Size: 2 nodes):
+  1. hc8dx8tbl@hotmail.com (In-Degree: 1)
+  2. vjbp23eanze@hotmail.com (In-Degree: 0)
+
+Community 185 (Size: 2 nodes):
+  1. xgyomef@france-mail.com (In-Degree: 1)
+  2. bbvydlf@france-mail.com (In-Degree: 0)
+
+Community 186 (Size: 2 nodes):
+  1. garnettj@usa.net (In-Degree: 1)
+  2. 737890travelincentives2@aol.com (In-Degree: 0)
+
+Community 187 (Size: 2 nodes):
+  1. sydaw@k.ro (In-Degree: 1)
+  2. b24089@mail.md (In-Degree: 0)
+
+Community 188 (Size: 2 nodes):
+  1. jayivohfft@neo2.neotraffix.com (In-Degree: 1)
+  2. greatopp@neo2.neotraffix.com (In-Degree: 0)
+
+Community 189 (Size: 2 nodes):
+  1. uqenowmugh@neo2.neotraffix.com (In-Degree: 1)
+  2. supertime@neo2.neotraffix.com (In-Degree: 0)
+
+Community 190 (Size: 2 nodes):
+  1. v4dsw3nd6vb5@msn.com (In-Degree: 1)
+  2. annawilliams@btamail.net.cn (In-Degree: 0)
+
+Community 191 (Size: 2 nodes):
+  1. barr@mailman.enron.com (In-Degree: 1)
+  2. mrhappy@telkom.net (In-Degree: 0)
+
+Community 192 (Size: 2 nodes):
+  1. ayg2jtsznys1q@hotmail.com (In-Degree: 1)
+  2. br5ply89gkv9@hotmail.com (In-Degree: 0)
+
+Community 193 (Size: 2 nodes):
+  1. azghlntxoq@hey.letskeepintouch.com (In-Degree: 1)
+  2. goodtiming@hey.letskeepintouch.com (In-Degree: 0)
+
+Community 194 (Size: 2 nodes):
+  1. ets.field.offices@enron.com (In-Degree: 1)
+  2. gary.allen.-.safety.specialist@enron.com (In-Degree: 0)
+
+Community 195 (Size: 2 nodes):
+  1. mrcqojw7tyvd@hotmail.com (In-Degree: 1)
+  2. t9kxtqnfe@hotmail.com (In-Degree: 0)
+
+Community 196 (Size: 2 nodes):
+  1. bplmn@126.com (In-Degree: 1)
+  2. g27965@ok.ru (In-Degree: 0)
+
+Community 199 (Size: 2 nodes):
+  1. etgfcd9qwant@hotmail.com (In-Degree: 1)
+  2. gksmdbz8cvw@hotmail.com (In-Degree: 0)
+
+Community 200 (Size: 2 nodes):
+  1. lcarlton52@hotmail.com (In-Degree: 1)
+  2. solutions2@btamail.net.cn (In-Degree: 0)
+
+Community 201 (Size: 2 nodes):
+  1. jrule@vbibfpkhvr.enron.com (In-Degree: 1)
+  2. garth2284@umhpvaycnh.yahoo.com (In-Degree: 0)
+
+Community 202 (Size: 2 nodes):
+  1. start.the.new.year.with.a.clean.slate@mailman.enron.com (In-Degree: 1)
+  2. kkgaz@daum.net (In-Degree: 0)
+
+Community 203 (Size: 2 nodes):
+  1. wi2qqy7wtu@hotmail.com (In-Degree: 1)
+  2. ptw7dtczvsoh@hotmail.com (In-Degree: 0)
+
+Community 204 (Size: 2 nodes):
+  1. tqjtc8c3q@hotmail.com (In-Degree: 1)
+  2. acqm8wtkmafd@hotmail.com (In-Degree: 0)
+
+Community 205 (Size: 2 nodes):
+  1. ga4qwsc9s3t4@hotmail.com (In-Degree: 1)
+  2. wc6vt7vsiurmn@hotmail.com (In-Degree: 0)
+
+Community 206 (Size: 2 nodes):
+  1. schlenker@mailman.enron.com (In-Degree: 1)
+  2. pesavento@camacho.com.br (In-Degree: 0)
+
+Community 207 (Size: 2 nodes):
+  1. lcampbel@alau.com (In-Degree: 1)
+  2. adeanvideo@earthlink.net (In-Degree: 0)
+
+Community 210 (Size: 2 nodes):
+  1. ljenkin@enron.com (In-Degree: 1)
+  2. p10621@jippii.fi (In-Degree: 0)
+
+Community 211 (Size: 2 nodes):
+  1. debord@mailman.enron.com (In-Degree: 1)
+  2. morisek@freemail.hu (In-Degree: 0)
+
+Community 212 (Size: 2 nodes):
+  1. esmjcuokcb@mail2.emediatemail.com (In-Degree: 1)
+  2. greatopp@mail2.emediatemail.com (In-Degree: 0)
+
+Community 213 (Size: 2 nodes):
+  1. viqgi@mail.iupi.pt (In-Degree: 1)
+  2. b27152@kali.com.cn (In-Degree: 0)
+
+Community 214 (Size: 2 nodes):
+  1. list.subscriber@mailman.enron.com (In-Degree: 1)
+  2. xhwadxpwgp@newmail.ru (In-Degree: 0)
+
+Community 215 (Size: 2 nodes):
+  1. undisclosed.recipients@mail.tcda.co.kr (In-Degree: 1)
+  2. totodigi2@yahoo.com (In-Degree: 0)
+
+Community 216 (Size: 2 nodes):
+  1. undisclosed.recipients@wonju-gs.hs.kr (In-Degree: 1)
+  2. 1a7info@email.lviv.ua (In-Degree: 0)
+
+Community 217 (Size: 2 nodes):
+  1. subscriber@mailman.enron.com (In-Degree: 1)
+  2. c2a95rl1a95@yahoo.com (In-Degree: 0)
+
+Community 218 (Size: 2 nodes):
+  1. uksyz@slo.net (In-Degree: 1)
+  2. g111@mail.yahoo.co.jp (In-Degree: 0)
+
+Community 219 (Size: 2 nodes):
+  1. important.list@sofie.ci.kk.dk (In-Degree: 1)
+  2. e._lan@minx.co.uk (In-Degree: 0)
+
+Community 220 (Size: 2 nodes):
+  1. 174@newmail.net (In-Degree: 1)
+  2. legolas_18@iml.fhg.de (In-Degree: 0)
+
+Community 221 (Size: 2 nodes):
+  1. chagrus@techpointer.com (In-Degree: 1)
+  2. hussey101@eudoramail.com (In-Degree: 0)
+
+Community 222 (Size: 2 nodes):
+  1. cmiya@163.net (In-Degree: 1)
+  2. d19405@go.ru (In-Degree: 0)
+
+Community 223 (Size: 2 nodes):
+  1. kypzrdiavx@mail2.emediatemail.com (In-Degree: 1)
+  2. savemoney@mail2.emediatemail.com (In-Degree: 0)
+
+Community 224 (Size: 2 nodes):
+  1. marrow@mailman.enron.com (In-Degree: 1)
+  2. js7004@telkom.net (In-Degree: 0)
+
+Community 225 (Size: 2 nodes):
+  1. lees@enron.com (In-Degree: 1)
+  2. s22028@carioca.net (In-Degree: 0)
+
+Community 226 (Size: 2 nodes):
+  1. lkacal@enron.com (In-Degree: 1)
+  2. s20761@private.21cn.com (In-Degree: 0)
+
+Community 227 (Size: 2 nodes):
+  1. 67@newmail.net (In-Degree: 1)
+  2. ab28@mail.md (In-Degree: 0)
+
+Community 228 (Size: 2 nodes):
+  1. fbth5yjysa6z@hotmail.com (In-Degree: 1)
+  2. t43e27sc2rhu@hotmail.com (In-Degree: 0)
+
+Community 229 (Size: 2 nodes):
+  1. pvw6kt9jw19@hotmail.com (In-Degree: 1)
+  2. atrjknf1cieq@hotmail.com (In-Degree: 0)
+
+Community 232 (Size: 2 nodes):
+  1. speonwonzu@ever2.beontarget.com (In-Degree: 1)
+  2. never2late@ever2.beontarget.com (In-Degree: 0)
+
+Community 233 (Size: 2 nodes):
+  1. aster@amic.com (In-Degree: 1)
+  2. krzybob@4vendor.net (In-Degree: 0)
+
+Community 234 (Size: 2 nodes):
+  1. undisclosed.recipients@mail.kicoxventure.or.kr (In-Degree: 1)
+  2. cldftgmis@hotmail.com (In-Degree: 0)
+
+Community 235 (Size: 2 nodes):
+  1. home.refinace@mailman.enron.com (In-Degree: 1)
+  2. leonardo_dicaprio1@123india.com (In-Degree: 0)
+
+Community 237 (Size: 2 nodes):
+  1. mwoodson@enron.com (In-Degree: 1)
+  2. ac1111@earthlink.net (In-Degree: 0)
+
+Community 238 (Size: 2 nodes):
+  1. valuable.customer@mailman.enron.com (In-Degree: 1)
+  2. ki12t@yahoo.com (In-Degree: 0)
+
+Community 239 (Size: 2 nodes):
+  1. undisclosed.recipients@malaga.cofaran (In-Degree: 1)
+  2. v1ckvvjebrz@bigfoot.com (In-Degree: 0)
+
+Community 240 (Size: 2 nodes):
+  1. lcampbel@epix.net (In-Degree: 1)
+  2. janet691@swan.ac.uk (In-Degree: 0)
+
+Community 241 (Size: 2 nodes):
+  1. alabama@minx.co.uk (In-Degree: 1)
+  2. guss868@mail.ru (In-Degree: 0)
+
+Community 242 (Size: 2 nodes):
+  1. diamnsafir@mailman.enron.com (In-Degree: 1)
+  2. slscarlet@tjohoo.se (In-Degree: 0)
+
+Community 243 (Size: 2 nodes):
+  1. nyiso_tech_exchange@lists1.thebiz.net (In-Degree: 1)
+  2. tholmes@thebiz.net (In-Degree: 0)
+
+Community 245 (Size: 2 nodes):
+  1. slurpit69@mailman.enron.com (In-Degree: 1)
+  2. duchess4@inmail.sk (In-Degree: 0)
+
+Community 251 (Size: 2 nodes):
+  1. 0889@netscape.com (In-Degree: 1)
+  2. zombiwoman@mail.com (In-Degree: 0)
+
+Community 82 (Size: 2 nodes):
+  1. j.nesmith@prodigy.net (In-Degree: 1)
+  2. klnesmith@compuserve.com (In-Degree: 1)
+
+Community 107 (Size: 2 nodes):
+  1. 2361@csi.com (In-Degree: 1)
+  2. zljp06a@prodigy.com (In-Degree: 0)
+
+Community 1 (Size: 2 nodes):
+  1. mike.charchuk@telus.net (In-Degree: 1)
+  2. brittany69@swan.ac.uk (In-Degree: 0)
+
+Community 9 (Size: 2 nodes):
+  1. subscriber@mailboy.enron.com (In-Degree: 1)
+  2. tradingnews447577@yahoo.com (In-Degree: 0)
+
+Community 25 (Size: 2 nodes):
+  1. trader@mailboy.enron.com (In-Degree: 1)
+  2. urgentalert677638@yahoo.com (In-Degree: 0)
+
+Community 161 (Size: 2 nodes):
+  1. rocksearch@aol.com (In-Degree: 1)
+  2. rockwoodenergy@aol.com (In-Degree: 0)
+
+Community 162 (Size: 2 nodes):
+  1. newsletterdistributionlist@milchev.com (In-Degree: 1)
+  2. mc@milchev.com (In-Degree: 0)
+
+Community 75 (Size: 2 nodes):
+  1. mpascual@mdbe.com (In-Degree: 1)
+  2. pascual@enron.com (In-Degree: 1)
+
+Community 22 (Size: 1 nodes):
+  1. bodyshop@enron.com (In-Degree: 1)
+
+Community 31 (Size: 1 nodes):
+  1. members@realmoney.com (In-Degree: 1)
+
+Community 32 (Size: 1 nodes):
+  1. leanne@integrityrs.com (In-Degree: 1)
+
+Community 34 (Size: 1 nodes):
+  1. dleduca714@yahoo.com (In-Degree: 1)
+
+Community 35 (Size: 1 nodes):
+  1. capcon@gmu.edu (In-Degree: 1)
+
+Community 38 (Size: 1 nodes):
+  1. marketing@sparesfinder.com (In-Degree: 1)
+
+Community 52 (Size: 1 nodes):
+  1. cortwine@aol.com (In-Degree: 1)
+
+Community 60 (Size: 1 nodes):
+  1. amerosie748@yahoo.com (In-Degree: 1)
+
+Community 62 (Size: 1 nodes):
+  1. amore889@yahoo.com (In-Degree: 1)
+
+Community 64 (Size: 1 nodes):
+  1. wsandberg3@attbi.com (In-Degree: 1)
+
+Community 71 (Size: 1 nodes):
+  1. wsandberg3@home.com (In-Degree: 1)
+
+Community 72 (Size: 1 nodes):
+  1. purenrg123@aol.com (In-Degree: 1)
+
+Community 86 (Size: 1 nodes):
+  1. customerservice@giftbaskets.com (In-Degree: 1)
+
+Community 90 (Size: 1 nodes):
+  1. info@giftbaskets.com (In-Degree: 1)
+
+Community 97 (Size: 1 nodes):
+  1. foxsportsflash_h@mailings.foxsports.com (In-Degree: 1)
+
+Community 98 (Size: 1 nodes):
+  1. continentalvacations@lists.coolvacations.com (In-Degree: 1)
+
+Community 100 (Size: 1 nodes):
+  1. lists.coolvacations.com@lists.coolvacations.com (In-Degree: 1)
+
+Community 101 (Size: 1 nodes):
+  1. deltamemberslist@lists.deltavacations.com (In-Degree: 1)
+
+Community 109 (Size: 1 nodes):
+  1. ccvevents@aol.com (In-Degree: 1)
+
+Community 137 (Size: 1 nodes):
+  1. nmiyagi@reedwasden.com (In-Degree: 1)
+
+Community 138 (Size: 1 nodes):
+  1. bigalke237@yahoo.com (In-Degree: 1)
+
+Community 139 (Size: 1 nodes):
+  1. busse972@yahoo.com (In-Degree: 1)
+
+Community 143 (Size: 1 nodes):
+  1. mbellido@southerngas.org (In-Degree: 1)
+
+Community 145 (Size: 1 nodes):
+  1. dlouise@lanefinancialllc.com (In-Degree: 1)
+
+Community 147 (Size: 1 nodes):
+  1. aschram@scacompanies.com (In-Degree: 1)
+
+Community 148 (Size: 1 nodes):
+  1. thiessen@conferenceboard.ca (In-Degree: 1)
+
+Community 151 (Size: 1 nodes):
+  1. hesaul@winstarmail.com (In-Degree: 1)
+
+Community 153 (Size: 1 nodes):
+  1. dale@whitelight.com (In-Degree: 1)
+
+Community 164 (Size: 1 nodes):
+  1. sports@casinosports.com (In-Degree: 1)
+
+Community 166 (Size: 1 nodes):
+  1. mail@wallstreet.com (In-Degree: 1)
+
+Community 167 (Size: 1 nodes):
+  1. sports@bigwinsports.com (In-Degree: 1)
+
+Community 170 (Size: 1 nodes):
+  1. customerservice@betanything.com (In-Degree: 1)
+
+Community 173 (Size: 1 nodes):
+  1. seligman@nmoga.org (In-Degree: 1)
+
+Community 178 (Size: 1 nodes):
+  1. wallstreet@chargingrhino.net (In-Degree: 1)
+
+Community 180 (Size: 1 nodes):
+  1. wagerlist@onlinebettor.com (In-Degree: 1)
+
+Community 181 (Size: 1 nodes):
+  1. cew@sportslynx.com (In-Degree: 1)
+
+Community 197 (Size: 1 nodes):
+  1. cell_reception_booster@2die4.com (In-Degree: 1)
+
+Community 209 (Size: 1 nodes):
+  1. j25656@spray.no (In-Degree: 1)
+
+Community 230 (Size: 1 nodes):
+  1. p1729@topmail.dk (In-Degree: 1)
+
+Community 231 (Size: 1 nodes):
+  1. diederich545@yahoo.com (In-Degree: 1)
+
+Community 236 (Size: 1 nodes):
+  1. life_quotes@yahoo.com (In-Degree: 1)
+
+Community 246 (Size: 1 nodes):
+  1. automation.document@enron.com (In-Degree: 1)
+
+Community 128 (Size: 1 nodes):
+  1. optin@sungrp.com (In-Degree: 1)
+
+Community 17 (Size: 1 nodes):
+  1. members@premierinvestornetwork.com (In-Degree: 1)
+
+Community 73 (Size: 1 nodes):
+  1. ailey179@yahoo.com (In-Degree: 1)
+
+Community 81 (Size: 1 nodes):
+  1. alumni@tulane.edu (In-Degree: 1)
+
+Saved community rankings to 'top_nodes_per_community.json'. Triggering download...
+
+5. Plotting Degree Distribution...
+
+Saved degree distribution plot as 'degree_distribution.png'.
+
+6. Calculating Global Metrics (on Largest Connected Component)...
+Diameter of LCC: 9
+Average Shortest Path of LCC: 4.04
+
+7. Zipping files for download...
+Triggering download...
