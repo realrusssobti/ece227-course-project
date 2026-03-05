@@ -3,7 +3,7 @@ import utils as centrality_utils
 
 def main():
     # Create lists
-    facebook_path = "facebook_combined.txt"
+    facebook_path = "facebook_combined/facebook_combined.txt"
     facebook_network = centrality_utils.load_network(facebook_path)
     print("Networks loaded successfully.")
     degree_list = centrality_utils.get_degree_list(facebook_network)
@@ -50,12 +50,12 @@ def main():
     feature_idx_type_dict = dict()
     
     #count = 0
-    #for ego in ego_list:
+    for ego in ego_list:
     #    current_feature_dict = dict()
-    for ego in ["0", "107"]:
-        ego_featname = "facebook/" + ego + ".featnames"
-        ego_feat = "facebook/" + ego + ".egofeat"
-        ego_node_feat = "facebook/" + ego + ".feat"
+    #for ego in ["0", "107"]:
+        ego_featname = "facebook_combined/facebook/" + ego + ".featnames"
+        ego_feat = "facebook_combined/facebook/" + ego + ".egofeat"
+        ego_node_feat = "facebook_combined/facebook/" + ego + ".feat"
         ego_to_global_feat = []
 
         with open(ego_featname, 'r') as file:
@@ -66,7 +66,7 @@ def main():
                 feature_type = second_partition[1]
                 global_feature_index = int(first_partition[1])
                 ego_to_global_feat.append(global_feature_index)
-                feature_idx_type_dict[str(index)] = feature_type
+                feature_idx_type_dict[str(global_feature_index)] = feature_type
 
         with open(ego_feat, 'r') as file:
             for line in file:
@@ -95,7 +95,7 @@ def main():
                 if (not(str(node) in node_feature_dict.keys() or str(node) in ego_list)):
                     node_feature_dict[str(node)] = current_features
 
-    node_feature_file = "node_to_features.txt"    
+    node_feature_file = "facebook_combined/node_to_features.txt"    
     with open(node_feature_file, 'w') as file:
         for key in node_feature_dict.keys():
             file.write(key)
@@ -104,7 +104,7 @@ def main():
             file.write(",".join(features))
             file.write("\n")
 
-    feature_type_file = "feature_to_type.txt"    
+    feature_type_file = "facebook_combined/feature_to_type.txt"    
     with open(feature_type_file, 'w') as file:
         for key in feature_idx_type_dict.keys():
             file.write(key)
