@@ -1,2 +1,4 @@
 networkx
 python-igraph
+numpy
+matplotlib

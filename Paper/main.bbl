@@ -1,0 +1,20 @@
+\begin{thebibliography}{}
+
+\bibitem[Blondel et~al., 2008]{blondel2008}
+Blondel, V.~D., Guillaume, J.-L., Lambiotte, R., and Lefebvre, E. (2008).
+\newblock Fast unfolding of communities in large networks.
+\newblock {\em Journal of Statistical Mechanics: Theory and Experiment},
+  2008(10):P10008.
+
+\bibitem[De~Domenico et~al., 2013]{higgs2013}
+De~Domenico, M., Lima, A., Mougel, P., and Musolesi, M. (2013).
+\newblock The anatomy of a scientific rumor.
+\newblock {\em Scientific Reports}, 3:2980.
+
+\bibitem[Leskovec and Mcauley, 2012]{leskovec2012}
+Leskovec, J. and Mcauley, J. (2012).
+\newblock Learning to discover social circles in ego networks.
+\newblock In {\em Advances in Neural Information Processing Systems},
+  volume~25.
+
+\end{thebibliography}

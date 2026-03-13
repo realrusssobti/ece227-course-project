@@ -1,0 +1,36 @@
+\section{Introduction}
+
+% TODO: Expand this into 3-4 paragraphs covering motivation, related work, and contributions.
+
+Large-scale social and communication networks encode rich information about
+human behavior, influence, and organizational structure.
+Understanding how information propagates, who the key actors are, and how
+communities form are central questions in network science with applications
+ranging from misinformation detection to organizational auditing.
+
+In this project we analyze three complementary real-world network datasets:
+(i) the \textit{Higgs Twitter dataset}~\cite{higgs2013}, which captures
+three interaction modalities — retweets, mentions, and replies — surrounding
+the announcement of the Higgs boson discovery;
+(ii) the \textit{Enron email corpus}, which provides a longitudinal record
+of internal corporate communication at Enron Corporation; and
+(iii) the \textit{Facebook ego-network dataset}, which represents
+friendship circles of selected users on Facebook.
+
+% TODO: Add 1-2 sentences about related work (e.g., Barabasi-Albert scale-free networks,
+%       Louvain community detection, centrality in social networks).
+
+For each network we compute standard centrality metrics — in-degree,
+out-degree, betweenness, and eigenvector centrality — and apply the Louvain
+community detection algorithm~\cite{blondel2008}.
+We compare metrics across networks and identify structurally significant
+nodes (hubs, bridges) as well as the community structure of each graph.
+
+% TODO: Summarize your key findings / contributions in 2-3 bullet points here.
+
+The remainder of this paper is organized as follows.
+Section~\ref{sec:model} defines the network models and centrality measures.
+Section~\ref{sec:data} describes each dataset.
+Section~\ref{sec:results} presents our experimental results.
+Section~\ref{sec:conclusion} concludes with a discussion of limitations and
+future directions.

@@ -1,0 +1,51 @@
+\section{Conclusion}
+\label{sec:conclusion}
+
+% TODO: Write 1-2 paragraphs summarizing findings.
+
+We analyzed five real-world networks across three datasets using a consistent
+pipeline of degree statistics, betweenness centrality, eigenvector centrality,
+and Louvain community detection.
+A recurring finding is the \textit{hub--bridge duality}: the nodes with the
+highest degree (or eigenvector centrality) are not the same nodes that
+maximize information flow across the network.
+This has practical implications — removing a high-degree node may not
+disrupt communication as much as targeting a high-betweenness bridge.
+
+In the Higgs Twitter data, node \texttt{88} dominates in-degree and
+eigenvector centrality across all three interaction types, confirming its
+role as the primary information source during the Higgs boson event.
+In the Enron network, the community structure reflects the underlying
+organizational hierarchy, with executive inboxes acting as dense hubs
+within their respective communities.
+The Facebook ego-network yields 16 well-separated communities consistent
+with distinct social circles.
+
+% TODO: Add any quantitative take-aways specific to your paper's thesis.
+
+\section{Future Work}
+\label{sec:future}
+
+Several extensions of this work are natural:
+
+\textbf{Temporal analysis.}
+The Higgs dataset includes activity timestamps in
+\texttt{higgs-activity\_time.txt}.
+A natural follow-up is to study how centrality rankings evolve over time and
+whether early adopters of the Higgs boson story maintain their influence.
+
+\textbf{Multiplex centrality.}
+Because mention, reply, and retweet networks share the same node set, one
+could compute \textit{multiplex centrality} measures that aggregate
+information across layers, identifying nodes that are simultaneously
+important across all interaction types.
+
+\textbf{Robustness and targeted removal.}
+Given the hub--bridge distinction, a comparative simulation of random vs.\
+targeted node removal (targeting hubs vs.\ bridges) would quantify the
+resilience of each network.
+
+\textbf{Feature-based community interpretation.}
+The Facebook dataset includes rich node feature vectors (\texttt{node\_to\_features.txt}).
+Linking detected communities to demographic or interest features could
+validate the semantic meaning of the Louvain partitions.
