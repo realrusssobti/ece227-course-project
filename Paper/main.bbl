@@ -8,8 +8,7 @@ Barab{\'a}si, A.-L. and Albert, R. (1999).
 \bibitem[Blondel et~al., 2008]{blondel2008}
 Blondel, V.~D., Guillaume, J.-L., Lambiotte, R., and Lefebvre, E. (2008).
 \newblock Fast unfolding of communities in large networks.
-\newblock {\em Journal of Statistical Mechanics: Theory and Experiment},
-  2008(10):P10008.
+\newblock {\em Journal of Statistical Mechanics: Theory and Experiment}, 2008(10):P10008.
 
 \bibitem[De~Domenico et~al., 2013]{higgs2013}
 De~Domenico, M., Lima, A., Mougel, P., and Musolesi, M. (2013).
@@ -24,8 +23,7 @@ Erd{\H{o}}s, P. and R{\'e}nyi, A. (1959).
 \bibitem[Leskovec and Mcauley, 2012]{leskovec2012}
 Leskovec, J. and Mcauley, J. (2012).
 \newblock Learning to discover social circles in ego networks.
-\newblock In {\em Advances in Neural Information Processing Systems},
-  volume~25.
+\newblock In {\em Advances in Neural Information Processing Systems}, volume~25.
 
 \bibitem[Newman, 2018]{newman2018networks}
 Newman, M. (2018).

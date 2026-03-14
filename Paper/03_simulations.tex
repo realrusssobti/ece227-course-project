@@ -89,15 +89,62 @@ all three interaction types simultaneously.
 
 Figure~\ref{fig:enron_centrality} shows the top-15 Enron nodes by each
 centrality metric.
-\texttt{sally.beck@enron.com} (COO) dominates both in-degree and betweenness,
-indicating she was both a primary recipient and a critical communication bridge
-across departments.
-High out-degree belongs to \texttt{sally.beck} and \texttt{bob.ambrecht},
-consistent with executive broadcast behaviour.
-Notably, betweenness and eigenvector centrality surface different executives
-than in-degree alone — \texttt{don.baughman} ranks highly in betweenness
-despite modest in-degree, suggesting a broker role spanning otherwise
-disconnected groups.
+Unlike the anonymised Higgs and Facebook datasets, Enron email addresses can
+be mapped to known corporate roles, enabling direct organisational interpretation.
+
+\texttt{sally.beck@enron.com} — Enron's Chief Operating Officer — dominates
+all four centrality panels: highest in-degree (539), highest out-degree
+(1{,}245), highest betweenness ($1.1 \times 10^{7}$), and highest eigenvector
+centrality (1.0 by normalisation).
+This quadruple dominance is unique among all five networks studied and
+represents a rare \textit{exception} to the hub--bridge duality observed
+elsewhere.
+In a centralised corporate hierarchy, the COO simultaneously receives the
+most email, sends the most email, and bridges the most departments — roles
+that are structurally separated in the flatter, broadcast-driven Higgs
+networks.
+
+The remaining top-ranked nodes map cleanly onto Enron's organisational
+chart.
+\texttt{kenneth.lay@enron.com} (Chairman and CEO) ranks second in
+out-degree (915) — consistent with company-wide broadcast communication —
+but only 35th in in-degree, suggesting his inbox was more heavily filtered
+or delegated.
+\texttt{rick.buy@enron.com} (Chief Risk Officer) ranks third in
+in-degree (297) and second in eigenvector centrality (0.42), reflecting his
+position as a convergence point for risk-related communication across
+trading desks.
+The eigenvector top-15 surfaces the senior trading leadership:
+\texttt{john.lavorato@enron.com} (Head of North American Energy Trading,
+eigenvector 0.30), \texttt{louise.kitchen@enron.com} (President of Enron
+Online, 0.26), and \texttt{greg.whalley@enron.com} (President and later
+acting CEO, 0.25) — all connected to other high-centrality nodes through
+the trading division.
+
+Betweenness centrality reveals a structurally distinct set of brokers.
+\texttt{don.baughman@enron.com} ranks second in betweenness ($4.3 \times
+10^{6}$) despite ranking only second in in-degree, indicating that his
+communication bridged otherwise disconnected groups.
+\texttt{larry.campbell@enron.com} ranks third in betweenness ($3.3 \times
+10^{6}$) but does not appear in the eigenvector top-15, suggesting he
+connected peripheral nodes rather than the executive core.
+This pattern — betweenness surfacing middle-management brokers invisible
+to degree or eigenvector measures — mirrors the hub--bridge duality seen
+in the Higgs data, but at the level of organisational roles rather than
+anonymous user IDs.
+
+The Louvain community structure reinforces these observations.
+Community~11 (1{,}103 nodes) contains \texttt{rick.buy}, \texttt{john.lavorato},
+\texttt{louise.kitchen}, \texttt{greg.whalley}, and \texttt{richard.causey}
+(Chief Accounting Officer) — essentially Enron's trading and financial
+leadership.
+Community~2 (1{,}801 nodes), the largest, is anchored by Sally Beck (COO)
+alongside \texttt{wes.colwell}, \texttt{greg.piper}, and
+\texttt{ted.murphy} — operations and infrastructure.
+Community~37 (1{,}049 nodes) is headed by \texttt{kenneth.lay} with
+a modest in-degree of just 35, consistent with a CEO community composed
+primarily of external contacts and board-level correspondence rather than
+day-to-day operational traffic.
 
 \begin{figure*}[ht]
     \centering
@@ -186,14 +233,49 @@ Facebook          & 0.606     & 3.72    &  8 \\
 \end{tabular}
 \end{table}
 
-The Facebook network stands out with by far the highest clustering
-coefficient ($\bar{C} = 0.606$), consistent with the dense, reciprocal
-nature of friendship ties.
-The Higgs Reply network has the lowest clustering ($\bar{C} = 0.007$)
-and the longest average path length ($\ell \approx 7.2$), reflecting
-its sparse, conversational structure.
-Enron occupies a middle ground ($\bar{C} = 0.174$, $\ell \approx 4.2$),
-consistent with a hierarchically organised communication graph.
+Three structural regimes emerge from Table~\ref{tab:graph_props}.
+The \textbf{Facebook} network stands out with by far the highest clustering
+coefficient ($\bar{C} = 0.606$) and the shortest average path length
+($\ell \approx 3.7$) — the classic signature of a small-world
+network~\cite{watts1998}.
+Dense local triangles arise naturally in friendship graphs because mutual
+friends tend to know one another, and the short paths reflect the
+well-known ``six degrees of separation'' phenomenon compressed to under
+four hops in a 4{,}039-node ego-network.
+
+The \textbf{Enron} network occupies a middle ground ($\bar{C} = 0.174$,
+$\ell \approx 4.2$), consistent with a hierarchically organised
+communication graph.
+Clustering is elevated relative to a random graph of equal size (ER
+would predict $\bar{C} \approx 0.003$) because colleagues in the same
+department email each other frequently, forming dense intra-departmental
+triangles; the short path length reflects the small number of hops needed
+to reach any employee through the executive hub structure.
+
+The three \textbf{Higgs} networks exhibit qualitatively different
+behaviour.
+The Mention and Retweet networks have low clustering
+($\bar{C} = 0.087$ and $0.016$) and moderate path lengths
+($\ell \approx 5.1$ and $5.5$), consistent with sparse
+broadcast topologies where a user mentions or retweets a popular
+account without any reciprocal tie.
+The \textbf{Reply network is a consistent outlier}: the lowest clustering
+of any network studied ($\bar{C} = 0.007$), the longest average path
+length ($\ell \approx 7.2$), and the largest diameter lower bound
+($d \geq 28$).
+This is a direct consequence of the \textit{tree-like topology} of
+threaded conversations.
+When user $A$ replies to user $B$ and user $C$ also replies to $B$,
+the Reply graph contains edges $A \to B$ and $C \to B$ but typically
+no edge $A \to C$ — suppressing triangle formation and driving
+$\bar{C}$ toward zero.
+Reply chains extend linearly ($A \to B \to D \to E \to \ldots$),
+inflating path lengths and diameter far beyond what the Mention or
+Retweet networks produce at comparable scale.
+This structural difference explains why the Reply network also shows the
+tightest top-10\% intersections (Section~\ref{sec:results}B) and why
+both Louvain and Label Propagation detect thousands of micro-communities
+in it: each isolated thread forms its own tiny cluster.
 
 \begin{figure}[H]
     \centering
@@ -255,9 +337,38 @@ The key findings are:
           of all five networks but produces near-zero clustering,
           diverging sharply from the real graphs — especially Facebook.
 \end{itemize}
-These results confirm that real-world networks are \textit{hybrid}
-structures: their degree heterogeneity is BA-like while their local
-density is WS-like, a combination no single generative model reproduces.
+Taken network-by-network, the closest generative model differs:
+\begin{itemize}
+    \item \textbf{Facebook} is closest to \textbf{WS} in clustering
+          ($\bar{C}_{\text{real}} = 0.606$ vs.\ $\bar{C}_{\text{WS}} \approx 0.53$)
+          and closest to \textbf{BA} in degree distribution (heavy tail).
+          This combination — dense local triangles \textit{plus} a few
+          extremely high-degree hubs — is the signature of a friendship
+          network where popular individuals accumulate connections
+          preferentially while most social ties remain reciprocal and
+          clustered.
+    \item \textbf{Enron} is closest to \textbf{BA} in both degree
+          heterogeneity and path length, but its clustering
+          ($\bar{C} = 0.174$) exceeds both ER and BA by an order of
+          magnitude.
+          The residual clustering reflects departmental structure:
+          colleagues within the same business unit email each other
+          frequently, creating dense triangles that no preferential-attachment
+          mechanism would produce.
+    \item The \textbf{Higgs} networks have near-zero clustering across
+          all three null models \textit{and} the real graphs
+          ($\bar{C} < 0.09$), so clustering alone cannot discriminate
+          models.
+          Their degree distributions are unambiguously heavy-tailed (BA-like),
+          and their short path lengths ($\ell \approx 5$--$7$) are
+          consistent with all three models.
+          These are \textit{broadcast networks}: information flows outward
+          from hubs with minimal reciprocal interaction, so neither WS's
+          local rewiring nor ER's uniform attachment is relevant.
+\end{itemize}
+In summary, real-world networks are \textit{hybrid} structures: their degree
+heterogeneity is BA-like while their local density is WS-like, a combination
+no single generative model reproduces.
 
 \subsection{Community Detection Comparison}
 
@@ -305,3 +416,54 @@ The Higgs Reply result is notable: both algorithms detect thousands of
 micro-communities, reflecting the isolated thread structure of a
 reply graph, but Louvain's higher $Q$ ($0.964$) indicates
 better-defined community boundaries even at that granularity.
+
+\subsection{Synthesis: Three Structural Regimes}
+
+The analyses above converge on a taxonomy of three distinct network types,
+each characterised by a consistent bundle of structural properties.
+
+\textbf{Broadcast networks} (Higgs Mention, Retweet, Reply) are sparse,
+directed graphs dominated by a small number of hubs.
+Their degree distributions are heavy-tailed (BA-like), clustering is
+near-zero, and the hub--bridge duality is pronounced: the most-retweeted
+account (node \texttt{88}) is not the primary betweenness bridge
+(node \texttt{64911}).
+Top-10\% intersections show that In-Deg $\cap$ Out-Deg is consistently
+the smallest overlap, confirming that popularity and broadcasting are
+distinct roles.
+The Reply sub-network is an extreme case: its tree-like thread topology
+produces the lowest clustering, longest paths, and most fragmented
+community structure of any network in the study.
+
+\textbf{Hierarchical networks} (Enron Email) have moderate clustering
+reflecting departmental structure, short paths through executive hubs,
+and a partial \textit{collapse} of the hub--bridge duality at the top
+of the hierarchy.
+Sally Beck (COO) simultaneously leads all four centrality rankings — a
+pattern not seen in any other network — because a centralised corporate
+structure concentrates both popularity and brokerage in the same executive
+roles.
+Below the C-suite, however, the duality re-emerges: middle-management
+brokers like \texttt{don.baughman} and \texttt{larry.campbell} rank
+highly in betweenness without appearing in the eigenvector top-15,
+indicating that inter-departmental bridging and executive influence
+remain structurally separate at lower levels of the org chart.
+
+\textbf{Small-world networks} (Facebook) exhibit high clustering
+($\bar{C} = 0.606$), short paths ($\ell \approx 3.7$), and well-separated
+Louvain communities (16) that correspond to distinct social circles.
+Comparison to null models shows that Facebook's clustering approaches
+Watts--Strogatz while its degree distribution matches Barab\'asi--Albert,
+confirming that friendship networks combine local reciprocity with
+preferential attachment — a hybrid no single model captures.
+Louvain's 16 communities align with the ten ego users' social circles
+far better than Label Propagation's 44 over-fragmented partitions.
+
+This three-way classification — broadcast, hierarchical, small-world —
+provides a framework for predicting which centrality metrics and
+community detection algorithms will be most informative for a given
+network type.
+In broadcast networks, betweenness reveals structurally important
+brokers invisible to degree; in hierarchical networks, all metrics
+converge on the same executives; in small-world networks, community
+detection is the primary tool for uncovering latent group structure.
