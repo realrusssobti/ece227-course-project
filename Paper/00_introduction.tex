@@ -1,32 +1,73 @@
 \section{Introduction}
 
-% TODO: Expand this into 3-4 paragraphs covering motivation, related work, and contributions.
-
 Large-scale social and communication networks encode rich information about
 human behavior, influence, and organizational structure.
 Understanding how information propagates, who the key actors are, and how
 communities form are central questions in network science with applications
-ranging from misinformation detection to organizational auditing.
+ranging from misinformation detection to organizational
+auditing~\cite{newman2018networks}.
+The rapid growth of online platforms has produced massive interaction graphs
+whose structural properties — degree distributions, centrality rankings,
+community partitions — offer quantitative proxies for latent social phenomena
+such as popularity, brokerage, and group affiliation.
 
-In this project we analyze three complementary real-world network datasets:
-(i) the \textit{Higgs Twitter dataset}~\cite{higgs2013}, which captures
+A natural question is whether the most \textit{popular} nodes in a network
+are also the most \textit{structurally important}.
+High in-degree captures passive popularity: the accounts most mentioned, the
+inboxes most emailed.
+High betweenness centrality, by contrast, captures brokerage: the nodes
+whose removal would most fragment the flow of information between otherwise
+distant groups.
+Prior work on scale-free networks~\cite{barabasi1999} has shown that
+degree distributions in real-world graphs are heavy-tailed, implying that
+a small number of hubs attract a disproportionate share of connections.
+However, degree alone does not determine a node's role as a structural
+bridge, and the relationship between these two notions of importance
+remains dataset-dependent.
+
+In this paper we investigate this question across three complementary
+real-world datasets:
+(i)~the \textit{Higgs Twitter dataset}~\cite{higgs2013}, which captures
 three interaction modalities — retweets, mentions, and replies — surrounding
 the announcement of the Higgs boson discovery;
-(ii) the \textit{Enron email corpus}, which provides a longitudinal record
+(ii)~the \textit{Enron email corpus}, which provides a longitudinal record
 of internal corporate communication at Enron Corporation; and
-(iii) the \textit{Facebook ego-network dataset}, which represents
-friendship circles of selected users on Facebook.
+(iii)~the \textit{Facebook ego-network dataset}~\cite{leskovec2012}, which
+represents friendship circles of selected users on Facebook.
+These datasets span directed event-driven graphs, directed organizational
+graphs, and an undirected friendship graph, providing breadth across
+network types.
 
-% TODO: Add 1-2 sentences about related work (e.g., Barabasi-Albert scale-free networks,
-%       Louvain community detection, centrality in social networks).
-
-For each network we compute standard centrality metrics — in-degree,
+For each network we compute four standard centrality metrics — in-degree,
 out-degree, betweenness, and eigenvector centrality — and apply the Louvain
 community detection algorithm~\cite{blondel2008}.
-We compare metrics across networks and identify structurally significant
-nodes (hubs, bridges) as well as the community structure of each graph.
+We introduce a \textit{top-10\% intersection analysis} that quantifies the
+pairwise overlap between the highest-ranked nodes under each metric,
+revealing which notions of importance coincide and which diverge.
+Beyond centrality, we measure clustering coefficients and average
+shortest-path lengths, and compare each network against three canonical
+null models — Erd\H{o}s--R\'enyi~\cite{erdos1959}, Watts--Strogatz~\cite{watts1998},
+and Barab\'asi--Albert~\cite{barabasi1999} — to characterise the
+generative regime each network most closely resembles.
+We also contrast Louvain with Label Propagation to evaluate the
+sensitivity of community structure to algorithm choice.
 
-% TODO: Summarize your key findings / contributions in 2-3 bullet points here.
+Our central finding is what we term \textit{hub--bridge duality}: across all
+five networks, the highest-degree nodes are largely distinct from the
+highest-betweenness nodes, indicating that popularity and brokerage are
+complementary rather than redundant structural roles.
+In the Higgs data a single account dominates in-degree and eigenvector
+centrality across all three interaction types, yet a different node
+consistently leads in betweenness.
+The Facebook network is unambiguously small-world, with clustering
+($\bar{C} = 0.606$) approaching Watts--Strogatz levels and short average
+path length ($\ell \approx 3.7$), yet its heavy-tailed degree distribution
+matches Barab\'asi--Albert — no single model captures both properties.
+In the Enron network, Louvain communities mirror the corporate hierarchy,
+with executive inboxes serving as intra-community hubs, and Louvain
+consistently achieves higher modularity than Label Propagation across
+all networks ($Q = 0.835$ vs.\ $0.737$ on Facebook; $0.628$ vs.\ $0.382$
+on Enron).
 
 The remainder of this paper is organized as follows.
 Section~\ref{sec:model} defines the network models and centrality measures.

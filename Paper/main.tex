@@ -65,22 +65,27 @@ drawn from three public datasets: the Higgs Twitter corpus (retweet,
 mention, and reply networks surrounding the 2012 Higgs boson
 announcement), the Enron corporate email archive, and the Facebook
 ego-network dataset. For each network we compute in-degree, out-degree,
-betweenness, and eigenvector centrality, and apply Louvain community
-detection. A recurring finding is what we term \textit{hub--bridge
-duality}: the highest-degree nodes, which attract the most interactions,
-are structurally distinct from the highest-betweenness nodes that mediate
-information flow between communities. In the Higgs data, a single
-account dominates in-degree and eigenvector centrality across all three
-interaction types, yet a different node consistently leads in
-betweenness. Top-10\% metric intersection analysis confirms that passive
-popularity and active brokerage are largely non-overlapping roles. In the
-Enron network, community structure mirrors organizational hierarchy, with
-executive inboxes serving as dense intra-community hubs. The Facebook
-ego-network yields 16 well-separated communities consistent with
-distinct social circles. These results suggest that influence and
-connectivity play complementary rather than redundant roles in real-world
-networks, with implications for targeted intervention and network
-resilience.
+betweenness, and eigenvector centrality; measure clustering coefficients
+and average shortest-path lengths; compare against Erd\H{o}s--R\'enyi,
+Watts--Strogatz, and Barab\'asi--Albert null models; and evaluate
+community structure using both Louvain and Label Propagation algorithms.
+A recurring finding is what we term \textit{hub--bridge duality}: the
+highest-degree nodes, which attract the most interactions, are
+structurally distinct from the highest-betweenness nodes that mediate
+information flow between communities. Top-10\% metric intersection
+analysis confirms that passive popularity and active brokerage are
+largely non-overlapping roles. Comparison to synthetic null models
+reveals that the Facebook network is unambiguously small-world
+($\bar{C} = 0.606$, $\ell \approx 3.7$), with clustering approaching
+Watts--Strogatz levels while no single generative model reproduces both
+its clustering and degree heterogeneity simultaneously. Louvain
+consistently outperforms Label Propagation in modularity across all
+networks, while Label Propagation over-fragments by $1.3$--$1.8\times$.
+These results suggest that influence and connectivity play complementary
+rather than redundant roles in real-world networks, and that the
+structural signatures of each network type — broadcast-oriented,
+hierarchical, or friendship-based — are clearly distinguishable through
+this multi-metric lens.
 \end{abstract}
 %-Abstract
 

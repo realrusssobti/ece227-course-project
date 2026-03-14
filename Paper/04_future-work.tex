@@ -1,27 +1,54 @@
 \section{Conclusion}
 \label{sec:conclusion}
 
-% TODO: Write 1-2 paragraphs summarizing findings.
-
-We analyzed five real-world networks across three datasets using a consistent
-pipeline of degree statistics, betweenness centrality, eigenvector centrality,
-and Louvain community detection.
+We analyzed five real-world networks across three datasets using a
+consistent pipeline of centrality analysis, clustering and path-length
+measurement, null-model comparison, and community detection with two
+algorithms.
 A recurring finding is the \textit{hub--bridge duality}: the nodes with the
 highest degree (or eigenvector centrality) are not the same nodes that
 maximize information flow across the network.
-This has practical implications — removing a high-degree node may not
-disrupt communication as much as targeting a high-betweenness bridge.
+Top-10\% intersection analysis makes this concrete — In-Deg $\cap$ Out-Deg
+is the smallest pairwise overlap in every Higgs network, confirming that
+passive popularity and active broadcasting are distinct roles, while
+Betweenness $\cap$ Eigenvector is the largest overlap in the Retweet graph
+(18{,}628 nodes), indicating that bridges and recursively influential nodes
+coincide in broadcast-heavy topologies.
 
-In the Higgs Twitter data, node \texttt{88} dominates in-degree and
-eigenvector centrality across all three interaction types, confirming its
-role as the primary information source during the Higgs boson event.
-In the Enron network, the community structure reflects the underlying
-organizational hierarchy, with executive inboxes acting as dense hubs
-within their respective communities.
-The Facebook ego-network yields 16 well-separated communities consistent
-with distinct social circles.
+The three datasets occupy distinct structural regimes.
+The Higgs networks are sparse and broadcast-oriented: low clustering
+($\bar{C} = 0.007$--$0.087$) with short average path lengths
+($\ell \approx 5$--$7$), dominated by a single hub (node \texttt{88}) whose
+in-degree and eigenvector centrality are an order of magnitude above the
+next-ranked node.
+The Enron email network is hierarchical: moderate clustering
+($\bar{C} = 0.174$), 252 Louvain communities whose size distribution mirrors
+the corporate org chart, and a COO (\texttt{sally.beck@enron.com}) who serves
+simultaneously as the top in-degree node and a high-betweenness bridge — a
+rare violation of hub--bridge duality that reflects the centralised
+communication patterns of a corporate hierarchy.
+The Facebook ego-network is small-world: the highest clustering of any
+network studied ($\bar{C} = 0.606$) paired with the shortest path length
+($\ell \approx 3.7$), and 16 Louvain communities that align with the known
+ego-circle structure.
 
-% TODO: Add any quantitative take-aways specific to your paper's thesis.
+Comparison against Erd\H{o}s--R\'enyi, Watts--Strogatz, and
+Barab\'asi--Albert null models confirms that no single generative mechanism
+explains any of these networks.
+Facebook's clustering approaches Watts--Strogatz, but its degree distribution
+follows a power-law tail matching Barab\'asi--Albert.
+Louvain consistently outperforms Label Propagation in modularity
+($Q = 0.835$ vs.\ $0.737$ on Facebook; $0.628$ vs.\ $0.382$ on Enron),
+and Label Propagation over-fragments by $1.3$--$1.8\times$, producing
+partitions that are harder to interpret semantically.
+
+Taken together, these results demonstrate that a multi-metric approach
+— combining centrality, global graph properties, null-model benchmarking,
+and community detection — is necessary to characterise the structural
+roles and organisational logic of real-world networks.
+Degree and betweenness capture complementary aspects of node importance;
+clustering and path length distinguish network types; and algorithm choice
+materially affects the granularity of discovered communities.
 
 \section{Future Work}
 \label{sec:future}
@@ -43,9 +70,11 @@ important across all interaction types.
 \textbf{Robustness and targeted removal.}
 Given the hub--bridge distinction, a comparative simulation of random vs.\
 targeted node removal (targeting hubs vs.\ bridges) would quantify the
-resilience of each network.
+resilience of each network and test whether the duality has practical
+consequences for network robustness.
 
 \textbf{Feature-based community interpretation.}
 The Facebook dataset includes rich node feature vectors (\texttt{node\_to\_features.txt}).
 Linking detected communities to demographic or interest features could
-validate the semantic meaning of the Louvain partitions.
+validate the semantic meaning of the Louvain partitions and explain why
+Label Propagation over-fragments relative to the ego-circle ground truth.

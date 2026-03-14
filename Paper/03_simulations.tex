@@ -81,15 +81,24 @@ virality of the Higgs boson announcement.
     \label{fig:overlap}
 \end{figure*}
 
-To assess whether the same users are influential across all three interaction
-types, see Figure~\ref{fig:comparison} (right).
+Figure~\ref{fig:comparison} (right) shows that 6,100 nodes appear in the
+top 10\% by in-degree in both the Mention and Retweet networks — the largest
+pairwise overlap — while only 2,301 nodes are consistently influential across
+all three interaction types simultaneously.
 
 \subsection{Enron Email Network}
 
 Figure~\ref{fig:enron_centrality} shows the top-15 Enron nodes by each
 centrality metric.
-% TODO: Interpret which email addresses correspond to which executives,
-%       and discuss what betweenness/eigenvector reveal about org structure.
+\texttt{sally.beck@enron.com} (COO) dominates both in-degree and betweenness,
+indicating she was both a primary recipient and a critical communication bridge
+across departments.
+High out-degree belongs to \texttt{sally.beck} and \texttt{bob.ambrecht},
+consistent with executive broadcast behaviour.
+Notably, betweenness and eigenvector centrality surface different executives
+than in-degree alone — \texttt{don.baughman} ranks highly in betweenness
+despite modest in-degree, suggesting a broker role spanning otherwise
+disconnected groups.
 
 \begin{figure*}[ht]
     \centering
@@ -128,10 +137,14 @@ proportional to email volume.
 
 \subsection{Facebook Ego-Network}
 
-Figure~\ref{fig:fb_deg} and Figure~\ref{fig:fb_comm} show the degree
-distribution and Louvain community structure of the Facebook network.
-% TODO: Discuss what the 16 communities correspond to (ego circles),
-%       and compare the community size distribution to Enron/Higgs.
+Figure~\ref{fig:fb_deg} shows the degree distribution and Louvain community
+structure of the Facebook network.
+The 16 communities range from 19 to 548 nodes and likely correspond to the
+distinct social circles of the ten anonymised ego users; the uneven size
+distribution reflects the varying social reach of each ego.
+In contrast to Enron's 252 fine-grained departmental clusters, Facebook yields
+far fewer but larger communities, consistent with the tighter clustering and
+higher average degree (21.8) of a friendship graph.
 
 \begin{figure*}[!t]
     \centering
