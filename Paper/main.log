@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.8)  13 MAR 2026 16:06
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.8)  13 MAR 2026 17:16
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1339,80 +1339,91 @@ Package caption Info: New subtype `subfigure' on input line 238.
 \c@subfigure=\count328
 Package caption Info: New subtype `subtable' on input line 238.
 \c@subtable=\count329
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count330
+\float@exts=\toks34
+\float@box=\box61
+\@float@everytoks=\toks35
+\@floatcapt=\box62
 )
-\c@definition=\count330
-\c@theorem=\count331
-\c@proposition=\count332
-\c@corollary=\count333
-\c@lemma=\count334
-\c@example=\count335
- (/usr/local/texlive/2025/texmf-dist/tex/latex/lipsum/lipsum.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/placeins/placeins.sty
+Package: placeins 2005/04/18  v 2.2
+)
+\c@definition=\count331
+\c@theorem=\count332
+\c@proposition=\count333
+\c@corollary=\count334
+\c@lemma=\count335
+\c@example=\count336
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/lipsum/lipsum.sty
 (/usr/local/texlive/2025/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
 (/usr/local/texlive/2025/texmf-dist/tex/latex/l3kernel/expl3.sty
 Package: expl3 2025-01-18 L3 programming layer (loader) 
 
 (/usr/local/texlive/2025/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count336
-\l__pdf_internal_box=\box61
+\l__color_backend_stack_int=\count337
+\l__pdf_internal_box=\box63
 ))
 Package: l3keys2e 2024-08-16 LaTeX2e option processing using LaTeX3 keys
 )
 Package: lipsum 2021-09-20 v2.7 150 paragraphs of Lorem Ipsum dummy text
-\g__lipsum_par_int=\count337
-\l__lipsum_a_int=\count338
-\l__lipsum_b_int=\count339
+\g__lipsum_par_int=\count338
+\l__lipsum_a_int=\count339
+\l__lipsum_b_int=\count340
 (/usr/local/texlive/2025/texmf-dist/tex/latex/lipsum/lipsum.ltd.tex))
 LaTeX Font Info:    Trying to load font information for OT1+jkp on input line 3
-5.
+7.
 
 (/usr/local/texlive/2025/texmf-dist/tex/latex/kpfonts/ot1jkp.fd
 File: ot1jkp.fd 2007/08/30 Fontinst v1.928 font definitions for OT1/jkp.
 ) (./main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/jkp/m/it on input line 35.
+LaTeX Font Info:    Checking defaults for OML/jkp/m/it on input line 37.
 LaTeX Font Info:    Trying to load font information for OML+jkp on input line 3
-5.
+7.
 
 (/usr/local/texlive/2025/texmf-dist/tex/latex/kpfonts/omljkp.fd
 File: omljkp.fd 2006/08/15 v1.0
 )
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for OMS/jkp/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for OMS/jkp/m/n on input line 37.
 LaTeX Font Info:    Trying to load font information for OMS+jkp on input line 3
-5.
+7.
 
 (/usr/local/texlive/2025/texmf-dist/tex/latex/kpfonts/omsjkp.fd
 File: omsjkp.fd 2006/08/15 v1.0
 )
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for OMX/jkp/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for OMX/jkp/m/n on input line 37.
 LaTeX Font Info:    Trying to load font information for OMX+jkp on input line 3
-5.
+7.
 
 (/usr/local/texlive/2025/texmf-dist/tex/latex/kpfonts/omxjkp.fd
 File: omxjkp.fd 2006/08/15 v1.0
 )
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for U/jkpexa/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for U/jkpexa/m/n on input line 37.
 LaTeX Font Info:    Trying to load font information for U+jkpexa on input line 
-35.
+37.
 
 (/usr/local/texlive/2025/texmf-dist/tex/latex/kpfonts/ujkpexa.fd
 File: ujkpexa.fd 2006/08/15 v1.0
 )
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
 
 -- Lines per column: 54 (approximate, difference = 2.43001pt).
 *geometry* driver: auto-detecting
@@ -1451,17 +1462,17 @@ LaTeX Font Info:    ... okay on input line 35.
 
 (/usr/local/texlive/2025/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count340
+\scratchcounter=\count341
 \scratchdimen=\dimen278
-\scratchbox=\box62
-\nofMPsegments=\count341
-\nofMParguments=\count342
-\everyMPshowfont=\toks34
-\MPscratchCnt=\count343
+\scratchbox=\box64
+\nofMPsegments=\count342
+\nofMParguments=\count343
+\everyMPshowfont=\toks36
+\MPscratchCnt=\count344
 \MPscratchDim=\dimen279
-\MPnumerator=\count344
-\makeMPintoPDFobject=\count345
-\everyMPtoPDFconversion=\toks35
+\MPnumerator=\count345
+\makeMPintoPDFobject=\count346
+\everyMPtoPDFconversion=\toks37
 ) (/usr/local/texlive/2025/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
@@ -1471,20 +1482,20 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-LaTeX Info: Redefining \microtypecontext on input line 35.
-Package microtype Info: Applying patch `item' on input line 35.
-Package microtype Info: Applying patch `toc' on input line 35.
-Package microtype Info: Applying patch `eqnum' on input line 35.
-Package microtype Info: Applying patch `footnote' on input line 35.
-Package microtype Info: Applying patch `verbatim' on input line 35.
-LaTeX Info: Redefining \microtypesetup on input line 35.
+LaTeX Info: Redefining \microtypecontext on input line 37.
+Package microtype Info: Applying patch `item' on input line 37.
+Package microtype Info: Applying patch `toc' on input line 37.
+Package microtype Info: Applying patch `eqnum' on input line 37.
+Package microtype Info: Applying patch `footnote' on input line 37.
+Package microtype Info: Applying patch `verbatim' on input line 37.
+LaTeX Info: Redefining \microtypesetup on input line 37.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
 Package microtype Info: Automatic font expansion enabled (level 2),
 (microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
 Package microtype Info: Using default expansion set `alltext-nott'.
-LaTeX Info: Redefining \showhyphens on input line 35.
+LaTeX Info: Redefining \showhyphens on input line 37.
 Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of interword spacing.
 Package microtype Info: No adjustment of character kerning.
@@ -1492,45 +1503,43 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `jkp' (encoding: OT1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-\c@lstlisting=\count346
-Package hyperref Info: Link coloring ON on input line 35.
+\c@lstlisting=\count347
+Package hyperref Info: Link coloring ON on input line 37.
 
 (./main.out) (./main.out)
 \@outlinefile=\write3
 \openout3 = `main.out'.
 
 Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: float package is loaded.
 Package caption Info: End \AtBeginDocument code.
-
-** WARNING: \and is valid only when in conference or peerreviewca
-modes (line 62).
-(./00_introduction.tex
-
-) (./01_model.tex
 LaTeX Font Info:    Trying to load font information for U+jkpsya on input line 
-6.
+68.
 
 (/usr/local/texlive/2025/texmf-dist/tex/latex/kpfonts/ujkpsya.fd
 File: ujkpsya.fd 2006/08/15 v1.0
 )
 LaTeX Font Info:    Trying to load font information for U+jkpsyb on input line 
-6.
+68.
 
 (/usr/local/texlive/2025/texmf-dist/tex/latex/kpfonts/ujkpsyb.fd
 File: ujkpsyb.fd 2006/08/15 v1.0
 )
 LaTeX Font Info:    Trying to load font information for U+jkpmia on input line 
-6.
+68.
 
 (/usr/local/texlive/2025/texmf-dist/tex/latex/kpfonts/ujkpmia.fd
 File: ujkpmia.fd 2006/08/15 v1.0
 )
 LaTeX Font Info:    Trying to load font information for U+jkpsyc on input line 
-6.
+68.
 
 (/usr/local/texlive/2025/texmf-dist/tex/latex/kpfonts/ujkpsyc.fd
 File: ujkpsyc.fd 2006/08/15 v1.0
 )
+(./00_introduction.tex
+
+
 
 [1{/usr/local/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/l
 ocal/texlive/2025/texmf-dist/fonts/enc/dvips/base/8r.enc}
@@ -1538,16 +1547,25 @@ ocal/texlive/2025/texmf-dist/fonts/enc/dvips/base/8r.enc}
 
 {/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/kpfonts/kpfonts-expert.enc}
 ]
-<figures/higgs_mention_centrality.png, id=112, 1004.553pt x 710.655pt>
+Underfull \hbox (badness 1810) in paragraph at lines 55--71
+[]\OT1/jkp/m/n/10 (+20) Our cen-tral find-ing is what we term \OT1/jkp/m/it/10 
+(+20) hub--
+ []
+
+) (./01_model.tex
+
+
+
+[2]
+<figures/higgs_mention_centrality.png, id=150, 1004.553pt x 710.655pt>
 File: figures/higgs_mention_centrality.png Graphic file (type png)
 <use figures/higgs_mention_centrality.png>
 Package pdftex.def Info: figures/higgs_mention_centrality.png  used on input li
-ne 67.
+ne 91.
 (pdftex.def)             Requested size: 446.26582pt x 315.7037pt.
 LaTeX Font Info:    Trying to load font information for OT1+jkptt on input line
- 71.
-
-(/usr/local/texlive/2025/texmf-dist/tex/latex/kpfonts/ot1jkptt.fd
+ 95.
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/kpfonts/ot1jkptt.fd
 File: ot1jkptt.fd 2007/01/26 Fontinst v1.928 font definitions for OT1/jkptt.
 )
 Package microtype Info: Loading generic protrusion settings for font family
@@ -1556,173 +1574,202 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             See the microtype manual for details.
 )
 (./02_data.tex
-
-
-Overfull \hbox (26.20248pt too wide) in paragraph at lines 14--25
- [][] 
- []
-
-<figures/higgs_all_deg.png, id=120, 859.5312pt x 853.2678pt>
+<figures/higgs_all_deg.png, id=158, 859.5312pt x 853.2678pt>
 File: figures/higgs_all_deg.png Graphic file (type png)
 <use figures/higgs_all_deg.png>
 Package pdftex.def Info: figures/higgs_all_deg.png  used on input line 49.
 (pdftex.def)             Requested size: 399.29463pt x 396.38786pt.
-<figures/enron_deg.png, id=122, 569.9694pt x 350.2686pt>
+
+
+<figures/enron_deg.png, id=160, 569.9694pt x 350.2686pt>
 File: figures/enron_deg.png Graphic file (type png)
 <use figures/enron_deg.png>
 Package pdftex.def Info: figures/enron_deg.png  used on input line 73.
 (pdftex.def)             Requested size: 205.98834pt x 126.5883pt.
 ) (./03_simulations.tex
-
-[2]
-<figures/higgs_retweet_centrality.png, id=143, 1004.0712pt x 710.655pt>
+<figures/higgs_retweet_centrality.png, id=166, 1004.0712pt x 710.655pt>
 File: figures/higgs_retweet_centrality.png Graphic file (type png)
 <use figures/higgs_retweet_centrality.png>
 Package pdftex.def Info: figures/higgs_retweet_centrality.png  used on input li
 ne 23.
 (pdftex.def)             Requested size: 446.26582pt x 315.85553pt.
-
-
-<figures/higgs_all_intersections.png, id=145, 787.743pt x 924.0924pt>
+<figures/higgs_all_intersections.png, id=168, 787.743pt x 924.0924pt>
 File: figures/higgs_all_intersections.png Graphic file (type png)
 <use figures/higgs_all_intersections.png>
 Package pdftex.def Info: figures/higgs_all_intersections.png  used on input lin
 e 52.
 (pdftex.def)             Requested size: 366.40834pt x 429.83954pt.
-<figures/higgs_comparison.png, id=147, 1076.3412pt x 357.0138pt>
+
+
+[3]
+<figures/higgs_comparison.png, id=185, 1076.3412pt x 357.0138pt>
 File: figures/higgs_comparison.png Graphic file (type png)
 <use figures/higgs_comparison.png>
 Package pdftex.def Info: figures/higgs_comparison.png  used on input line 71.
 (pdftex.def)             Requested size: 225.4804pt x 74.78989pt.
-<figures/higgs_overlap.png, id=148, 642.7212pt x 280.4076pt>
+<figures/higgs_overlap.png, id=186, 642.7212pt x 280.4076pt>
 File: figures/higgs_overlap.png Graphic file (type png)
 <use figures/higgs_overlap.png>
 Package pdftex.def Info: figures/higgs_overlap.png  used on input line 73.
 (pdftex.def)             Requested size: 225.4804pt x 98.3709pt.
-<figures/enron_centrality.png, id=151, 1004.553pt x 710.655pt>
+
+
+<figures/enron_centrality.png, id=189, 1004.553pt x 710.655pt>
 File: figures/enron_centrality.png Graphic file (type png)
 <use figures/enron_centrality.png>
-Package pdftex.def Info: figures/enron_centrality.png  used on input line 96.
+Package pdftex.def Info: figures/enron_centrality.png  used on input line 104.
 (pdftex.def)             Requested size: 446.26582pt x 315.7037pt.
 
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[3 <./figures/higgs_mention_centrality.png>]
-<figures/enron_communities.png, id=164, 715.473pt x 281.853pt>
+
+
+[4 <./figures/higgs_mention_centrality.png>]
+<figures/enron_communities.png, id=200, 715.473pt x 281.853pt>
 File: figures/enron_communities.png Graphic file (type png)
 <use figures/enron_communities.png>
-Package pdftex.def Info: figures/enron_communities.png  used on input line 114.
+Package pdftex.def Info: figures/enron_communities.png  used on input line 122.
 
 (pdftex.def)             Requested size: 258.36668pt x 101.78094pt.
-<figures/enron_exec_network.png, id=165, 1582.713pt x 1293.1512pt>
+<figures/enron_exec_network.png, id=201, 1582.713pt x 1293.1512pt>
 File: figures/enron_exec_network.png Graphic file (type png)
 <use figures/enron_exec_network.png>
-Package pdftex.def Info: figures/enron_exec_network.png  used on input line 116
+Package pdftex.def Info: figures/enron_exec_network.png  used on input line 124
 .
 (pdftex.def)             Requested size: 446.26582pt x 364.60555pt.
-<figures/fb_deg.png, id=168, 569.9694pt x 350.2686pt>
+<figures/fb_deg.png, id=203, 569.9694pt x 350.2686pt>
 File: figures/fb_deg.png Graphic file (type png)
 <use figures/fb_deg.png>
-Package pdftex.def Info: figures/fb_deg.png  used on input line 138.
+Package pdftex.def Info: figures/fb_deg.png  used on input line 149.
 (pdftex.def)             Requested size: 225.4804pt x 138.56569pt.
-<figures/fb_communities.png, id=169, 859.5312pt x 277.9986pt>
+<figures/fb_communities.png, id=204, 859.5312pt x 277.9986pt>
 File: figures/fb_communities.png Graphic file (type png)
 <use figures/fb_communities.png>
-Package pdftex.def Info: figures/fb_communities.png  used on input line 140.
+Package pdftex.def Info: figures/fb_communities.png  used on input line 151.
 (pdftex.def)             Requested size: 225.4804pt x 72.92694pt.
 
 
 
-! LaTeX Error: \begin{figure*} on input line 136 ended by \end{figure}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.150 \end{figure}
-                  
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-) (./04_future-work.tex
-
-[4 <./figures/higgs_all_deg.png>])
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-[5
+[5 <./figures/higgs_all_deg.png>]
+<figures/clustering_coefficients.png, id=213, 642.7212pt x 280.4076pt>
+File: figures/clustering_coefficients.png Graphic file (type png)
+<use figures/clustering_coefficients.png>
+Package pdftex.def Info: figures/clustering_coefficients.png  used on input lin
+e 200.
+(pdftex.def)             Requested size: 205.98834pt x 89.8649pt.
+<figures/avg_path_length.png, id=214, 642.7212pt x 280.4076pt>
+File: figures/avg_path_length.png Graphic file (type png)
+<use figures/avg_path_length.png>
+Package pdftex.def Info: figures/avg_path_length.png  used on input line 210.
+(pdftex.def)             Requested size: 205.98834pt x 89.8649pt.
 
- <./figures/enron_deg.png>] [6 <./figures/higgs_retweet_centrality.png>]
-[7 <./figures/higgs_all_intersections.png> <./figures/higgs_comparison.png> <./
-figures/higgs_overlap.png>] [8 <./figures/enron_centrality.png>] [9 <./figures/
-enron_communities.png> <./figures/enron_exec_network.png>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+<figures/random_graph_comparison.png, id=221, 1004.0712pt x 357.0138pt>
+File: figures/random_graph_comparison.png Graphic file (type png)
+<use figures/random_graph_comparison.png>
+Package pdftex.def Info: figures/random_graph_comparison.png  used on input lin
+e 228.
+(pdftex.def)             Requested size: 446.26582pt x 158.67725pt.
+<figures/random_graph_deg_comparison.png, id=222, 859.0494pt x 638.8668pt>
+File: figures/random_graph_deg_comparison.png Graphic file (type png)
+<use figures/random_graph_deg_comparison.png>
+Package pdftex.def Info: figures/random_graph_deg_comparison.png  used on input
+ line 238.
+(pdftex.def)             Requested size: 446.26582pt x 331.8812pt.
+<figures/community_comparison.png, id=226, 931.8012pt x 357.0138pt>
+File: figures/community_comparison.png Graphic file (type png)
+<use figures/community_comparison.png>
+Package pdftex.def Info: figures/community_comparison.png  used on input line 2
+90.
+(pdftex.def)             Requested size: 205.98834pt x 78.91916pt.
+
+
+[6 <./figures/enron_deg.png> <./figures/clustering_coefficients.png> <./figures
+/avg_path_length.png>]) (./04_future-work.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+
+Underfull \hbox (badness 2126) in paragraph at lines 18--34
+\OT1/jkp/m/n/10 (+20) regimes. The Higgs net-works are sparse and
+ []
+
+
+
+[7 <./figures/higgs_retweet_centrality.png> <./figures/community_comparison.png
+>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+[8 <./figures/higgs_all_intersections.png> <./figures/higgs_comparison.png> <./
+figures/higgs_overlap.png>]
+
+
+
+[9 <./figures/enron_centrality.png>])
 
 
 
 [10
 
-
- <./figures/fb_deg.png> <./figures/fb_communities.png>] (./main.bbl)
-
-<figures/raman.jpg, id=214, 700.6175pt x 700.6175pt>
-File: figures/raman.jpg Graphic file (type jpg)
-<use figures/raman.jpg>
-Package pdftex.def Info: figures/raman.jpg  used on input line 102.
-(pdftex.def)             Requested size: 72.2681pt x 72.2681pt.
-File: figures/raman.jpg Graphic file (type jpg)
-<use figures/raman.jpg>
-Package pdftex.def Info: figures/raman.jpg  used on input line 102.
-(pdftex.def)             Requested size: 72.2681pt x 72.2681pt.
-<figures/massimo.jpg, id=217, 453.695pt x 567.11874pt>
-File: figures/massimo.jpg Graphic file (type jpg)
-<use figures/massimo.jpg>
-Package pdftex.def Info: figures/massimo.jpg  used on input line 105.
-(pdftex.def)             Requested size: 72.2673pt x 90.33414pt.
-File: figures/massimo.jpg Graphic file (type jpg)
-<use figures/massimo.jpg>
-Package pdftex.def Info: figures/massimo.jpg  used on input line 105.
-(pdftex.def)             Requested size: 72.2673pt x 90.33414pt.
+ <./figures/enron_communities.png> <./figures/enron_exec_network.png>]
+[11 <./figures/fb_deg.png> <./figures/fb_communities.png> <./figures/random_gra
+ph_comparison.png>] [12 <./figures/random_graph_deg_comparison.png>]
+(./main.bbl)
 
 
-[11
+
+[13
 
 
- <./figures/raman.jpg> <./figures/massimo.jpg>] (./main.aux)
+
+] (./main.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: F6F1F0803A21D323B875610EEA016D5A;3175.
+(rerunfilecheck)             Checksum: 0DF0BB19DFCE3F33F4AFF07EA1F377A3;3464.
  ) 
 Here is how much of TeX's memory you used:
- 20237 strings out of 473190
- 323780 string characters out of 5715801
- 863675 words of memory out of 5000000
- 42699 multiletter control sequences out of 15000+600000
- 693142 words of font info for 500 fonts, out of 8000000 for 9000
+ 20472 strings out of 473190
+ 328058 string characters out of 5715801
+ 869494 words of memory out of 5000000
+ 42838 multiletter control sequences out of 15000+600000
+ 703635 words of font info for 563 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 79i,10n,93p,1001b,498s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 79i,11n,93p,1001b,478s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2025/texmf-dist/fonts/type1/public/kpfonts/jkpbit8a.pfb><
 /usr/local/texlive/2025/texmf-dist/fonts/type1/public/kpfonts/jkpbn8a.pfb></usr
 /local/texlive/2025/texmf-dist/fonts/type1/public/kpfonts/jkpbne.pfb></usr/loca
 l/texlive/2025/texmf-dist/fonts/type1/public/kpfonts/jkpex.pfb></usr/local/texl
 ive/2025/texmf-dist/fonts/type1/public/kpfonts/jkpmi.pfb></usr/local/texlive/20
-25/texmf-dist/fonts/type1/public/kpfonts/jkpmit8a.pfb></usr/local/texlive/2025/
-texmf-dist/fonts/type1/public/kpfonts/jkpmn8a.pfb></usr/local/texlive/2025/texm
-f-dist/fonts/type1/public/kpfonts/jkpmne.pfb></usr/local/texlive/2025/texmf-dis
-t/fonts/type1/public/kpfonts/jkpmsc8a.pfb></usr/local/texlive/2025/texmf-dist/f
-onts/type1/public/kpfonts/jkpsy.pfb></usr/local/texlive/2025/texmf-dist/fonts/t
-ype1/public/kpfonts/jkpsyc.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/
-public/kpfonts/jkpttmn8a.pfb>
-Output written on main.pdf (11 pages, 4550463 bytes).
+25/texmf-dist/fonts/type1/public/kpfonts/jkpmia.pfb></usr/local/texlive/2025/te
+xmf-dist/fonts/type1/public/kpfonts/jkpmit8a.pfb></usr/local/texlive/2025/texmf
+-dist/fonts/type1/public/kpfonts/jkpmn8a.pfb></usr/local/texlive/2025/texmf-dis
+t/fonts/type1/public/kpfonts/jkpmne.pfb></usr/local/texlive/2025/texmf-dist/fon
+ts/type1/public/kpfonts/jkpmsc8a.pfb></usr/local/texlive/2025/texmf-dist/fonts/
+type1/public/kpfonts/jkpsy.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/
+public/kpfonts/jkpsyc.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/publi
+c/kpfonts/jkpttmn8a.pfb>
+Output written on main.pdf (13 pages, 4632508 bytes).
 PDF statistics:
- 295 PDF objects out of 1000 (max. 8388607)
- 224 compressed objects within 3 object streams
- 49 named destinations out of 1000 (max. 500000)
- 99591 words of extra memory for PDF output out of 106986 (max. 10000000)
+ 358 PDF objects out of 1000 (max. 8388607)
+ 279 compressed objects within 3 object streams
+ 65 named destinations out of 1000 (max. 500000)
+ 103686 words of extra memory for PDF output out of 106986 (max. 10000000)
 

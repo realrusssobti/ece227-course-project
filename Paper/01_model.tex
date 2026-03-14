@@ -53,6 +53,30 @@ iff nodes $i$ and $j$ are in the same community.
 For directed networks (Higgs, Enron) we convert to an undirected graph
 prior to community detection.
 
+\subsection{Graph-Level Properties}
+
+Beyond node-level centrality, we measure two graph-level structural
+properties~\cite{newman2018networks}.
+
+\textbf{Clustering coefficient.}
+The local clustering coefficient of node $v$ is
+\begin{equation}
+    c(v) = \frac{|\{(u,w) \in E : u,w \in \mathcal{N}(v)\}|}{k(v)(k(v)-1)},
+\end{equation}
+where $\mathcal{N}(v)$ is the set of neighbours of $v$ and $k(v) = |\mathcal{N}(v)|$.
+The network average $\bar{C} = \frac{1}{|V|}\sum_v c(v)$ quantifies the
+tendency of nodes to form tightly connected triples.
+High $\bar{C}$ relative to a random graph is a hallmark of
+small-world networks~\cite{watts1998}.
+
+\textbf{Average shortest-path length.}
+\begin{equation}
+    \ell = \frac{1}{|V|(|V|-1)} \sum_{s \neq t} d(s,t),
+\end{equation}
+where $d(s,t)$ is the length of the shortest path from $s$ to $t$.
+For large networks we estimate $\ell$ via BFS sampling from
+500 randomly chosen source nodes in the largest connected component.
+
 \subsection{Top-10\% Intersection Analysis}
 
 To assess agreement between metrics, we compute the pairwise intersection

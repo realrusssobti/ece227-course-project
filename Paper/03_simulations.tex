@@ -78,7 +78,6 @@ virality of the Higgs boson announcement.
              — the largest pairwise overlap — while only 2,301 nodes appear
              in the top 10\% across all three networks simultaneously.}
     \label{fig:comparison}
-    \label{fig:overlap}
 \end{figure*}
 
 Figure~\ref{fig:comparison} (right) shows that 6,100 nodes appear in the
@@ -114,7 +113,7 @@ The Louvain algorithm identified 252
 communities in the Enron network, as shown in Figure~\ref{fig:enron_comm}.
 The distribution of community sizes is highly skewed, with a few large
 communities (likely business units) and many small peripheral clusters.
-Figure~\ref{fig:enron_exec} provides a richer view of the executive
+Figure~\ref{fig:enron_comm} (bottom) provides a richer view of the executive
 sub-network, with node size proportional to degree and edge thickness
 proportional to email volume.
 
@@ -132,7 +131,6 @@ proportional to email volume.
              edge thickness encodes email volume.
              \texttt{sally.beck@enron.com} (COO) is the largest hub.}
     \label{fig:enron_comm}
-    \label{fig:enron_exec}
 \end{figure*}
 
 \subsection{Facebook Ego-Network}
@@ -159,5 +157,151 @@ higher average degree (21.8) of a friendship graph.
              network. The 16 communities range from 19 to 548 nodes and
              likely correspond to distinct social circles of the ego users.}
     \label{fig:fb_deg}
-    \label{fig:fb_comm}
+\end{figure*}
+
+\subsection{Graph Properties}
+
+Table~\ref{tab:graph_props} summarises the clustering coefficient
+$\bar{C}$ and average shortest-path length $\ell$ for all five networks,
+computed on the largest weakly connected component.
+Path lengths for the three large Higgs networks were estimated via BFS
+sampling ($n{=}500$ source nodes); diameter values are lower bounds
+from the same sampling procedure.
+
+\begin{table}[H]
+\centering
+\caption{Clustering coefficient $\bar{C}$, sampled average path length
+         $\ell$, and diameter lower bound $d$ for each network.}
+\label{tab:graph_props}
+\begin{tabular}{lrrr}
+\toprule
+\textbf{Network}  & $\bar{C}$ & $\ell$  & $d \geq$ \\
+\midrule
+Higgs Mention     & 0.087     & 5.08    & 17 \\
+Higgs Reply       & 0.007     & 7.22    & 28 \\
+Higgs Retweet     & 0.016     & 5.45    & 17 \\
+Enron Email       & 0.174     & 4.21    & 11 \\
+Facebook          & 0.606     & 3.72    &  8 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+The Facebook network stands out with by far the highest clustering
+coefficient ($\bar{C} = 0.606$), consistent with the dense, reciprocal
+nature of friendship ties.
+The Higgs Reply network has the lowest clustering ($\bar{C} = 0.007$)
+and the longest average path length ($\ell \approx 7.2$), reflecting
+its sparse, conversational structure.
+Enron occupies a middle ground ($\bar{C} = 0.174$, $\ell \approx 4.2$),
+consistent with a hierarchically organised communication graph.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\linewidth]{figures/clustering_coefficients.png}
+    \caption{Clustering coefficients across all five networks.
+             Facebook's coefficient (0.606) is an order of magnitude
+             above the Higgs networks, marking it as the only clearly
+             small-world graph in the study.}
+    \label{fig:clustering}
 \end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\linewidth]{figures/avg_path_length.png}
+    \caption{Sampled average path lengths. The Reply network's longer
+             paths reflect its sparse, conversation-thread topology.}
+    \label{fig:apl}
+\end{figure}
+
+\subsection{Random Graph Comparison}
+
+To contextualise each network's structure, we compare it against three
+canonical null models — Erd\H{o}s--R\'enyi (ER)~\cite{erdos1959},
+Watts--Strogatz (WS)~\cite{watts1998}, and Barab\'asi--Albert
+(BA)~\cite{barabasi1999} — each instantiated with the same number of
+nodes and matched average degree.
+Comparisons are run on a 3{,}000-node subgraph sampled from the
+largest connected component of each real network.
+
+\begin{figure*}[!ht]
+    \centering
+    \includegraphics[width=0.95\linewidth]{figures/random_graph_comparison.png}
+    \caption{Clustering coefficient and average path length for each
+             real network (solid bars) versus ER, WS, and BA null models
+             (hatched bars). No single generative model matches both
+             properties of any real network.}
+    \label{fig:random_graph}
+\end{figure*}
+
+\begin{figure*}[!ht]
+    \centering
+    \includegraphics[width=0.95\linewidth]{figures/random_graph_deg_comparison.png}
+    \caption{Degree distributions of real networks (blue) versus BA
+             (orange), WS (green), and ER (red) null models.
+             The heavy-tailed behaviour of real networks is captured
+             only by the BA model.}
+    \label{fig:random_deg}
+\end{figure*}
+
+The key findings are:
+\begin{itemize}
+    \item \textbf{ER} replicates neither the clustering nor the
+          degree heterogeneity of any real network.
+    \item \textbf{WS} closely matches the clustering of Facebook
+          ($\bar{C} = 0.606$) but underestimates clustering in
+          the Higgs and Enron networks and produces Poisson-like
+          degree distributions, not power-law tails.
+    \item \textbf{BA} captures the heavy-tailed degree distributions
+          of all five networks but produces near-zero clustering,
+          diverging sharply from the real graphs — especially Facebook.
+\end{itemize}
+These results confirm that real-world networks are \textit{hybrid}
+structures: their degree heterogeneity is BA-like while their local
+density is WS-like, a combination no single generative model reproduces.
+
+\subsection{Community Detection Comparison}
+
+We compare Louvain~\cite{blondel2008} and Label Propagation on three
+representative networks: Higgs Reply (directed, sparse), Enron (directed,
+hierarchical), and Facebook (undirected, dense).
+Table~\ref{tab:community_compare} reports the number of communities
+detected and the modularity $Q$ achieved by each algorithm.
+
+\begin{table}[H]
+\centering
+\caption{Louvain vs.\ Label Propagation: community count and modularity
+         $Q$ on three networks.}
+\label{tab:community_compare}
+\begin{tabular}{lrrrr}
+\toprule
+ & \multicolumn{2}{c}{\textbf{Louvain}} & \multicolumn{2}{c}{\textbf{Label Prop.}} \\
+\cmidrule(lr){2-3}\cmidrule(lr){4-5}
+\textbf{Network} & \# Comm. & $Q$ & \# Comm. & $Q$ \\
+\midrule
+Higgs Reply  & 10{,}704 & 0.964 & 13{,}638 & 0.850 \\
+Enron Email  &     254  & 0.628 &     465  & 0.382 \\
+Facebook     &      16  & 0.835 &      44  & 0.737 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\linewidth]{figures/community_comparison.png}
+    \caption{Community count (left axis, bars) and modularity $Q$
+             (right axis, markers) for Louvain (blue) and Label
+             Propagation (orange) on the three test networks.
+             Louvain achieves higher $Q$ in every case while
+             producing fewer, semantically cleaner partitions.}
+    \label{fig:community_compare}
+\end{figure}
+
+Louvain consistently achieves higher modularity than Label Propagation
+across all three networks ($\Delta Q = 0.11$--$0.25$).
+Label Propagation over-fragments by $1.3\times$ on Facebook (44 vs.\ 16
+communities) and $1.8\times$ on Enron (465 vs.\ 254), producing
+partitions that are harder to interpret semantically.
+The Higgs Reply result is notable: both algorithms detect thousands of
+micro-communities, reflecting the isolated thread structure of a
+reply graph, but Louvain's higher $Q$ ($0.964$) indicates
+better-defined community boundaries even at that granularity.

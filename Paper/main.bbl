@@ -1,5 +1,10 @@
 \begin{thebibliography}{}
 
+\bibitem[Barab{\'a}si and Albert, 1999]{barabasi1999}
+Barab{\'a}si, A.-L. and Albert, R. (1999).
+\newblock Emergence of scaling in random networks.
+\newblock {\em Science}, 286(5439):509--512.
+
 \bibitem[Blondel et~al., 2008]{blondel2008}
 Blondel, V.~D., Guillaume, J.-L., Lambiotte, R., and Lefebvre, E. (2008).
 \newblock Fast unfolding of communities in large networks.
@@ -11,10 +16,25 @@ De~Domenico, M., Lima, A., Mougel, P., and Musolesi, M. (2013).
 \newblock The anatomy of a scientific rumor.
 \newblock {\em Scientific Reports}, 3:2980.
 
+\bibitem[Erd{\H{o}}s and R{\'e}nyi, 1959]{erdos1959}
+Erd{\H{o}}s, P. and R{\'e}nyi, A. (1959).
+\newblock On random graphs {I}.
+\newblock {\em Publicationes Mathematicae (Debrecen)}, 6:290--297.
+
 \bibitem[Leskovec and Mcauley, 2012]{leskovec2012}
 Leskovec, J. and Mcauley, J. (2012).
 \newblock Learning to discover social circles in ego networks.
 \newblock In {\em Advances in Neural Information Processing Systems},
   volume~25.
+
+\bibitem[Newman, 2018]{newman2018networks}
+Newman, M. (2018).
+\newblock {\em Networks}.
+\newblock Oxford University Press, second edition.
+
+\bibitem[Watts and Strogatz, 1998]{watts1998}
+Watts, D.~J. and Strogatz, S.~H. (1998).
+\newblock Collective dynamics of `small-world' networks.
+\newblock {\em Nature}, 393:440--442.
 
 \end{thebibliography}
