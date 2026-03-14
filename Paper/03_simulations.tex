@@ -215,7 +215,7 @@ Path lengths for the three large Higgs networks were estimated via BFS
 sampling ($n{=}500$ source nodes); diameter values are lower bounds
 from the same sampling procedure.
 
-\begin{table}[H]
+\begin{table}[!ht]
 \centering
 \caption{Clustering coefficient $\bar{C}$, sampled average path length
          $\ell$, and diameter lower bound $d$ for each network.}
@@ -277,7 +277,7 @@ tightest top-10\% intersections (Section~\ref{sec:results}B) and why
 both Louvain and Label Propagation detect thousands of micro-communities
 in it: each isolated thread forms its own tiny cluster.
 
-\begin{figure}[H]
+\begin{figure}[!ht]
     \centering
     \includegraphics[width=0.9\linewidth]{figures/clustering_coefficients.png}
     \caption{Clustering coefficients across all five networks.
@@ -287,7 +287,7 @@ in it: each isolated thread forms its own tiny cluster.
     \label{fig:clustering}
 \end{figure}
 
-\begin{figure}[H]
+\begin{figure}[!ht]
     \centering
     \includegraphics[width=0.9\linewidth]{figures/avg_path_length.png}
     \caption{Sampled average path lengths. The Reply network's longer
@@ -378,7 +378,7 @@ hierarchical), and Facebook (undirected, dense).
 Table~\ref{tab:community_compare} reports the number of communities
 detected and the modularity $Q$ achieved by each algorithm.
 
-\begin{table}[H]
+\begin{table}[!ht]
 \centering
 \caption{Louvain vs.\ Label Propagation: community count and modularity
          $Q$ on three networks.}
@@ -396,7 +396,7 @@ Facebook     &      16  & 0.835 &      44  & 0.737 \\
 \end{tabular}
 \end{table}
 
-\begin{figure}[H]
+\begin{figure}[!ht]
     \centering
     \includegraphics[width=0.9\linewidth]{figures/community_comparison.png}
     \caption{Community count (left axis, bars) and modularity $Q$

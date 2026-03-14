@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.8)  13 MAR 2026 17:31
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.8)  13 MAR 2026 17:33
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1704,41 +1704,18 @@ File: figures/clustering_coefficients.png Graphic file (type png)
 Package pdftex.def Info: figures/clustering_coefficients.png  used on input lin
 e 282.
 (pdftex.def)             Requested size: 205.98834pt x 89.8649pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-
 <figures/avg_path_length.png, id=228, 642.7212pt x 280.4076pt>
 File: figures/avg_path_length.png Graphic file (type png)
 <use figures/avg_path_length.png>
 Package pdftex.def Info: figures/avg_path_length.png  used on input line 292.
 (pdftex.def)             Requested size: 205.98834pt x 89.8649pt.
-
-Underfull \vbox (badness 3068) has occurred while \output is active []
-
-
-
-[7 <./figures/higgs_retweet_centrality.png> <./figures/clustering_coefficients.
-png> <./figures/avg_path_length.png>]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-
-
-Overfull \vbox (9.41757pt too high) has occurred while \output is active []
-
-
-
-[8 <./figures/higgs_all_intersections.png> <./figures/higgs_comparison.png> <./
-figures/higgs_overlap.png>]
-<figures/random_graph_comparison.png, id=252, 1004.0712pt x 357.0138pt>
+<figures/random_graph_comparison.png, id=235, 1004.0712pt x 357.0138pt>
 File: figures/random_graph_comparison.png Graphic file (type png)
 <use figures/random_graph_comparison.png>
 Package pdftex.def Info: figures/random_graph_comparison.png  used on input lin
 e 310.
 (pdftex.def)             Requested size: 446.26582pt x 158.67725pt.
-<figures/random_graph_deg_comparison.png, id=253, 859.0494pt x 638.8668pt>
+<figures/random_graph_deg_comparison.png, id=236, 859.0494pt x 638.8668pt>
 File: figures/random_graph_deg_comparison.png Graphic file (type png)
 <use figures/random_graph_deg_comparison.png>
 Package pdftex.def Info: figures/random_graph_deg_comparison.png  used on input
@@ -1746,6 +1723,27 @@ Package pdftex.def Info: figures/random_graph_deg_comparison.png  used on input
 (pdftex.def)             Requested size: 446.26582pt x 331.8812pt.
 
 
+
+
+[7 <./figures/higgs_retweet_centrality.png>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+[8 <./figures/higgs_all_intersections.png> <./figures/higgs_comparison.png> <./
+figures/higgs_overlap.png>]
+
+<figures/community_comparison.png, id=253, 931.8012pt x 357.0138pt>
+File: figures/community_comparison.png Graphic file (type png)
+<use figures/community_comparison.png>
+Package pdftex.def Info: figures/community_comparison.png  used on input line 4
+01.
+(pdftex.def)             Requested size: 205.98834pt x 78.91916pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
@@ -1759,37 +1757,31 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 [10 <./figures/enron_communities.png> <./figures/enron_exec_network.png>]
-<figures/community_comparison.png, id=269, 931.8012pt x 357.0138pt>
-File: figures/community_comparison.png Graphic file (type png)
-<use figures/community_comparison.png>
-Package pdftex.def Info: figures/community_comparison.png  used on input line 4
-01.
-(pdftex.def)             Requested size: 205.98834pt x 78.91916pt.
-
-
-
-
-[11 <./figures/fb_deg.png> <./figures/fb_communities.png> <./figures/random_gra
-ph_comparison.png> <./figures/community_comparison.png>]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
 
 ) (./04_future-work.tex
-Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
-
-[12 <./figures/random_graph_deg_comparison.png>]
+[11 <./figures/fb_deg.png> <./figures/fb_communities.png> <./figures/clustering
+_coefficients.png> <./figures/avg_path_length.png>]
 Underfull \hbox (badness 2126) in paragraph at lines 18--34
 \OT1/jkp/m/n/10 (+20) regimes. The Higgs net-works are sparse and
  []
 
 
+Underfull \vbox (badness 7944) has occurred while \output is active []
+
+
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+[12 <./figures/random_graph_comparison.png> <./figures/random_graph_deg_compari
+son.png>]
 
 )
 
-[13] (./main.bbl)
+[13 <./figures/community_comparison.png>] (./main.bbl)
 
 
 
@@ -1805,13 +1797,13 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 2536038BD3064B10678F2CE3F73EA751;3706.
  ) 
 Here is how much of TeX's memory you used:
- 20503 strings out of 473190
- 328364 string characters out of 5715801
- 867498 words of memory out of 5000000
- 42839 multiletter control sequences out of 15000+600000
+ 20501 strings out of 473190
+ 328345 string characters out of 5715801
+ 867499 words of memory out of 5000000
+ 42837 multiletter control sequences out of 15000+600000
  706205 words of font info for 584 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 79i,11n,93p,1001b,571s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 79i,11n,93p,1001b,567s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2025/texmf-dist/fonts/type1/public/kpfonts/jkpbit8a.pfb><
 /usr/local/texlive/2025/texmf-dist/fonts/type1/public/kpfonts/jkpbn8a.pfb></usr
 /local/texlive/2025/texmf-dist/fonts/type1/public/kpfonts/jkpbne.pfb></usr/loca
@@ -1825,7 +1817,7 @@ ts/type1/public/kpfonts/jkpmsc8a.pfb></usr/local/texlive/2025/texmf-dist/fonts/
 type1/public/kpfonts/jkpsy.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/
 public/kpfonts/jkpsyc.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/publi
 c/kpfonts/jkpttmn8a.pfb>
-Output written on main.pdf (14 pages, 4643472 bytes).
+Output written on main.pdf (14 pages, 4643648 bytes).
 PDF statistics:
  372 PDF objects out of 1000 (max. 8388607)
  292 compressed objects within 3 object streams
