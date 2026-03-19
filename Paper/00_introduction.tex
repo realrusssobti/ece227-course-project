@@ -5,7 +5,7 @@ human behavior, influence, and organizational structure.
 Understanding how information propagates, who the key actors are, and how
 communities form are central questions in network science with applications
 ranging from misinformation detection to organizational
-auditing~\cite{newman2018networks}.
+auditing~\citep{newman2018networks}.
 The rapid growth of online platforms has produced massive interaction graphs
 whose structural properties — degree distributions, centrality rankings,
 community partitions — offer quantitative proxies for latent social phenomena
@@ -18,7 +18,7 @@ inboxes most emailed.
 High betweenness centrality, by contrast, captures brokerage: the nodes
 whose removal would most fragment the flow of information between otherwise
 distant groups.
-Prior work on scale-free networks~\cite{barabasi1999} has shown that
+Prior work on scale-free networks \citep{barabasi1999} has shown that
 degree distributions in real-world graphs are heavy-tailed, implying that
 a small number of hubs attract a disproportionate share of connections.
 However, degree alone does not determine a node's role as a structural
@@ -27,12 +27,12 @@ remains dataset-dependent.
 
 In this paper we investigate this question across three complementary
 real-world datasets:
-(i)~the \textit{Higgs Twitter dataset}~\cite{higgs2013}, which captures
+(i)~the \textit{Higgs Twitter dataset} \citep{higgs2013}, which captures
 three interaction modalities — retweets, mentions, and replies — surrounding
 the announcement of the Higgs boson discovery;
 (ii)~the \textit{Enron email corpus}, which provides a longitudinal record
 of internal corporate communication at Enron Corporation; and
-(iii)~the \textit{Facebook ego-network dataset}~\cite{leskovec2012}, which
+(iii)~the \textit{Facebook ego-network dataset} \citep{leskovec2012}, which
 represents friendship circles of selected users on Facebook.
 These datasets span directed event-driven graphs, directed organizational
 graphs, and an undirected friendship graph, providing breadth across
@@ -40,14 +40,14 @@ network types.
 
 For each network we compute four standard centrality metrics — in-degree,
 out-degree, betweenness, and eigenvector centrality — and apply the Louvain
-community detection algorithm~\cite{blondel2008}.
+community detection algorithm \citep{blondel2008}.
 We introduce a \textit{top-10\% intersection analysis} that quantifies the
 pairwise overlap between the highest-ranked nodes under each metric,
 revealing which notions of importance coincide and which diverge.
 Beyond centrality, we measure clustering coefficients and average
 shortest-path lengths, and compare each network against three canonical
-null models — Erd\H{o}s--R\'enyi~\cite{erdos1959}, Watts--Strogatz~\cite{watts1998},
-and Barab\'asi--Albert~\cite{barabasi1999} — to characterise the
+null models — Erd\H{o}s--R\'enyi~\citep{erdos1959}, Watts--Strogatz~\citep{watts1998},
+and Barab\'asi--Albert~\citep{barabasi1999} — to characterise the
 generative regime each network most closely resembles.
 We also contrast Louvain with Label Propagation to evaluate the
 sensitivity of community structure to algorithm choice.
@@ -70,8 +70,19 @@ all networks ($Q = 0.835$ vs.\ $0.737$ on Facebook; $0.628$ vs.\ $0.382$
 on Enron).
 
 The remainder of this paper is organized as follows.
+Section~\ref{sec:related} goes over a quick summary of relevant related works.
 Section~\ref{sec:model} defines the network models and centrality measures.
 Section~\ref{sec:data} describes each dataset.
 Section~\ref{sec:results} presents our experimental results.
 Section~\ref{sec:conclusion} concludes with a discussion of limitations and
 future directions.
+
+Our GitHub repo can be found at the following link:
+https://github.com/realrusssobti/ece227-course-project/tree/main
+
+\section{Related Work}
+\label{sec:related}
+
+The in-depth analysis of complex networks has its foundation in mathematical models. The network analysis works in the early stages were centered more on random graphs proposed by \citet{erdos1959}, and this has been the baseline for understanding edge probability. However, real social and organizational networks are rare. So, \citet{watts1998} introduced the small-world network model to represent high local clustering with remarkably short average path lengths between any two nodes.
+Human communication networks consist of email exchanges that exhibit scale-free properties. The work by \citet{barabasi1999} established that as networks grow, nodes connect via "preferential attachment," which leads to the emergence of hubs and a degree distribution that follows a power law. This has been the basis for the analysis of the Enron dataset, Facebook dataset, and Twitter dataset. The works by \citet{newman2018networks} provide a comprehensive theoretical foundation for understanding structural metrics, such as degree centrality and shortest path lengths.
+Though the above papers cover macro-level topologies, to understand the internal substructures of a network, we were using the Louvain method. \citet{blondel2008} introduced this model to perform a highly efficient heuristic for modularity optimization. This has helped in unfolding the hidden communities within large datasets.

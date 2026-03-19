@@ -42,7 +42,7 @@ to other important nodes, capturing recursive influence.
 
 \subsection{Community Detection}
 
-We apply the \textit{Louvain algorithm}~\cite{blondel2008} to detect
+We apply the \textit{Louvain algorithm} \citep{blondel2008} to detect
 communities by iteratively maximizing modularity
 \begin{equation}
     Q = \frac{1}{2m} \sum_{ij} \left[ A_{ij} - \frac{k_i k_j}{2m} \right]
@@ -56,7 +56,7 @@ prior to community detection.
 \subsection{Graph-Level Properties}
 
 Beyond node-level centrality, we measure two graph-level structural
-properties~\cite{newman2018networks}.
+properties~\citep{newman2018networks}.
 
 \textbf{Clustering coefficient.}
 The local clustering coefficient of node $v$ is
@@ -67,7 +67,7 @@ where $\mathcal{N}(v)$ is the set of neighbours of $v$ and $k(v) = |\mathcal{N}(
 The network average $\bar{C} = \frac{1}{|V|}\sum_v c(v)$ quantifies the
 tendency of nodes to form tightly connected triples.
 High $\bar{C}$ relative to a random graph is a hallmark of
-small-world networks~\cite{watts1998}.
+small-world networks~\citep{watts1998}.
 
 \textbf{Average shortest-path length.}
 \begin{equation}

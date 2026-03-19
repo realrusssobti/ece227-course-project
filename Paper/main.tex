@@ -15,7 +15,7 @@
 \usepackage{listings}   % for inserting code
 \usepackage{verbatim}   % useful for program listings
 \usepackage{color} 
-\usepackage[colorlinks=true]{hyperref}
+\usepackage[colorlinks=true, citecolor=black]{hyperref}
 % use for hypertext
 % \usepackage[colorinlistoftodos]{todonotes}
 \usepackage{natbib}
@@ -34,17 +34,18 @@
 
 \usepackage{lipsum}
 
+\usepackage{wrapfig}
+
 \begin{document}
 
 \title{Hub--Bridge Duality in Social and Communication Networks:\\ A Comparative Centrality and Community Analysis of Twitter, Enron, and Facebook}
         
     \author{
-    \IEEEauthorblockN{Russ Sobti},
-    \IEEEauthorblockA{\textit{Dept.\ of Electrical and Computer Engineering} \\
-    \textit{UC San Diego}\\
-    rsobti@ucsd.edu}
+    \IEEEauthorblockN{Russ Sobti, Dibyesh Sahoo, Daniel Tran, Anjana Manoj} \\
+    \IEEEauthorblockA{Dept.\ of Electrical and Computer Engineering, UC San Diego\\
+    rsobti@ucsd.edu, disahoo@ucsd.edu, dnt004@ucsd.edu, anmanoj@ucsd.edu}
     }
-    
+
 \maketitle
 %-Title
 %+Abstract
@@ -90,5 +91,9 @@ this multi-metric lens.
 \clearpage
 \bibliographystyle{apalike}
 \bibliography{aguiar}
+
+\newpage
+
+\input{05_biographies}
 
 \end{document}
